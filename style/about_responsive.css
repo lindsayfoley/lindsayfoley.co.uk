@@ -1,0 +1,188 @@
+/* break points */
+@media only screen and (min-width : 900px) and (max-width : 4000px) {
+#viewProjectLink, #skillsLink { padding-top: 1.5%!important; }
+/* animating screen */
+#skills_animated_screen  { max-width: 401px; margin: 0 auto; position: relative; }
+#skills_animated_screen img { padding-top: 20px; display: block; width: 163px; height: 95px; }
+#skills_animated_screen div:first-child { margin: 0 auto; }
+#top_row, #hero_row, #last_row_first_square { animation: screenContentsSlideIn 1.5s forwards; -moz-animation: screenContentsSlideIn 1.5s forwards; -webkit-animation: screenContentsSlideIn 1.5s forwards; animation-delay: 1.25s; -moz-animation-delay: 1.25s; -webkit-animation-delay: 1.25s;	}
+#top_row, #hero_row, #last_row_first_square, #last_row_second_square, #last_row_top_rectangle, #last_row_middle_rectangle, #last_row_bottom_rectangle { position: absolute; opacity: 0; }
+#top_row { width: 150px; height: 16px; background-color: #97DDEB; top: 34px; left: 125px; }
+#hero_row { width: 150px; height: 34px; background-color: #F96F74; top: 53px; left: 125px; animation-delay: 1.5s; -moz-animation-delay: 1.5s; -webkit-animation-delay: 1.5s; }
+#last_row_first_square, #last_row_second_square { width: 26px; height: 20px; background-color: #FCDC7B; top: 90px; animation-delay: 1.75s; -moz-animation-delay: 1.75s; -webkit-animation-delay: 1.75s; }
+#last_row_first_square { left: 125px; }
+#last_row_second_square { left: 153px; animation: secondSquareSlideIn 1.25s forwards; -moz-animation: secondSquareSlideIn 1.25s forwards; -webkit-animation: secondSquareSlideIn 1.25s forwards; animation-delay: 1.75s; -moz-animation-delay: 1.75s; -webkit-animation-delay: 1.75s; }
+#last_row_top_rectangle, #last_row_middle_rectangle, #last_row_bottom_rectangle { width: 93px; height: 5px; background-color: #F8AE85; animation: rectangleSlideIn 1.5s forwards; -moz-animation: rectangleSlideIn 1.5s forwards; -webkit-animation: rectangleSlideIn 1.5s forwards; left: 182px; animation-delay: 2.00s; -moz-animation-delay: 2.00s; -webkit-animation-delay: 2.00s; }
+#last_row_top_rectangle { top: 91px; }
+#last_row_middle_rectangle { top: 98px; }
+#last_row_bottom_rectangle { top: 105px; }
+
+/* top_row animation */
+@-moz-keyframes screenContentsSlideIn {  
+	0% {  left: 0px; }
+	25% { left:  170px; }
+	50% { left: 110px; }
+	100% { left: 125px; opacity: 1; }	
+}
+
+@-webkit-keyframes screenContentsSlideIn {
+	0% {  left: 0px; }
+	25% { left:  170px; }
+	50% { left: 110px; }
+	100% { left: 125px; opacity: 1; }	
+}
+
+@keyframes screenContentsSlideIn {
+	0% {  left: 0px; }
+	25% { left:  170px; }
+	50% { left: 110px; }
+	100% { left: 125px; opacity: 1; }	
+}
+
+@-moz-keyframes secondSquareSlideIn {  
+	0% {  left: 0px; }
+	25% { left:  190px; }
+	50% { left: 140px; }
+	100% { left: 153px; opacity: 1; }	
+}
+
+@-webkit-keyframes secondSquareSlideIn {
+	0% {  left: 0px; }
+	25% { left:  190px; }
+	50% { left: 140px; }
+	100% { left: 153px; opacity: 1; }
+}
+
+@keyframes secondSquareSlideIn {
+	0% {  left: 0px; }
+	25% { left:  190px; }
+	50% { left: 140px; }
+	100% { left: 153px; opacity: 1; }
+}
+
+@-moz-keyframes rectangleSlideIn {  
+	0% {  left: 0px; }
+	25% { left:  220px; }
+	50% { left: 170px; }
+	100% { left: 182px; opacity: 1; }	
+}
+
+@-webkit-keyframes rectangleSlideIn {
+	0% {  left: 0px; }
+	25% { left: 220px; }
+	50% { left: 170px; }
+	100% { left: 182px; opacity: 1; }	
+}
+
+@keyframes rectangleSlideIn {
+	0% {  left: 0px; }
+	25% { left: 220px; }
+	50% { left: 170px; }
+	100% { left: 182px; opacity: 1; }
+}
+/* / animating screen */
+}
+
+@media only screen and (min-width : 852px) and (max-width : 890px) {
+#viewProjectLink, #skillsLink { padding-top: 0.8%!important; }
+#professionalPics *:not(.end_of_element) { width: 240px!important; height: 211px; }
+#professionalPics { width: 94%; }
+}
+
+@media only screen and (min-width : 772px) and (max-width : 853px) {
+#viewProjectLink, #skillsLink { padding-top: 0.8%!important; }
+#professionalPics *:not(.end_of_element) { width: 220px!important; height: 191px; }
+#professionalPics { width: 94%; }
+#coding { margin-left: 1%!important; }
+}
+
+@media only screen and (min-width : 700px) and (max-width : 790px) {
+#viewProjectLink, #skillsLink { padding-top: 0.8%!important; }
+#professionalPics *:not(.end_of_element) { width: 200px!important; height: 171px; }
+#professionalPics { width: 94%; }
+#coding { margin-left: 5%!important; }
+#viewProjectLink, #skillsLink { font-size: 12px; padding-top: 1.5%!important; height: 32px; }
+}
+
+@media only screen and (min-width : 769px) and (max-width : 4000px) {
+#professionalPics figure img { max-width: 266.5px; width: 100%; }
+figure img { transition: all 0.5s ease; }
+figure:hover img { opacity: 0.7; transition: opacity 0.35s ease 0s, transform 0.35s ease 0s; -webkit-transition: opacity 0.35s ease 0s, transform 0.35s ease 0s; transform: scale(1.15); overflow: hidden; }
+#coding:hover p, #learning:hover p, #time:hover p { display: block; }
+#coding:hover figcaption, #learning:hover figcaption, #time:hover figcaption  {
+background-color: rgba(255, 255, 255, 0.5); position: absolute; max-width: 266.5px; top: 0; left: 0; margin: 0; }
+#coding:hover figcaption, #learning:hover figcaption, #time:hover figcaption { height: 235px; }
+nav { margin-top: 45px; }
+#ppp_link:hover { transition: 0.3s ease 0s, border-color 0.3s ease 0s; background-color: white; color: #54c0b4; }
+}
+
+@media only screen and (min-width : 321px) and (max-width : 900px) {
+section { width: 90%; }
+#portfolioNav, #aboutNav { font-size: 80%; height: 30px; }
+}
+
+@media only screen and (min-width : 769px) and (max-width : 888px) {
+#webDevSkills, #otherSkills {  width: 45%!important; }
+}
+
+@media only screen and (min-width : 760px) and (max-width : 888px) {
+#webDevSkills img { width: 160px; }
+#otherSkills img:nth-child(2) { left: 29%; }	
+}
+
+@media only screen and (min-width : 0px) and (max-width : 853px) {
+#coding p, #learning p, #time p { margin-top: 22%; }
+}
+
+@media only screen and (min-width : 761px) and (max-width : 768px) {
+#coding p, #learning p, #time p { display: block; margin-top: 50px; font-size: 10px; }
+#coding figcaption, #learning figcaption, #time figcaption  {
+background-color: rgba(255, 255, 255, 0.5); position: absolute; max-width: 266.5px; top: 0; left: 0; }
+#professionalPics { width: 100%; }
+nav { margin-top: 30px; }
+#skills_animated_screen, #skillsSection ul { width: auto; }
+#skillsSection ul li { margin-left: 26%; }
+#column_divider { left: 49.7%; }
+#webDevSkills, #otherSkills { width: 50%; }
+#otherSkills img { margin: 0 28%; }
+}
+
+@media only screen and (min-width : 0px) and (max-width : 759px) {
+#professionalPics figure, #skillsSection div, #webDevSkills img, #otherSkills img   { float: none; }
+#webDevSkills img, #otherSkills img { width: 160px!important; }
+#professional, #skillsSection ul { width: 90%; }
+#professional p, #skillsSection ul li  { font-size: 17px!important; }
+#webDevSkills img, #otherSkills img, #skillsSection ul { margin: 0 auto; }
+#otherSkills img { margin-top: 30px; }
+figure img { height: 235px; margin-bottom: 0; }
+figure, figure img, #professionalPics {  width: 267px;  }
+#cog, #professionalPics, #column_divider { display: none!important; }
+}
+
+@media only screen and (min-width : 0px) and (max-width : 700px) {
+#viewProjectLink { display: none!important; }
+h2 { width: 80%; margin-left: auto; margin-right: auto; }
+#skillsSection h2 { background-color: #4FB5AA; }
+#webDevSkills ul { border: 0; }
+#skillsLink { width: 100%!important; padding-top: 2%; }
+}
+
+@media only screen and (min-width : 568px) and (max-width : 623px) {
+#skillsLink { margin-bottom: 4%!important; }
+}
+/* iPhone portrait */
+
+@media only screen and (max-width: 625px) and (orientation: portrait) {
+#professionalPics { padding-top: 0; }
+#viewProjectLink, #skillsLink { display: block; }
+#skillsLink { margin-bottom: 8px!important; }
+#skillsSection ul li { margin-left: 17%; }
+.lightbulb, .lightbulb_flash { width: 11px; height: 11px; }
+#skills_animated_screen { width: 100%; }
+}
+
+/* iPhone landscape */
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
+#skillsLink { margin-bottom: 30px!important; }
+#skillsSection ul li { margin-left: 17%; }
+}

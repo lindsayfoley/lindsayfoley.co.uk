@@ -1,0 +1,31 @@
+/* fallback */
+#professional, #professionalPics { width: 801px\9 } /* IE 7 & 8 */
+/* */
+
+main { width: 100%; margin: 0 auto; background-color: #54c0b4; }
+section { width: 801px; margin: 0 auto; }
+#professionalCopy { width: 100%; font-size: 16px; text-align: center; }
+#professionalCopy  h2 { color: #338078; text-shadow: 1px 0 #c6c8c8; }
+#professionalCopy img { max-width: 225px; width: 100%; }
+#skillsSection { background-color: #4fb5aa; width: 100%; display: none; margin-bottom: 20px; padding-bottom: 20px; position: relative; overflow: hidden; }	
+#skillsSection h2 { text-align: center; font-size: 28px; background-color: #54C0B4; padding-bottom: 40px; }
+#skillsSection h3 { text-decoration: underline; font-size: 18px; margin-bottom: 0; }
+#skillsSection .standOut { text-decoration: underline; font-size: 21px; font-weight: normal; }
+#skillsSection ul  { width: 400px; padding-left: 0; }
+#skillsSection ul li { margin-left: 29%; padding: 0; list-style-type: none; font-size: 14px; }
+#viewProjectLink, #skillsSection div, #webDevSkills img, #otherSkills img  { float: left; }
+#viewProjectLink, #skillsLink { width: 31.875%!important; }
+#webDevSkills img, #otherSkills img { margin: 0 118px; }
+#otherSkills { padding-top: 20px; }
+#otherSkills img { width: 163px; }
+#cog { width: 104px; margin-top: -59px; }
+#column_divider { position: absolute; background-color: #54C0B4; width: 5px; height: 100%; top: 165px; left: 49.8%; }
+#skillsLink { float: right; }
+#professionalPics { border-bottom: 3px solid #F1F0EE; clear: left; padding: 30px 0; margin: 0 auto; max-width: 801px; width: 100%; }
+#professionalPics figure { float: left; margin-bottom: 50px; position: relative; margin: 0; }
+figure, figure img, figcaption { max-width: 267px; width: 100%; }
+figcaption p { text-align: center; display: none; }
+#coding, #learning, #time { overflow: hidden; max-height: 235px;}
+#coding p, #learning p, #time p { margin-top: 30%; font-size: 14px; font-weight: bold; color: black; line-height: 20px; text-transform: lowercase; }
+#otherSkills img:nth-child(2) { margin: 174px 0 0 -15px; }
+#ppp_link { border-bottom: 1px solid #c2e6d4; }

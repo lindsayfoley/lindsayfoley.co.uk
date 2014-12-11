@@ -1,0 +1,30 @@
+/* fallback */
+header, nav, main, small, footer { display: block; }
+/* */
+body { font-family: "orator-std",sans-serif;  width: 100%; background-color: #338078; margin: 0; }
+header, main { width: 100%; background-color: #54C0B4; min-width: 320px; }
+header img, main img, footer img, small, details  { display: block; margin: 0 auto; }
+header img { padding-top: 2.6%; width: 30%; }
+main { padding-top: 2.05%; }
+main img { margin: 0 auto 2% auto; width: 40%; }
+nav { margin: 0 auto; clear: left; }
+nav a { color: white; text-decoration: none; }
+.nav_button { margin-bottom: 2.7%; width: 18.9%; height: 37px; border: 1px solid white; color: white; font-size: 95%; text-align: center; font-weight: bold; }
+#left_nav_button, #right_nav_button { float: left; padding-top: 0.9%; }
+#left_nav_button { margin-left: 30%; margin-right: 0.95%; }
+#right_nav_button { margin-right: 30%; margin-left: 0.95%; }
+.end_of_element { clear: both; }
+footer { clear: left; height: auto; min-width: 320px; position: relative; }
+footer h5, small { text-align: center; }
+footer h5 { color: white; padding-top: 1.15%; padding-bottom: 0.8%; margin: 0; font-size: 100%; font-weight: normal; letter-spacing: 2px; }	
+#socialIcons { max-width: 244px; width: 100%; margin: 0 auto; }
+#socialIcons a { border: 0; }
+#socialIcons img { float: left; width: 16%; }
+small { clear: left; color: #c1a944; font-size: 80%; font-weight: normal; padding-top: 0.8%; padding-bottom: 1.25%; letter-spacing: 1px; }
+h2, p, p a, ul li { color: white; }
+h2 { font-size: 22px; margin: 0 0 16px 0; }
+p, ul li { font-size: 15px; margin-top: 0; }
+p a { text-decoration: none; }
+ul { padding-left: 0; }
+a img { border: 0; }
+
