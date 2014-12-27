@@ -1,14 +1,14 @@
 @media all and (max-width: 767px) and (min-width: 321px) {
-#spotlight_company, #latest_companies, #bottom_row_of_companies .companies { float: none; margin-left: auto; margin-right: auto; }	
-#latest_companies, #bottom_row_of_companies .companies {  width: 66.37%; height: 0; }
-#bottom_row_of_companies { padding-top: 54.8%; }
-#bottom_row_of_companies .companies { padding-bottom: 56.2%; }
+#spotlight_company, #latest_companies .companies, #bottom_row_of_companies .companies { float: none; margin-left: auto; margin-right: auto; }	
+#latest_companies .companies, #bottom_row_of_companies .companies {  width: 49%; height: 0; }
+#bottom_row_of_companies { padding-top: 0; }
+#latest_companies .companies, #bottom_row_of_companies .companies { padding-bottom: 41.5%; }
 }
 
 @media all and (max-width: 767px) and (min-width: 0px) {
 #latest_companies .companies, #bottom_row_of_companies .companies { float: none; }
 #spotlight_company { margin-bottom: 0.89%; }
-#ws {  margin-top: 60%!important; margin-bottom: 0.89%; }
+#ws { margin-bottom: 0.89%; }
 #selfridges { margin-bottom: 1.4%!important }
 }
 

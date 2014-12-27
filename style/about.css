@@ -3,6 +3,7 @@
 /* */
 
 main { width: 100%; margin: 0 auto; background-color: #54c0b4; }
+header h1 { padding-top: 20px; border-top: 0; }
 section { width: 801px; margin: 0 auto; }
 #professionalCopy { width: 100%; font-size: 16px; text-align: center; }
 #professionalCopy  h2 { color: #338078; text-shadow: 1px 0 #c6c8c8; }

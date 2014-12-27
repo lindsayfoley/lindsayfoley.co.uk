@@ -1,3 +1,18 @@
+// for IE7
+<!--[if lt IE 9]>
+
+<script>
+document.createElement('header');
+document.createElement('main');
+document.createElement('nav');
+document.createElement('footer');
+document.createElement('small');
+document.createElement('details');
+</script>
+
+<![endif]-->
+//
+
 var showSkillSection = function() {
 	$('#skillsLink').click(function() {
 		$('#skillsSection').slideToggle('slow', function() {
@@ -52,13 +67,6 @@ var ResponsiveHelper = {
 		$(screenDiv).empty();
 		$(screenDiv).css('margin-top', '20px');
 		$(screenDiv).html('<img src="/images/skills_webdev.png" />');
-	},
-	
-	spotlightDivUpdater: function() {
-		
-		$('.companies').click(function() {
-			$(this).find('details').toggle();									   
-		});
 	}
 }
 
@@ -91,7 +99,6 @@ $(document).ready(function() {
 	ResponsiveHelper.turnOffBoxedLinksHoverState();
 	ResponsiveHelper.removeHightlightedlink();
 	ResponsiveHelper.swapAnimatingScreenForStaticImg();
-	ResponsiveHelper.spotlightDivUpdater();
 	MobileSocialIconsChanger.showMobileSocial();
 });
 
@@ -100,5 +107,4 @@ $(window).resize(function() {
 	ResponsiveHelper.turnOffBoxedLinksHoverState();
 	ResponsiveHelper.removeHightlightedlink();
 	ResponsiveHelper.swapAnimatingScreenForStaticImg();
-	ResponsiveHelper.spotlightDivUpdater();
 });

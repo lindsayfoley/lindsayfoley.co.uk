@@ -3,52 +3,57 @@
 footer { border-top: 1px solid white; }
 .nav_button:hover { background-color: white; border: 1px solid #4baca1; transition: all 0.3s ease 0s; }
 #left_nav_button:hover, #right_nav_button:hover, .nav_button:hover  { color: #54C0B4; }
-footer a:hover { transition: all 0.2s ease 0s; opacity: 0.65; }
-}
+footer a:hover { transition: all 0.2s ease 0s; opacity: 0.65; } }
+
+@media only screen and (min-width : 582px) and (max-width : 4000px) {
+#homepage img { min-width: 522px; } }
 
 @media only screen and (min-width : 601px) and (max-width : 4000px) {
-header img { min-width: 350px; }
-}
-
-@media only screen and (min-width : 769px) and (max-width : 1350px) {
-#left_nav_button { margin-left: 29%; }
-}
-
-@media only screen and (min-width : 901px) and (max-width : 1199px) {
-.nav_button, #viewProjectLink, #skillsLink { font-size: 12px; height: 29px; }
-.nav_button { padding-top: 0.8%; }
-}
-
-@media only screen and (min-width : 769px) and (max-width : 900px) {
-.nav_button { font-size: 13px; height: 24px; padding-top: 9px; }
-}
-
-/* tablet */
-@media only screen and (min-width : 624px) and (max-width : 768px) {
-header img { width: 50%; }
-main img { width: 68%; }
-#left_nav_button { margin-left: 29%; }
-#left_nav_button, #right_nav_button { width: 19%!important; height: 26px; padding-top: 7px; font-size: 12px; }
-}
+header img { min-width: 350px; } }
 
 @media only screen and (min-width : 0px) and (max-width : 624px) {
 body, header, main, footer { overflow: hidden; }
 #socialIcons { display: none; }
 footer h5 span { font-size: 13px; }
 footer small { padding: 0 0 10px 0; }
-#left_nav_button, #right_nav_button { float: none; }
-}
+#left_nav_button, #right_nav_button { float: none; } }
+
+@media only screen and (max-width : 523px) {
+nav a { width: 100%; } }
+
+@media only screen and (min-width : 0px) and (max-width : 443px) {
+header h2:first-child { padding-top: 0; }
+header h2 span, header h2:first-child { font-size: 22px; }
+header h2:last-child { font-size: 16px; padding: 5px 0 10px 0; } }
+
+@media only screen and (max-width : 443px) {
+header h1 { width: 90%; } }
+
+@media only screen and (max-width : 409px) {
+header h1 { font-size: 35px!important; } }
+
+@media only screen and (max-width : 387px) {
+header h1 { font-size: 33px!important; } } 
+
+@media only screen and (max-width : 365px) {
+header h1 { font-size: 31px!important; } } 
+
+@media only screen and (max-width : 342px) {
+header h1 { font-size: 29px!important; } } 
+
+@media only screen and (min-width: 0) and (max-width: 321px) {
+header h1 { font-size: 27px!important; } } 
 
 /* iPhone portrait */
 
 @media only screen and (max-width: 625px) and (orientation: portrait) {
-header img { min-width: 275px!important; width: 80%!important; margin-top: 5px; margin-bottom: 10px; }
+header img { min-width: 275px!important; margin-top: 5px; margin-bottom: 10px; }
 #homepage img { min-width: 288px!important; width: 90%!important; }
 nav { margin-top: 10px; }
 .nav_button { min-width: 288px!important; width: 90%!important; height: 30px; padding-top: 15px; font-size: 15px; float: none;  margin: 0 auto 5% auto!important;  }
 footer h5 { padding-top: 3%; padding-bottom: 3%; }
 #left_nav_button, #right_nav_button { height: 32px; padding-top: 1.3%; }
-}
+header h1 { font-size: 38px; text-align: center; padding-bottom: 10px; } }
 
 /* iPhone landscape */
 @media only screen and (min-width: 320px) and (max-width: 581px) and (orientation: landscape) {
@@ -57,4 +62,4 @@ main img { width: 85%; }
 .nav_button { width: 90%!important; height: 30px; padding-top: 15px; font-size: 15px; float: none;  margin: 0 auto 5% auto!important;  }
 footer h5 { padding-top: 3%; padding-bottom: 3%; }
 #left_nav_button, #right_nav_button { height: 32px; padding-top: 1%; }
-}
+header h1 { font-size: 36px; text-align: center; } }

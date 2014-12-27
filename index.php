@@ -20,6 +20,7 @@
 <script src="//use.typekit.net/kbv2zpu.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
 <script src="js/about.js"></script>
+<script src="js/gaTracking.js"></script>
 
 <!--[if lt IE 9]>
 
@@ -38,7 +39,9 @@ document.createElement('small');
 <body>
 
 <header>
-	<img src="images/hp_header.png" alt="Hello I'm Lindsay Prahalad" />
+	<h2><span>hello</span>, i'm</h2>
+	<h1>lindsay prahalad</h1>
+	<h2>I'm a web developer from London</h2>
 </header>
 
 <main id="homepage">

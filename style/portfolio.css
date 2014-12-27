@@ -1,23 +1,29 @@
 #wrapper { max-width: 901px; margin: 0 auto 30px auto; position: relative; }
+header h1 { padding-top: 20px; border-top: 0; }
 h2 { color: #338078; text-shadow: 1px 0 #c6c8c8; text-align: center; }
-.companies { background-color: lightgray; } 
+.companies { background-color: white; } 
 #latest_companies { margin: 0 auto; }
 #latest_companies .companies, #bottom_row_of_companies .companies { float: left; height: 0; padding-bottom: 27.8%; width: 32.74%; }
 #bottom_row_of_companies .companies { margin-top: 0.89%; }
 #bottom_row_of_companies { clear: left; }
 #ws, #theyer { margin-left: 0.89%; margin-right: 0.89%; }
 #latest_companies details, #bottom_row_of_companies details { display: none; }
-details { background-color: rgba(234, 83, 69, 0.9); }
+details { background-color: rgba(112, 106, 106, 0.9); position: absolute; top: 0; left: 0; width: auto; height: 100%; padding: 10px; }
+details h4, details p, details ul li a { line-height: 18px; }
+details ul, details a { text-align: center; }
+details ul, #ppp details a, #jia details a, #theyer details a { border: 1px solid white; padding: 5px 0; }
+#ppp details a, #jia details a, #theyer details a { display: block; }
+details h3 { text-align: center; }
 h4, h3, ul, #wrapper a { color: white;  }
 h3, h4 { margin-top: 0; }
 h4 { font-size: 15px; }
 #wrapper a { text-decoration: none; }
 ul { list-style-type: none; }
-#selfridges, #ppp, #ws, #jia, #theyer, #ob {  background-repeat: no-repeat; background-size: contain; overflow: hidden; }
+#selfridges, #ppp, #ws, #jia, #theyer, #ob {  background-repeat: no-repeat; background-size: contain; overflow: hidden; position: relative; }
 #selfridges { background-image: url('/images/selfridges_tile.png'); } 
 #ppp{ background-image: url('/images/ppp_tile.png'); } 
 #ws{ background-image: url('/images/ws_tile.png'); } 
 #jia{ background-image: url('/images/jia_tile.png'); } 
 #theyer{ background-image: url('/images/theyer_tile.png'); } 
 #ob { background-image: url('/images/ob_tile.png'); }
-.tile_banner { font-weight: bold; font-size: 20px; background-color: rgba(234, 83, 69, 0.9); margin: 65% 1% 0 1%; padding: 5% 0; text-align: center; }
+.tile_banner { font-weight: bold; font-size: 20px; background-color: rgba(112, 106, 106, 0.9); margin: 65% 1% 0 1%; padding: 5% 0; text-align: center; }
