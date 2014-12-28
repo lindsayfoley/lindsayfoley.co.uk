@@ -1,5 +1,4 @@
-header, nav, main, small, footer, header img, main img, footer img, small, details, nav a { display: block; }
-/* */
+header, nav, main, small, footer, header img, main img, footer img, small, details, nav a, figure, figcaption { display: block; }
 body { font-family: "orator-std",sans-serif; background-color: #338078; }
 body, header, main, header h1, #socialIcons, main img { width: 100%; }
 header h1, header h2, #socialIcons, header img, main img, footer img, nav, small, details, nav a { margin: 0 auto; }
@@ -11,7 +10,7 @@ header h2:first-child { color: #423F3F; font-size: 27px; padding: 10px 0 5px 0; 
 header h2:last-child { font-family: serif; font-size: 21px; font-style: italic; padding-top: 10px; letter-spacing: 0.5px; }
 body, footer h5 { margin: 0; }
 header h2, .nav_button, footer h5, small  { text-align: center; }
-header h1, header h2:last-child, nav a, .nav_button, footer h5, h2, p, p a, ul li { color: white; }
+header h1, header h1 a, header h2:last-child, nav a, .nav_button, footer h5, h2, p, p a, ul li { color: white; }
 header img { padding-top: 2.6%; width: 30%; }
 main { padding-top: 2.05%; }
 main img { margin: 0 auto 2% auto; max-width: 540px; }

@@ -1,22 +1,49 @@
 #wrapper { max-width: 901px; margin: 0 auto 30px auto; position: relative; }
 header h1 { padding-top: 20px; border-top: 0; }
 h2 { color: #338078; text-shadow: 1px 0 #c6c8c8; text-align: center; }
-.companies { background-color: white; } 
+/*
+.companies { background-color: white; } */
+
+.companies { background-color: #cec3c4; margin: 0 auto; overflow: hidden; position: relative; }
+.companyTitle { width: 100%; height: 61px; margin: 190px auto 0 auto; background-color: #feb865; color: white; overflow: hidden; transition: all 1.5s ease 0s }
+.titleAnimation { height: 250px; margin-top: 0; -moz-animation: expandTitle 1.5s forwards; -webkit-animation: expandTitle 1.5s forwards; animation: expandTitle 1.5s forwards;  }
+.companyDescription { display: none; padding: 0 5%; }
+.showDescription { display: block; }
+
+@-moz-keyframes expandTitle {
+        0% { width: 100%; height: 30px;  margin-top: 50px; }
+        100% { width: 100%; height: 250px; margin-top: 0px; }
+		from { background-color: #feb865; }
+		to { background-color: rgba(151, 148, 145, 0.95); }
+}
+
+@-webkit-keyframes expandTitle {
+        0% { width: 100%; height: 30px;  margin-top: 50px; }
+        100% { width: 100%; height: 250px; margin-top: 0px; }
+		from { background-color: #feb865; }
+		to { background-color: rgba(151, 148, 145, 0.95); }
+}
+
+@keyframes expandTitle {
+        0% { width: 100%; height: 30px;  margin-top: 50px; }
+        100% { width: 100%; height: 250px; margin-top: 0px; }
+		from { background-color: #feb865; }
+		to { background-color: rgba(151, 148, 145, 0.95); }
+}
+
 #latest_companies { margin: 0 auto; }
 #latest_companies .companies, #bottom_row_of_companies .companies { float: left; height: 0; padding-bottom: 27.8%; width: 32.74%; }
 #bottom_row_of_companies .companies { margin-top: 0.89%; }
 #bottom_row_of_companies { clear: left; }
 #ws, #theyer { margin-left: 0.89%; margin-right: 0.89%; }
-#latest_companies details, #bottom_row_of_companies details { display: none; }
-details { background-color: rgba(112, 106, 106, 0.9); position: absolute; top: 0; left: 0; width: auto; height: 100%; padding: 10px; }
-details h4, details p, details ul li a { line-height: 18px; }
-details ul, details a { text-align: center; }
-details ul, #ppp details a, #jia details a, #theyer details a { border: 1px solid white; padding: 5px 0; }
-#ppp details a, #jia details a, #theyer details a { display: block; }
-details h3 { text-align: center; }
+.companyTitle ul, #ppp .companyTitle a, #jia .companyTitle a, #theyer .companyTitle a { border: 1px solid white; padding: 5px 0; }
+#ppp .companyTitle a, #jia .companyTitle a, #theyer .companyTitle a, .companyTitle li a { display: block; text-align: center; }
+.tile_banner { text-align: center; margin: 10px 0; }
+p, ul li { font-size: 13px; }
+ul li { line-height: 21px; }
+.companyTitle a:hover { background-color: #bbb7b4; }
 h4, h3, ul, #wrapper a { color: white;  }
-h3, h4 { margin-top: 0; }
-h4 { font-size: 15px; }
+h4 { margin-top: 0; font-size: 15px; }
 #wrapper a { text-decoration: none; }
 ul { list-style-type: none; }
 #selfridges, #ppp, #ws, #jia, #theyer, #ob {  background-repeat: no-repeat; background-size: contain; overflow: hidden; position: relative; }
@@ -26,4 +53,3 @@ ul { list-style-type: none; }
 #jia{ background-image: url('/images/jia_tile.png'); } 
 #theyer{ background-image: url('/images/theyer_tile.png'); } 
 #ob { background-image: url('/images/ob_tile.png'); }
-.tile_banner { font-weight: bold; font-size: 20px; background-color: rgba(112, 106, 106, 0.9); margin: 65% 1% 0 1%; padding: 5% 0; text-align: center; }

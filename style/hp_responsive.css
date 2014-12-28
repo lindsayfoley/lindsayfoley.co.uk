@@ -2,7 +2,7 @@
 @media only screen and (min-width : 769px) and (max-width : 4000px) {
 footer { border-top: 1px solid white; }
 .nav_button:hover { background-color: white; border: 1px solid #4baca1; transition: all 0.3s ease 0s; }
-#left_nav_button:hover, #right_nav_button:hover, .nav_button:hover  { color: #54C0B4; }
+#left_nav_button:hover, #right_nav_button:hover, .nav_button:hover  { color: #54C0B4!important; }
 footer a:hover { transition: all 0.2s ease 0s; opacity: 0.65; } }
 
 @media only screen and (min-width : 582px) and (max-width : 4000px) {

@@ -84,6 +84,15 @@ var MobileSocialIconsChanger  = {
 		});
 	}
 }
+
+var showCompanyText = function() {
+	$('.companies').click(function(e) {
+		$(this).find('.companyTitle').toggleClass('titleAnimation');
+		$(this).find('.companyDescription').toggleClass('showDescription');
+		
+		e.stopPropagation();
+	}); 
+};
 		
 $(document).ready(function() {
 	showSkillSection();
@@ -93,6 +102,7 @@ $(document).ready(function() {
 	ResponsiveHelper.swapAnimatingScreenForStaticImg();
 	ResponsiveHelper.spotlightDivUpdater();
 	MobileSocialIconsChanger.showMobileSocial();
+	showCompanyText();
 });
 
 $(window).resize(function() {

@@ -12,6 +12,7 @@
 
 <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
 
+<link rel="stylesheet" type="text/css" href="style/fallback.css">
 <link rel="stylesheet" type="text/css" href="style/all_pages.css">
 <link rel="stylesheet" type="text/css" href="style/hp_responsive.css">
 
@@ -67,7 +68,7 @@ document.createElement('small');
 		<a id="twitterLink" href="https://twitter.com/lindsayprahalad" title="Tweet me">
 			<img src="images/twitterIcon.png" alt="Tweet me" />
 		</a>
-		<a id="instaLink" href="http://instagram.com/lindsaysprahalad" title="Check out my Instagram">
+		<a id="instaLink" href="http://instagram.com/lindsayprahalad" title="Check out my Instagram">
 			<img src="images/instagramIcon.png" alt="Check out my Instagram" />
 		</a>
 		<a id="linkedInLink" href="http://uk.linkedin.com/pub/lindsay-prahalad/34/935/9a1" title="View my LinkedIn profile">

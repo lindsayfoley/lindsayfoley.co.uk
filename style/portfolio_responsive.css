@@ -6,13 +6,13 @@
 }
 
 @media all and (max-width: 767px) and (min-width: 0px) {
-#latest_companies .companies, #bottom_row_of_companies .companies { float: none; }
+#latest_companies .companies, #bottom_row_of_companies .companies { float: none; min-width: 295px; }
 #spotlight_company { margin-bottom: 0.89%; }
 #ws { margin-bottom: 0.89%; }
 #selfridges { margin-bottom: 1.4%!important }
 }
 
-@media all and (max-width: 320px) and (min-width: 0px) {
+@media all and (max-width: 601px) and (min-width: 0px) {
 #wrapper { width: 92%; }
 #latest_companies .companies, #bottom_row_of_companies .companies {  width: 295px; height: 250px!important; padding: 0!important; margin-left: auto; margin-right: auto; }	
 #ws { margin-top: 0!important; margin-bottom: 20px!important; }
