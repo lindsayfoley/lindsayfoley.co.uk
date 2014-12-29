@@ -3,7 +3,6 @@ header h1 { padding-top: 20px; border-top: 0; }
 section { width: 801px; margin: 0 auto; }
 #professionalCopy { width: 100%; font-size: 16px; text-align: center; }
 #professionalCopy  h2 { color: #338078; text-shadow: 1px 0 #c6c8c8; }
-#professionalCopy img { max-width: 225px; width: 100%; }
 #skillsSection { background-color: #4fb5aa; width: 100%; display: none; margin-bottom: 20px; padding-bottom: 20px; position: relative; overflow: hidden; }	
 #skillsSection h2 { text-align: center; font-size: 28px; background-color: #54C0B4; padding-bottom: 40px; }
 #skillsSection h3 { text-decoration: underline; font-size: 18px; margin-bottom: 0; }

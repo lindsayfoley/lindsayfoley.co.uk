@@ -156,22 +156,29 @@ nav { margin-top: 30px; }
 #otherSkills img { margin-top: 30px; }
 figure img { height: 235px; margin-bottom: 0; }
 figure, figure img, #professionalPics {  width: 267px;  }
-#cog, #professionalPics, #column_divider { display: none!important; }
-}
+#cog, #professionalPics, #column_divider { display: none!important; } }
 
 @media only screen and (min-width : 0px) and (max-width : 700px) {
 #viewProjectLink { display: none!important; }
 h2 { width: 80%; margin-left: auto; margin-right: auto; }
 #skillsSection h2 { background-color: #4FB5AA; }
 #webDevSkills ul { border: 0; }
-#skillsLink { width: 100%!important; padding-top: 2%; }
-}
+#skillsLink { width: 100%!important; padding-top: 2%; } }
+
+@media only screen and (max-width : 700px) {
+#professionalCopy { max-width: 522px; margin-left: auto; margin-right: auto; } }
+
+@media only screen and (max-width : 624px) {
+.nav_button { width: 100%; }
+#right_nav_button { margin-left: 0; } }
+
+@media only screen and (max-width : 580px) {
+#professionalCopy { max-width: 473px; } }
 
 @media only screen and (min-width : 568px) and (max-width : 623px) {
-#skillsLink { margin-bottom: 4%!important; }
-}
-/* iPhone portrait */
+#skillsLink { margin-bottom: 4%!important; } }
 
+/* iPhone portrait */
 @media only screen and (max-width: 625px) and (orientation: portrait) {
 #professionalPics { padding-top: 0; }
 #viewProjectLink, #skillsLink { display: block; }
@@ -185,4 +192,5 @@ h2 { width: 80%; margin-left: auto; margin-right: auto; }
 @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
 #skillsLink { margin-bottom: 30px!important; }
 #skillsSection ul li { margin-left: 17%; }
+#professionalCopy p, #skillsSection ul li, #otherSkills ul li { font-size: 11px!important; }
 }

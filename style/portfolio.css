@@ -1,6 +1,9 @@
 #wrapper { max-width: 901px; margin: 0 auto 30px auto; position: relative; }
 header h1 { padding-top: 20px; border-top: 0; }
-h2 { color: #338078; text-shadow: 1px 0 #c6c8c8; text-align: center; }
+h2 { color: #338078; text-shadow: 1px 0 #c6c8c8; }
+h2, h4 { text-align: center; }
+h4 { margin: 0; font-size: 11px; }
+main img:first-child { max-width: 225px; width: 100%; }
 /*
 .companies { background-color: white; } */
 
@@ -38,7 +41,7 @@ h2 { color: #338078; text-shadow: 1px 0 #c6c8c8; text-align: center; }
 #ws, #theyer { margin-left: 0.89%; margin-right: 0.89%; }
 .companyTitle ul, #ppp .companyTitle a, #jia .companyTitle a, #theyer .companyTitle a { border: 1px solid white; padding: 5px 0; }
 #ppp .companyTitle a, #jia .companyTitle a, #theyer .companyTitle a, .companyTitle li a { display: block; text-align: center; }
-.tile_banner { text-align: center; margin: 10px 0; }
+.tile_banner { text-align: center; margin: 10px 0 0 0; }
 p, ul li { font-size: 13px; }
 ul li { line-height: 21px; }
 .companyTitle a:hover { background-color: #bbb7b4; }

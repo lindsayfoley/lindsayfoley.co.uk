@@ -85,15 +85,21 @@ var MobileSocialIconsChanger  = {
 	}
 }
 
-var showCompanyText = function() {
-	$('.companies').click(function(e) {
-		$(this).find('.companyTitle').toggleClass('titleAnimation');
-		$(this).find('.companyDescription').toggleClass('showDescription');
+var PortfolioCompanyTextDisplayer = {
+	
+	showCompanyDescriptionOnClick: function() {
 		
-		e.stopPropagation();
-	}); 
-};
-		
+		$('.companies').click(function() {
+			$(this).find('.companyTitle').toggleClass('titleAnimation');
+			$(this).find('.companyDescription').toggleClass('showDescription');
+			
+			if($(this).find('div').hasClass('titleAnimation')) {
+				$(this).find('.companyTitle h4').hide();
+			} 
+		}); 
+	}
+}
+
 $(document).ready(function() {
 	showSkillSection();
 	highlightProjectLink();
@@ -102,7 +108,7 @@ $(document).ready(function() {
 	ResponsiveHelper.swapAnimatingScreenForStaticImg();
 	ResponsiveHelper.spotlightDivUpdater();
 	MobileSocialIconsChanger.showMobileSocial();
-	showCompanyText();
+	PortfolioCompanyTextDisplayer.showCompanyDescriptionOnClick();
 });
 
 $(window).resize(function() {
