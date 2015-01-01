@@ -41,7 +41,7 @@ var ResponsiveHelper = {
 			$('#skillsLink').removeClass('highlight_links');
 		};
 	},
-	
+
 	swapAnimatingScreenForStaticImg : function() {
 		if(ResponsiveHelper.widthOfWindow() > ResponsiveHelper.desktopWidth) {
 			return;
@@ -52,36 +52,6 @@ var ResponsiveHelper = {
 		$(screenDiv).empty();
 		$(screenDiv).css('margin-top', '20px');
 		$(screenDiv).html('<img src="/images/skills_webdev.png" />');
-	},
-	
-	spotlightDivUpdater: function() {
-		
-		$('.companies').click(function() {
-			$(this).find('details').toggle();									   
-		});
-	}
-}
-
-var MobileSocialIconsChanger  = {
-	
-	showMobileSocial: function() {
-		
-		if(ResponsiveHelper.widthOfWindow() > ResponsiveHelper.mobileWidth)  {
-			return;
-		}
-		
-		$('footer h5').html('SOCIAL <span>&#9658;</span>');
-		
-		$('footer h5').click(function() {
-			$('#socialIcons').slideToggle('slow', function() {    
-			
-				if($('#socialIcons').is( ":visible" )) {
-					$('footer h5 span').html('&#9660;');
-				} else {
-					$('footer h5 span').html('&#9658;');
-				}
-			});
-		});
 	}
 }
 
@@ -106,8 +76,6 @@ $(document).ready(function() {
 	ResponsiveHelper.turnOffBoxedLinksHoverState();
 	ResponsiveHelper.removeHightlightedlink();
 	ResponsiveHelper.swapAnimatingScreenForStaticImg();
-	ResponsiveHelper.spotlightDivUpdater();
-	MobileSocialIconsChanger.showMobileSocial();
 	PortfolioCompanyTextDisplayer.showCompanyDescriptionOnClick();
 });
 
@@ -116,5 +84,4 @@ $(window).resize(function() {
 	ResponsiveHelper.turnOffBoxedLinksHoverState();
 	ResponsiveHelper.removeHightlightedlink();
 	ResponsiveHelper.swapAnimatingScreenForStaticImg();
-	ResponsiveHelper.spotlightDivUpdater();
 });
