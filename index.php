@@ -15,6 +15,7 @@
 <link rel="stylesheet" type="text/css" href="style/fallback.css">
 <link rel="stylesheet" type="text/css" href="style/all_pages.css">
 <link rel="stylesheet" type="text/css" href="style/hp_responsive.css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
@@ -61,22 +62,22 @@ document.createElement('small');
 <footer>
 	<h5>SOCIAL:</h5>
 	<div id="socialIcons">
-		<img src="images/footerLeftBorder.png" alt="" />
+		<div class="socialEnds"></div>
 		<a id="fbLink" href="https://www.facebook.com/pages/Paw-Print-Productions/346263595511954" title="Like me on facebook">
-			<img src="images/fbIcon.png" alt="Like me on facebook" />
-		</a>
-		<a id="twitterLink" href="https://twitter.com/lindsayprahalad" title="Tweet me">
-			<img src="images/twitterIcon.png" alt="Tweet me" />
+			<i class="fa fa-facebook"></i>
 		</a>
 		<a id="instaLink" href="http://instagram.com/lindsayprahalad" title="Check out my Instagram">
-			<img src="images/instagramIcon.png" alt="Check out my Instagram" />
+			<i class="fa fa-instagram"></i>	
 		</a>
 		<a id="linkedInLink" href="http://uk.linkedin.com/pub/lindsay-prahalad/34/935/9a1" title="View my LinkedIn profile">
-			<img src="images/linkedinIcon.png" alt="View my LinkedIn profile" />
+			<i class="fa fa-linkedin"></i>
 		</a>
-		<img src="images/footerRightBorder.jpg" alt="" />
+		<a id="emailMe" href="mailto:me@lindsayprahalad.co.uk" title="Contact me">
+			<i class="fa fa-envelope"></i>
+		</a>
+		<div class="socialEnds"></div>
 	</div>
-	<small>&#169; LINDSAY PRAHALAD 2014</small>
+	<small>&#169; LINDSAY PRAHALAD</small>
 </footer>
 
 </body>

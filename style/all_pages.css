@@ -19,15 +19,18 @@ nav { clear: left; }
 nav a { width: 524px; }
 header a, nav a, p a { text-decoration: none; }
 .nav_button { margin-bottom: 35px; width: 249px; height: 37px; border: 1px solid white; font-size: 95%; font-weight: bold; }
-#left_nav_button, #right_nav_button { float: left; padding-top: 2%; }
+#left_nav_button, #right_nav_button, #socialIcons div, #socialIcons a { float: left;  }
+#left_nav_button, #right_nav_button { padding-top: 2%; }
 #left_nav_button { margin-right: 2.1%; }
 #right_nav_button { margin-left: 2.1%; }
 .end_of_element { clear: both; }
 footer { clear: left; height: auto; min-width: 320px; position: relative; }
 footer h5 { padding-top: 1.15%; padding-bottom: 0.8%; font-size: 100%; letter-spacing: 2px; }	
-#socialIcons { max-width: 244px; }
+#socialIcons { max-width: 240px; }
+#socialIcons div  { width: 16%; border-bottom: 1px solid #A9C9C6; height: 10px; }
 #socialIcons a { border: 0; }
-#socialIcons img { float: left; width: 16%; }
+#socialIcons a i { font-size: 20px; color: #f6c182; margin-right: 20px; }
+#fbLink i { margin-left: 20px; }
 small { clear: left; color: #c1a944; font-size: 80%; padding-top: 0.8%; padding-bottom: 1.25%; letter-spacing: 1px; }
 h2 { font-size: 22px; margin: 0 0 16px 0; }
 p, ul li { font-size: 15px; margin-top: 0; }

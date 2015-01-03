@@ -67,6 +67,10 @@ var PortfolioCompanyTextDisplayer = {
 				$(this).find('.companyTitle h4').hide();
 			} 
 		}); 
+		
+		$('.companyDescription a').click(function(e) {
+			e.stopPropagation();  
+		});
 	}
 }
 

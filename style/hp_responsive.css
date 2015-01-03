@@ -2,7 +2,7 @@
 footer { border-top: 1px solid white; }
 .nav_button:hover { background-color: white; border: 1px solid #4baca1; transition: all 0.3s ease 0s; }
 #left_nav_button:hover, #right_nav_button:hover, .nav_button:hover  { color: #54C0B4!important; }
-footer a:hover { transition: all 0.2s ease 0s; opacity: 0.65; } }
+footer a i:hover { color: #f39e39!important; } }
 
 @media only screen and (min-width : 582px) and (max-width : 4000px) {
 #homepage img { min-width: 522px; } }
@@ -11,7 +11,7 @@ footer a:hover { transition: all 0.2s ease 0s; opacity: 0.65; } }
 header img { min-width: 350px; } }
 
 @media only screen and (min-width : 0px) and (max-width : 624px) {
-body, header, main, footer { overflow: hidden; }
+body, header, main, footer { overflow-x: hidden; }
 footer h5 { display: none; }
 #socialIcons { padding-top: 15px; }
 footer h5 span { font-size: 13px; }
@@ -24,7 +24,8 @@ nav a { width: 100%; } }
 @media only screen and (min-width : 0px) and (max-width : 443px) {
 header h2:first-child { padding-top: 0; }
 header h2 span, header h2:first-child { font-size: 22px; }
-header h2:last-child { font-size: 16px; padding: 5px 0 10px 0; } }
+header h2:last-child { font-size: 16px; padding: 5px 0 10px 0; }
+small { margin-top: 30px; } }
 
 @media only screen and (max-width : 443px) {
 header h1 { width: 90%; } }

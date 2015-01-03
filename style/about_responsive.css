@@ -151,7 +151,7 @@ nav { margin-top: 30px; }
 #professionalPics figure, #skillsSection div, #webDevSkills img, #otherSkills img   { float: none; }
 #webDevSkills img, #otherSkills img { width: 160px!important; }
 #professional, #skillsSection ul { width: 90%; }
-#professional p, #skillsSection ul li  { font-size: 17px!important; }
+#professional p, #skillsSection ul li  { font-size: 16px!important; }
 #webDevSkills img, #otherSkills img, #skillsSection ul { margin: 0 auto; }
 #otherSkills img { margin-top: 30px; }
 figure img { height: 235px; margin-bottom: 0; }
