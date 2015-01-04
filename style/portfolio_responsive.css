@@ -27,8 +27,9 @@ ul li { line-height: 30px; } }
 @media all and (max-width: 768px) and (min-width : 700px)  {
 p, ul li { font-size: 13px; } }
 
-@media all and (max-width: 767px) and (min-width: 635px) {
-.companyTitle { margin-top: 69%; } }
+
+@media all and (max-width: 767px) and (min-width: 651px) {
+.companyTitle { padding-top: 12px; } }
 
 @media all and (max-width: 635px) {
 ul li { line-height: 27px; } }

@@ -1,5 +1,5 @@
 /* break points */
-@media only screen and (min-width : 900px) and (max-width : 4000px) {
+@media only screen and (min-width : 901px) and (max-width : 4000px) {
 #viewProjectLink, #skillsLink { padding-top: 1.5%!important; }
 /* animating screen */
 #skills_animated_screen  { max-width: 401px; margin: 0 auto; position: relative; }
@@ -83,20 +83,20 @@
 /* / animating screen */
 }
 
-@media only screen and (min-width : 852px) and (max-width : 890px) {
+@media only screen and (min-width : 870px) and (max-width : 900px) {
 #viewProjectLink, #skillsLink { padding-top: 0.8%!important; }
 #professionalPics *:not(.end_of_element) { width: 240px!important; height: 211px; }
 #professionalPics { width: 94%; }
 }
 
-@media only screen and (min-width : 772px) and (max-width : 853px) {
+@media only screen and (min-width : 772px) and (max-width : 869px) {
 #viewProjectLink, #skillsLink { padding-top: 0.8%!important; }
 #professionalPics *:not(.end_of_element) { width: 220px!important; height: 191px; }
 #professionalPics { width: 94%; }
 #coding { margin-left: 1%!important; }
 }
 
-@media only screen and (min-width : 700px) and (max-width : 790px) {
+@media only screen and (min-width : 700px) and (max-width : 806px) {
 #viewProjectLink, #skillsLink { padding-top: 0.8%!important; }
 #professionalPics *:not(.end_of_element) { width: 200px!important; height: 171px; }
 #professionalPics { width: 94%; }
@@ -125,7 +125,7 @@ section { width: 90%; }
 #webDevSkills, #otherSkills {  width: 45%!important; }
 }
 
-@media only screen and (min-width : 760px) and (max-width : 888px) {
+@media only screen and (min-width : 761px) and (max-width : 888px) {
 #webDevSkills img { width: 160px; }
 #otherSkills img:nth-child(2) { left: 29%; }	
 }
@@ -134,7 +134,7 @@ section { width: 90%; }
 #coding p, #learning p, #time p { margin-top: 22%; }
 }
 
-@media only screen and (min-width : 761px) and (max-width : 768px) {
+@media only screen and (min-width : 760px) and (max-width : 768px) {
 #coding p, #learning p, #time p { display: block; margin-top: 50px; font-size: 10px; }
 #coding figcaption, #learning figcaption, #time figcaption  {
 background-color: rgba(255, 255, 255, 0.5); position: absolute; max-width: 266.5px; top: 0; left: 0; }
@@ -169,7 +169,6 @@ h2 { width: 80%; margin-left: auto; margin-right: auto; }
 #professionalCopy { max-width: 522px; margin-left: auto; margin-right: auto; } }
 
 @media only screen and (max-width : 624px) {
-.nav_button { width: 100%; }
 #right_nav_button { margin-left: 0; } }
 
 @media only screen and (max-width : 580px) {
@@ -190,7 +189,7 @@ h2 { width: 80%; margin-left: auto; margin-right: auto; }
 
 /* iPhone landscape */
 @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
-#skillsLink { margin-bottom: 30px!important; }
+#skillsLink { margin-bottom: 22px!important; }
 #skillsSection ul li { margin-left: 17%; }
 #professionalCopy p, #skillsSection ul li, #otherSkills ul li { font-size: 11px!important; }
 }
