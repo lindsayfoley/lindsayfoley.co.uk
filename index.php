@@ -16,6 +16,11 @@
 <link rel="stylesheet" type="text/css" href="style/all_pages.css">
 <link rel="stylesheet" type="text/css" href="style/hp_responsive.css">
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="icon.png"/>  
+<link rel="apple-touch-icon" sizes="72x72" href="icon.png">  
+<link rel="apple-touch-icon" sizes="114x114" href="icon.png">  
+<link rel="apple-touch-icon" sizes="144x144" href="icon.png">
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
