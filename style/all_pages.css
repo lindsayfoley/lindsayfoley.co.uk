@@ -14,7 +14,7 @@ header h2, .nav_button, footer h5, small  { text-align: center; }
 header h1, header h1 a, header h2:last-child, nav a, .nav_button, footer h5, h2, p, p a, ul li { color: white; }
 header img { padding-top: 2.6%; width: 30%; }
 main { padding-top: 2.05%; }
-main img { margin: 0 auto 2% auto; max-width: 540px; }
+main img { margin: 0 auto; max-width: 540px; }
 nav { clear: left; }
 nav a { width: 524px; }
 header a, nav a, p a { text-decoration: none; }
