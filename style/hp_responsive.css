@@ -55,7 +55,6 @@ header h1 { font-size: 27px!important; } }
 @media only screen and (max-width: 625px) and (orientation: portrait) {
 header img { min-width: 275px!important; margin-top: 5px; margin-bottom: 10px; }
 #homepage img { min-width: 288px!important; width: 90%!important; }
-nav { margin-top: 10px; }
 .nav_button { min-width: 288px!important; height: 30px; padding-top: 15px; font-size: 15px; float: none;  margin: 0 auto 5% auto!important;  }
 footer h5 { padding-top: 3%; padding-bottom: 3%; }
 #left_nav_button, #right_nav_button { height: 32px; padding-top: 1.3%; }
