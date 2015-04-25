@@ -2,9 +2,9 @@ var showSkillSection = function() {
 	$('#skillsLink').click(function() {
 		$('#skillsSection').slideToggle('slow', function() {
 			if($('#skillsSection').is( ":visible" )) {
-				$('#skillsLink').html('my skills &#9660;');
+				$('#skillsLink').html('my skills <i class="fa fa-caret-down"></i>');
 			} else {
-				$('#skillsLink').html('my skills &#9658;');
+				$('#skillsLink').html('my skills <i class="fa fa-caret-right"></i>');
 			} 
 		});
 	});

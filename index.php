@@ -55,10 +55,10 @@ document.createElement('small');
 	<img src="images/hp_hero.png" alt="I'm a web developer from London" />
 	<nav>
 		<a href="portfolio.html">
-			<div id="left_nav_button" class="nav_button">view my work &#9658;</div>
+			<div id="left_nav_button" class="nav_button">view my work <i class="fa fa-caret-right"></i></div>
 		</a>
 		<a href="about.html">
-			<div id="right_nav_button" class="nav_button">about me &#9658;</div>
+			<div id="right_nav_button" class="nav_button">about me <i class="fa fa-caret-right"></i></div>
 		</a>
 		<div class="end_of_element"></div>
 	</nav>
