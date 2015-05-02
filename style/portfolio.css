@@ -1,7 +1,7 @@
 #wrapper { max-width: 901px; margin: 0 auto 30px auto; position: relative; }
 header h1 { padding-top: 20px; border-top: 0; }
 h2 { color: #338078; text-shadow: 1px 0 #c6c8c8; }
-h2, h4, #ppp .companyTitle a, #jia .companyTitle a, #theyer .companyTitle a, .companyTitle li a, .tile_banner { text-align: center; }
+h2, h4, .companyTitle a, .companyTitle li a, .tile_banner { text-align: center; }
 h4 { margin: 0; font-size: 11px; }
 main img:first-child { max-width: 225px; width: 100%; }
 /*
@@ -9,9 +9,8 @@ main img:first-child { max-width: 225px; width: 100%; }
 
 .companies { background-color: #cec3c4; margin: 0 auto; overflow: hidden; position: relative; cursor: pointer;  }
 .companyTitle { width: 100%; height: 61px; margin: 65% auto 0 auto; background-color: #feb865; color: white; overflow: hidden; transition: margin-top 1.5s ease 0s, height 1.5s ease 0s; }
-.titleAnimation { height: 250px; margin-top: 0; /* needed for webkit */ -moz-animation: expandTitle 1.5s forwards; -webkit-animation: expandTitle 1.5s forwards; animation: expandTitle 1.5s forwards; }
+.titleAnimation { height: 250px; margin-top: 0; padding-top: 1px; /* needed for webkit */ -moz-animation: expandTitle 1.5s forwards; -webkit-animation: expandTitle 1.5s forwards; animation: expandTitle 1.5s forwards; }
 .companyDescription { display: none; padding: 0 5%; }
-.showDescription { display: block; }
 
 @-moz-keyframes expandTitle {
         0% { width: 100%; height: 61px;  margin-top: 100%; }
@@ -38,23 +37,23 @@ main img:first-child { max-width: 225px; width: 100%; }
 #latest_companies .companies, #bottom_row_of_companies .companies { float: left; height: 0; padding-bottom: 27.8%; width: 32.74%; }
 #bottom_row_of_companies .companies { margin-top: 0.89%; }
 #bottom_row_of_companies { clear: left; }
-#ws, #theyer { margin-left: 0.89%; margin-right: 0.89%; }
-.companyTitle ul, #ppp .companyTitle a, #jia .companyTitle a, #theyer .companyTitle a { border: 1px solid white; padding: 5px 0; }
-#ppp .companyTitle a, #jia .companyTitle a, #theyer .companyTitle a, .companyTitle li a { display: block; }
+#two, #five { margin-left: 0.89%; margin-right: 0.89%; }
+.companyTitle ul, #one .companyTitle a, #four .companyTitle a, #five .companyTitle a, #six .companyTitle a { border: 1px solid white; padding: 5px 0; }
+.showDescription, #one .companyTitle a, #four .companyTitle a, #five .companyTitle a, #six .companyTitle a, .companyTitle li a { display: block; }
 .tile_banner { margin: 10px 0 0 0; }
 p, ul li { font-size: 13px; }
 ul li { line-height: 21px; }
-.companyTitle a:hover, #ob_xmas_email:hover, #ob_luxe_email:hover { background-color: #bbb7b4; }
+.companyTitle a:hover { background-color: #bbb7b4; }
 h4, h3, ul, #wrapper a { color: white;  }
 h3 { font-size: 19px; }
 h4 { margin-top: 0; font-size: 15px; }
 #wrapper a { text-decoration: none; }
 ul { list-style-type: none; }
-#selfridges, #ppp, #ws, #jia, #theyer, #ob {  background-repeat: no-repeat; background-size: contain; overflow: hidden; position: relative; }
-#selfridges { background-image: url('/images/selfridges_tile.png'); } 
-#ppp{ background-image: url('/images/ppp_tile.png'); } 
-#ws{ background-image: url('/images/ws_tile.png'); } 
-#jia{ background-image: url('/images/jia_tile.png'); } 
-#theyer{ background-image: url('/images/theyer_tile.png'); } 
-#ob { background-image: url('/images/ob_tile.png'); }
+.companies {  background-repeat: no-repeat; background-size: contain; overflow: hidden; position: relative; }
+#one { background-image:url('/images/hopelands_tile.png'); }
+#two { background-image: url('/images/selfridges_tile.png'); } 
+#four{ background-image: url('/images/ppp_tile.png'); } 
+#three{ background-image: url('/images/ws_tile.png'); } 
+#five{ background-image: url('/images/jia_tile.png'); } 
+#six{ background-image: url('/images/theyer_tile.png'); } 
 }

@@ -46,17 +46,17 @@ ul li { line-height: 27px; } }
 #spotlight_company, #latest_companies .companies, #bottom_row_of_companies .companies { float: none; margin-left: auto; margin-right: auto; }
 #latest_companies .companies, #bottom_row_of_companies .companies { min-width: 295px; }
 #spotlight_company { margin-bottom: 0.89%; }
-#ws { margin-bottom: 0.89%; }
-#selfridges { margin-bottom: 1.4%!important; }
+#three { margin-bottom: 0.89%; }
+#one, #two { margin-bottom: 1.4%!important; }
 .companyDescription p:nth-child(2) { display: block; }
 .titleAnimation { height: 318px!important; } }
 
 @media all and (max-width: 601px) and (min-width: 0px) {
 #wrapper { width: 92%; }
 #latest_companies .companies, #bottom_row_of_companies .companies {  width: 295px; height: 250px!important; padding: 0!important; }	
-#ws { margin-top: 0!important; margin-bottom: 20px!important; }
-#theyer, #selfridges, #jia { margin-bottom: 20px!important; }
-#jia { margin-top: 20px!important; } }
+#three { margin-top: 0!important; margin-bottom: 20px!important; }
+#one, #two, #six, #five { margin-bottom: 20px!important; }
+#five { margin-top: 20px!important; } }
 
 @media all and (max-width: 320px) and (min-width: 0px) {
 .titleAnimation { height: 250px; } }

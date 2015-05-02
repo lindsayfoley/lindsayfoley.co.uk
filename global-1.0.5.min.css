@@ -1,0 +1,594 @@
+/* Custom CSS for Walt Disney Travel Company v1.0.0 */
+
+/* Base styles */
+::-moz-selection{ background:#253b56; }
+::selection { background:#253b56; }
+body, select, input, textarea { color:#253b56; }
+a, a:active, a:visited, a:hover { color:#1994d7; }
+a[href^="tel"] { color:#253b56; }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Structure */
+body { background-color:#1994d7; background-image:url(/walt-disney-world/images/global/repeat.png); }
+body:after { content:url(/walt-disney-world/images/modal/loading.png) url(/walt-disney-world/images/retina/modal/loading.png) url(/walt-disney-world/images/modal/buzz.png) url(/walt-disney-world/images/modal/woody.png) url(/walt-disney-world/images/modal/rex.png) url(/walt-disney-world/images/modal/alien.png) url(/walt-disney-world/images/modal/sulley.png) url(/walt-disney-world/images/modal/mater.png) url(/walt-disney-world/images/modal/merida.png) url(/walt-disney-world/images/modal/dory.png) url(/walt-disney-world/images/modal/nemo.png) url(/walt-disney-world/images/modal/mr-potato-head.png); position:absolute; left:-9999px; } /* Preload images in Safari, Firefox & Chrome */
+body hr { padding:0; margin:11px 0 20px 0; line-height:1px; font-size:1px; overflow:none; display:block; float:left; width:100%; height:1px; border:0; color:#dfdfdf; background:#dfdfdf; background:linear-gradient(to right, #ffffff 0%,#dfdfdf 15%,#dfdfdf 85%,#ffffff 100%); background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjE1JSIgc3RvcC1jb2xvcj0iI2RmZGZkZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijg1JSIgc3RvcC1jb2xvcj0iI2RmZGZkZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background:-webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(15%,#dfdfdf), color-stop(85%,#dfdfdf), color-stop(100%,#ffffff)); background:-o-linear-gradient(left, #ffffff 0%,#dfdfdf 15%,#dfdfdf 85%,#ffffff 100%); background:-ms-linear-gradient(left, #ffffff 0%,#dfdfdf 15%,#dfdfdf 85%,#ffffff 100%); background:-moz-linear-gradient(left, #ffffff 0%, #dfdfdf 15%, #dfdfdf 85%, #ffffff 100%); }
+.lt-ie9 body hr { background:#dfdfdf; }
+.lt-ie8 body hr { margin:11px 0 8px 0; display:inline-block; }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Buttons */
+a.cancel, span.cancel { background:#ebf6fc; }
+.lt-ie9 a.cancel, .lt-ie9 span.cancel { background:transparent url(/walt-disney-world/images/legacy/lt-ie9/global/cancel.png) no-repeat top left !important; }
+.lt-ie9 a.cancel:after, .lt-ie9 span.cancel:after { background:transparent url(/walt-disney-world/images/legacy/lt-ie9/global/cancel.png) no-repeat top right; }
+.lt-ie8 a.cancel, .lt-ie8 span.cancel { background:#ebf6fc !important;  } /* Use square buttons for IE6/7 */
+input.cancel { color:#7fbfe4; -webkit-transition:color 250ms ease-out; -moz-transition:color 250ms ease-out; -o-transition:color 250ms ease-out; -ms-transition:color 250ms ease-out; transition:color 250ms ease-out; }
+input.cancel:hover { color:#1994d7; }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Form */
+input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus, input[type=password]:focus { outline:none; -moz-box-shadow:0 0 4px rgba(25,148,215,1); -webkit-box-shadow:0 0 4px rgba(25,148,215,1); box-shadow:0 0 4px rgba(25,148,215,1); }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Tables */
+#page table { border:solid #ccc 1px; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px; border-spacing:0; width:100%; border-collapse:separate; }
+#page table th, #page table td { border-spacing:0; border-collapse:separate; background:transparent; text-align:center; vertical-align:middle; }
+#page table th { background:#efefef; border-right:1px solid #ccc; padding:10px; }
+#page table td { border-right:1px solid #ccc; border-top:1px solid #ccc; padding:10px; }
+#page table td:last-child, #page table th:last-child { border-right:none; }
+#page table td:first-child { font-family:'Avenir Heavy'; }
+#page table td em { display:block; font-size:12px; font-family:'Avenir Roman'; }
+#page table td input { float:none; display:inline-block; }
+#page table td label { float:none; font-family:'Avenir Heavy'; -webkit-touch-callout:none; -webkit-tap-highlight-color:rgba(0,0,0,0); }
+#page table td label:not([for]) { color:#a1afc0; cursor:default; }
+#page table td.highlight { background:#90ba55; }
+#page table td.highlight > label { color:#fff; text-shadow:0 1px 2px rgba(0,0,0,0.3); }
+#page table tr:nth-child(odd) { background:#fafafa; } /* Zebra striping */
+#page table tr.odd { background:#fafafa; } /* Zebra striping for IE6/7/8 */
+#page table th:first-child { -webkit-border-top-left-radius:7px; -moz-border-radius-topleft:7px; border-top-left-radius:7px; }
+#page table th:last-child { -webkit-border-top-right-radius:7px; -moz-border-radius-topright:7px; border-top-right-radius:7px; }
+#page table tr:last-child td:first-child { -webkit-border-bottom-left-radius:7px; -moz-border-radius-bottomleft:7px; border-bottom-left-radius:7px; }
+#page table tr:last-child td:last-child { -webkit-border-bottom-right-radius:7px; -moz-border-radius-bottomright:7px; border-bottom-right-radius:7px; }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Header */
+#masthead { width:745px; }
+#masthead a { color:#a1afc0; }
+#masthead a:hover { color:#1994d7; }
+#masthead span { font-size:10px; padding:0 0 0 14px; top:-2px; position:relative; color:#dfdfdf; }
+header .logo a { background-image:url(/walt-disney-world/images/global/walt-disney-world.png); background-repeat:no-repeat; width:195px; }
+header nav .item > a { color:#253b56; }
+header nav .item > a:hover { color:#1994d7; }
+header nav .item a.mdx { background-image:url(/walt-disney-world/images/global/my-disney-experience.png); background-repeat:no-repeat; background-position:center top; width:158px; height:22px; line-height:22px; text-indent:-9999px; padding:0 !important; margin:8px 0 9px 16px !important; }
+header nav .item a.mdx:hover, header nav .item a.mdx:active { background-position:center bottom; }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Checkout */
+.checkout header nav .item a.mdx, .checkout header nav .item a.mdx:hover { background-image:url(/walt-disney-world/images/checkout/my-disney-experience.png); }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Pages */
+#page { background-image:url(/walt-disney-world/images/global/background.png) }
+
+/* Page sections */
+#title h1 { color:#1994d7; }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Overlay */
+#overlay { background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYwYjVlMyIgc3RvcC1vcGFjaXR5PSIwLjg1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ1JSIgc3RvcC1jb2xvcj0iI2MxZGVmMCIgc3RvcC1vcGFjaXR5PSIwLjg1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjU1JSIgc3RvcC1jb2xvcj0iI2MxZGVmMCIgc3RvcC1vcGFjaXR5PSIwLjg1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2MGI1ZTMiIHN0b3Atb3BhY2l0eT0iMC44NSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background:-moz-linear-gradient(top, rgba(96,181,227,0.85) 0%, rgba(193,222,240,0.85) 45%, rgba(193,222,240,0.85) 55%, rgba(96,181,227,0.85) 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(96,181,227,0.85)), color-stop(45%,rgba(193,222,240,0.85)), color-stop(55%,rgba(193,222,240,0.85)), color-stop(100%,rgba(96,181,227,0.85))); background:-webkit-linear-gradient(top, rgba(96,181,227,0.85) 0%,rgba(193,222,240,0.85) 45%,rgba(193,222,240,0.85) 55%,rgba(96,181,227,0.85) 100%); background:-o-linear-gradient(top,  rgba(96,181,227,0.85) 0%,rgba(193,222,240,0.85) 45%,rgba(193,222,240,0.85) 55%,rgba(96,181,227,0.85) 100%); background:-ms-linear-gradient(top, rgba(96,181,227,0.85) 0%,rgba(193,222,240,0.85) 45%,rgba(193,222,240,0.85) 55%,rgba(96,181,227,0.85) 100%); background:linear-gradient(to bottom, rgba(96,181,227,0.85) 0%,rgba(193,222,240,0.85) 45%,rgba(193,222,240,0.85) 55%,rgba(96,181,227,0.85) 100%); } /* Float over all elements, except #interstitial */
+.lt-ie9 #overlay { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d960b5e3', endColorstr='#d960b5e3',GradientType=0 ); }
+#intermission #loading { background-image:url(/walt-disney-world/images/modal/loading.png); }
+#character.buzz { background-image:url(/walt-disney-world/images/modal/buzz.png); }
+#character.woody { background-image:url(/walt-disney-world/images/modal/woody.png); }
+#character.rex { background-image:url(/walt-disney-world/images/modal/rex.png); }
+#character.alien { background-image:url(/walt-disney-world/images/modal/alien.png); }
+#character.sulley { background-image:url(/walt-disney-world/images/modal/sulley.png); }
+#character.mater { background-image:url(/walt-disney-world/images/modal/mater.png); }
+#character.merida { background-image:url(/walt-disney-world/images/modal/merida.png); }
+#character.dory { background-image:url(/walt-disney-world/images/modal/dory.png); }
+#character.nemo { background-image:url(/walt-disney-world/images/modal/nemo.png); }
+#character.mr-potato-head { background-image:url(/walt-disney-world/images/modal/mr-potato-head.png); }
+#character.jessie { background-image:url(/walt-disney-world/images/modal/jessie.png); } /* On request overlay */
+#character.peach { background-image:url(/walt-disney-world/images/modal/peach.png); } /* Cruise overlay */
+
+/* Intermission */
+body.interstitial { background:#1994d7 !important; }
+body.interstitial #overlay, body.interstitial #interstitial, body.interstitial #intermission { display:block !important; }
+body.interstitial #warning { display:none !important; }
+
+/* Geolocation toggle */
+#geo, #geo div { width:500px; }
+#geo .choose { padding:5px 0 0 0; }
+#geo .country { position:relative; float:left; display:block; }
+#geo .country a { line-height:36px; float:left; display:block; padding-left:40px; }
+#geo .flag { width:40px; height:40px; display:block; position:absolute; top:-3px; left:0; }
+.gbr { background: transparent url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNzIgNzIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDcyIDcyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cmVjdCB4PSIxOC42IiB5PSIyMy42IiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIyNC44Ii8+DQoJCTxwb2x5Z29uIGZpbGw9IiNFQzFDMjQiIHBvaW50cz0iNDIuNSwzMi42IDU0LDI0LjcgNTQsMjMuNiA1My4yLDIzLjYgNDAuMSwzMi42IAkJIi8+DQoJCTxwb2x5Z29uIGZpbGw9IiNFQzFDMjQiIHBvaW50cz0iNDAuMywzOS45IDUzLjMsNDguOCA1My4zLDQ3LjIgNDIuNywzOS45IAkJIi8+DQoJCTxwb2x5Z29uIGZpbGw9IiNFQzFDMjQiIHBvaW50cz0iMTguOCwyNS41IDI5LjEsMzIuNiAzMS41LDMyLjYgMTguOCwyMy45IAkJIi8+DQoJCTxwb2x5Z29uIGZpbGw9IiNFQzFDMjQiIHBvaW50cz0iMjkuNiwzOS45IDE3LjUsNDguMiAxNy41LDQ4LjQgMTkuNiw0OC40IDMyLDM5LjkgCQkiLz4NCgkJPHBvbHlnb24gZmlsbD0iIzEyMzg4NCIgcG9pbnRzPSI1MS4zLDIzLjEgMzkuMSwyMy4xIDM5LjEsMzEuNCAJCSIvPg0KCQk8cG9seWdvbiBmaWxsPSIjMTIzODg0IiBwb2ludHM9IjMzLjEsMjMuMSAyMSwyMy4xIDMzLjEsMzEuNCAJCSIvPg0KCQk8cG9seWdvbiBmaWxsPSIjMTIzODg0IiBwb2ludHM9IjUzLjksMzIuNiA1My45LDI2LjkgNDUuNiwzMi42IAkJIi8+DQoJCTxwb2x5Z29uIGZpbGw9IiMxMjM4ODQiIHBvaW50cz0iNTMuOSw0NS41IDUzLjksMzkuOSA0NS42LDM5LjkgCQkiLz4NCgkJPHBvbHlnb24gZmlsbD0iIzEyMzg4NCIgcG9pbnRzPSIyMS43LDQ4LjcgMzMuMSw0OC43IDMzLjEsNDAuOSAJCSIvPg0KCQk8cG9seWdvbiBmaWxsPSIjMTIzODg0IiBwb2ludHM9IjM5LjEsNDguNyA1MC42LDQ4LjcgMzkuMSw0MC45IAkJIi8+DQoJCTxwb2x5Z29uIGZpbGw9IiMxMjM4ODQiIHBvaW50cz0iMTguMiwzOS45IDE4LjIsNDUuOCAyNi43LDM5LjkgCQkiLz4NCgkJPHBvbHlnb24gZmlsbD0iIzEyMzg4NCIgcG9pbnRzPSIxOC4yLDMyLjYgMjYuNywzMi42IDE4LjIsMjYuNyAJCSIvPg0KCQk8cG9seWdvbiBmaWxsPSIjRUMxQzI0IiBwb2ludHM9IjM0LjUsMjMuNiAzNC41LDM0IDE4LjYsMzQgMTguNiwzOC41IDM0LjUsMzguNSAzNC41LDQ4LjQgMzcuOCw0OC40IDM3LjgsMzguNSA1My40LDM4LjUgNTMuNCwzNCANCgkJCTM3LjgsMzQgMzcuOCwyMy42IAkJIi8+DQoJPC9nPg0KCTxnPg0KCQk8cGF0aCBmaWxsPSIjMjUzQjU2IiBkPSJNNTIuNywyNGMwLjIsMCwwLjMsMC4yLDAuMywwLjN2MjMuM2MwLDAuMi0wLjIsMC4zLTAuMywwLjNIMTkuM2MtMC4yLDAtMC4zLTAuMi0wLjMtMC4zVjI0LjMNCgkJCWMwLTAuMiwwLjItMC4zLDAuMy0wLjNINTIuNyBNNTIuNywyMUgxOS4zYy0xLjgsMC0zLjMsMS41LTMuMywzLjN2MjMuM2MwLDEuOCwxLjUsMy4zLDMuMywzLjNoMzMuM2MxLjgsMCwzLjMtMS41LDMuMy0zLjNWMjQuMw0KCQkJQzU2LDIyLjUsNTQuNSwyMSw1Mi43LDIxTDUyLjcsMjF6Ii8+DQoJPC9nPg0KPC9nPg0KPC9zdmc+DQo=) top left no-repeat; }
+.irl { background:transparent url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNzIgNzIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDcyIDcyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cmVjdCB4PSIxOC42IiB5PSIyMy42IiBmaWxsPSIjMkRBMzRBIiB3aWR0aD0iMTEuNiIgaGVpZ2h0PSIyNC44Ii8+DQoJCTxyZWN0IHg9IjMwLjIiIHk9IjIzLjYiIGZpbGw9IiNGM0Y0RjUiIHdpZHRoPSIxMS42IiBoZWlnaHQ9IjI0LjgiLz4NCgkJPHJlY3QgeD0iNDEuOCIgeT0iMjMuNiIgZmlsbD0iI0YyNkYyMSIgd2lkdGg9IjExLjYiIGhlaWdodD0iMjQuOCIvPg0KCTwvZz4NCgk8Zz4NCgkJPHBhdGggZmlsbD0iIzI1M0I1NiIgZD0iTTUyLjcsMjRjMC4yLDAsMC4zLDAuMiwwLjMsMC4zdjIzLjNjMCwwLjItMC4yLDAuMy0wLjMsMC4zSDE5LjNjLTAuMiwwLTAuMy0wLjItMC4zLTAuM1YyNC4zDQoJCQljMC0wLjIsMC4yLTAuMywwLjMtMC4zSDUyLjcgTTUyLjcsMjFIMTkuM2MtMS44LDAtMy4zLDEuNS0zLjMsMy4zdjIzLjNjMCwxLjgsMS41LDMuMywzLjMsMy4zaDMzLjNjMS44LDAsMy4zLTEuNSwzLjMtMy4zVjI0LjMNCgkJCUM1NiwyMi41LDU0LjUsMjEsNTIuNywyMUw1Mi43LDIxeiIvPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K) top left no-repeat; }
+
+/* On Request */
+#request { width:240px; height:245px; padding:25px 245px 0 15px; text-align:center; }
+#request h2 { font-family:'Avenir Heavy'; font-size:18px; line-height:27px; padding:0 0 2px 0; }
+
+/* Upgrade */
+#upgrade { width:500px; }
+#upgrade > div { width:500px; }
+#upgrade .upgrade { width:390px; padding:5px 0 11px 20px; }
+#upgrade .tickets { width:90px; height:90px; padding:5px 0 20px 0; background:url(/images/homepage/promotions/tickets.png) 0 5px no-repeat; }
+#upgrade h4 { color:#ca342e; }
+#upgrade strong { white-space:nowrap; padding:9px 0 0 0; }
+
+/* Tickets; verify opt-out, and details of park admissison */
+#verify { width:500px; }
+#verify .ticket { padding:5px 0 11px 0; }
+#admission { width:500px; padding-top:5px; }
+#admission > div { width:500px; }
+#admission .icon { width:90px; height:90px; padding:0; background-position:0 0; background-repeat:no-repeat; }
+#admission .details { width:390px; padding:0 0 0 20px; }
+#admission .tickets .icon { background-image:url(/images/homepage/promotions/tickets.png); }
+#admission .fastpass-plus .icon { background-image:url(/images/homepage/promotions/fastpass-plus.png); }
+#admission .magicbands .icon { background-image:url(/images/homepage/promotions/magicbands.png); }
+
+/* Dining */
+#meals { width:500px; padding-top:5px; }
+#meals > div { width:500px; }
+#meals .icon { width:90px; height:90px; padding:0; background-position:0 0; background-repeat:no-repeat; }
+#meals .details { width:390px; padding:0 0 0 20px; }
+#meals .snack .icon { background-image:url(/images/homepage/promotions/summer.png); }
+#meals .quick .icon { background-image:url(/images/homepage/promotions/quick-service.png); }
+#meals .table .icon { background-image:url(/images/homepage/promotions/dining.png); }
+
+/* On Request */
+#cruise-stay { width:240px; height:245px; padding:25px 245px 0 15px; text-align:center; }
+#cruise-stay h2 { font-family:'Avenir Heavy'; font-size:18px; line-height:27px; padding:0 0 2px 0; }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Agents */
+#agent { position:fixed; display:block; top:0; right:-196px; width:98px; height:98px; pointer-events:none; z-index:5; border-left:98px solid transparent; border-right:98px solid transparent; border-top:98px solid #f47a4e; }
+.lt-ie9 #agent { right:0 !important; background:none !important; border:none !important; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/walt-disney-world/images/legacy/lt-ie9/global/agent.png",sizingMethod="image"); }
+#agent strong { position:fixed; display:block; top:10px; right:5px; pointer-events:none; z-index:6; }
+#agent strong:before { content:'\e100'; font:36px/36px 'PEP Icon'; color:#fff; }
+#agent strong span { display:none; }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Homepage */
+
+/* Search */
+#search .holiday, #search .dates { border-bottom:#dfdfdf solid 1px; } /* !!! */
+#search label.flights { padding-left:24px; }
+#search label.flights:before { font-size:16px; content:'\e2c5'; }
+#search label.package:before { content:'\e0c8'; }
+#search label.hotel:before { content:'\e0cf'; }
+#search label.tickets { margin-right:0 !important; }
+#search label.tickets:before { content:'\e0c2'; }
+#search .accessible { float:right; display:inline-block; }
+#search .accessible label { padding:0 6px 0 26px; font-family:'Avenir Roman'; margin:0 0 0 6px; }
+#search .accessible label:before { content:'\e24c'; }
+#search .accessible a { line-height:20px; text-decoration:none; }
+#search .accessible a:before { content:'\e251'; font-family:'PEP Icon'; }
+#search .accessible a > span { display:none; }
+#search .calendar { background:url(/walt-disney-world/images/homepage/search/calendar.png) no-repeat top top; }
+#search .search #tickets-options p { padding:0; line-height:20px; } /* !!! No form fields */
+#search #flights-to { width:220px; }
+#search #flights-cabin { margin-right:0 !important; }
+
+/* Promos */
+.promotions .promo:hover { background-image:url(/walt-disney-world/images/homepage/promotions/starburst.png); }
+.promotions a { color:#253b56; }
+.promotions a:hover, .promotions .promo:hover > a { color:#1994d7; }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Bookflow */
+
+/* Generic */
+.book .body { background:url(/walt-disney-world/images/global/sidebar.png) repeat-y 670px 0; }
+/*#body.book section > hr,
+#body.book section .hotel hr,
+#body.book section .dining hr,
+#body.book section .itinerary > hr,
+#body.book section fieldset > hr,
+#body.book section > div > hr,
+#body.book .dex > hr,
+#body.help section ul + hr { color:#65778a; background:#65778a; background:linear-gradient(to right, #ffffff 0%,#65778a 15%,#65778a 85%,#ffffff 100%); background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjE1JSIgc3RvcC1jb2xvcj0iIzhmOTA5NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijg1JSIgc3RvcC1jb2xvcj0iIzhmOTA5NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background:-webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(15%,#65778a), color-stop(85%,#65778a), color-stop(100%,#ffffff)); background:-o-linear-gradient(left, #ffffff 0%,#65778a 15%,#65778a 85%,#ffffff 100%); background:-ms-linear-gradient(left, #ffffff 0%,#65778a 15%,#65778a 85%,#ffffff 100%); background:-moz-linear-gradient(left, #ffffff 0%, #65778a 15%, #65778a 85%, #ffffff 100%); }
+.lt-ie9 #body.book section > hr,
+.lt-ie9 #body.book section .hotel hr,
+.lt-ie9 #body.book section .dining hr,
+.lt-ie9 #body.book section .itinerary > hr,
+.lt-ie9 #body.book section fieldset > hr,
+.lt-ie9 #body.book section > div > hr,
+.lt-ie9 #body.book .dex > hr,
+.lt-ie9 #body.help section ul + hr { background:#65778a; } */
+
+/* Itinerary */
+#itinerary { background-color:#ebf6fc; }
+#itinerary .item { border-top:1px solid #c1def0; }
+#itinerary h4.tickets:before { content:'\e0c2'; }
+#itinerary div.tickets h4, #itinerary div.tickets p { padding-bottom:9px; }
+#itinerary div.tickets p:last-child { width:183px; padding:0 0 0 27px; }
+#itinerary div.tickets p em { color:#a1afc0; display:block; }
+
+/* Action */
+#action > div > * { color:#1994d7; }
+
+/* Paging */
+#paging a.inactive { color:#a1afc0; }
+#paging .pages a.page { background-color:#ebf6fc; }
+#paging .pages a.page.current { background-color:#1994d7; }
+.lt-ie9 #paging .pages a.page { background:transparent url(/walt-disney-world/images/flights/page.png) no-repeat center center; }
+.lt-ie9 #paging .pages a.page.current { background:transparent url(/walt-disney-world/images/flights/current.png) no-repeat center center; }
+
+/* Select flight */
+.filter { padding-bottom:20px !important; margin-bottom:20px; border-bottom:1px solid #dfdfdf; }
+.filter fieldset > div { width:280px; }
+.filter label { font-family:'Avenir Heavy'; padding:0 0 0 42px !important; color:#6fa623; } /* Left padding should accommodate input + icon */
+.filter label:before { content:'\e2c5'; }
+.filter input:disabled + label { color:#a1afc0; cursor:default; }
+.filter .cabin { float:right; text-align:right; }
+.flight { padding:0 20px 0 20px; }
+.lt-ie8 .flight:first-child { padding-top:20px !important; } /* Fix for IE7 */
+.flight > hgroup { width:530px !important; position:relative; }
+.flight > hr { margin-top:9px !important; }
+.flight > img, .flight .images > img { width:80px !important; height:auto !important; margin:3px 0 0 0; }
+.flight .images { width:80px; }
+.flight .images > img + img { margin:10px 0 0 0; }
+.flight ul { border-left:none; border-right:none; margin:0; list-style:none; padding:0 }
+.flight li { line-height:22px; padding:9px 0 9px 22px !important; }
+.flight li:before { font-family:'PEP Icon'; position:absolute; text-indent:-22px; }
+.flight li span { font-size:12px; padding:0 4px; top:-2px; position:relative; color:#dfdfdf; }
+.flight li.outbound:before { content:'\e2c5'; }
+.flight li.return:before { content:'\e2c6' }
+.flight .info { width:380px; }
+.flight .info h3 { line-height:22px; }
+.flight .info h3 small { font-size:14px; font-family:'Avenir Heavy'; text-transform:uppercase; }
+.flight .info h3 small.direct { color:#6fa623; }
+.flight .info h3 small.indirect { color:#f47a4e; }
+.flight .info li.outbound { border-bottom:#dfdfdf 1px dotted; border-top:#dfdfdf 1px solid; }
+.flight .info li.return {  }
+.flight .price { position:absolute; top:0; right:0; width:130px; } /* Extra width to accomodate prices of £9,999+ */
+.flight .details { width:530px; border-top:#dfdfdf 1px solid; }
+.flight .details .itinerary { width:504px; background-color:#ebf6fc; padding:0 12px; border:#dfdfdf 1px solid; border-top:none; }
+.flight .details .itinerary ul { padding:0; position:relative; } 	
+.flight .details .itinerary ul.outbound { border-bottom:#c1def0 1px solid; }
+.flight .details .itinerary ul.outbound li:before { content:'\e2c5'; }
+.flight .details .itinerary ul.inbound li:before { content:'\e2c6'; }
+.flight .details .itinerary li + li { border-top:#c1def0 1px dotted; }
+.flight .details .itinerary li span { color:#c1def0; }
+.flight .details .itinerary li.stopover { color:#74afd0; }
+.flight .details .itinerary li.stopover:before { content:'\e321' !important;/*content:'\e2c7' !important;*/ }
+.flight .package { width:530px; padding:11px 0 9px 0; }
+.flight .package * { line-height:22px; }
+.flight .package div { width:530px; }
+.flight .package .includes h4 { padding:0; display:inline-block; }
+.flight .package .includes a { display:inline-block; float:right; text-decoration:underline; padding-right:4px; }
+.flight .package .transfers { color:#f47a4e; border-bottom:#dfdfdf 1px dotted; padding:0 0 9px 0; margin-bottom:9px; }
+.flight .package .transfers a { color:#f47a4e; text-decoration:underline; }
+
+/* Select hotel */
+.accommodation > img { width:120px !important; height:120px !important; cursor:pointer; }
+.accommodation .info { width:356px; }
+.accommodation .info h2.narrow { width:300px; }
+.accommodation .info h2.compact { width:250px; }
+.accommodation .info ul { padding-bottom:11px; }
+.accommodation .price { position:absolute; top:0; right:0; width:130px; } /* Extra width to accomodate prices of £9,999+ */
+.accommodation .package { width:490px; padding-top:11px; border-top:#dfdfdf 1px solid; }
+.accommodation .package h4 { padding-bottom:11px; }
+.accommodation .offer { width:490px; color:#ca342e; border-top:#dfdfdf 1px dotted; padding:11px 0 0 0; }
+.accommodation .offer h4 { /*color:#6fa623;*/ /*padding-left:26px; position:relative;*/ }
+.accommodation .offer h4:before {/* position:absolute; top:0; left:0; font-size:16px; content:'\e0ce'; font-family:'PEP Icon'; */}
+
+/* Select room */
+div.hotel, .room { padding:0 20px; }
+.hotel .wrapper { width:630px; }
+.hotel .wrapper > h4, .room .offer 	h4 { color:#ca342e; }
+.hotel .details { width:410px; padding-right:20px; }
+.hotel .local { width:630px; } /* No TripAdvisor review for offsite hotels so use full width of div */
+.hotel .reviews { width:200px; padding:2px 0 9px 0; }
+.hotel .reviews * { color:#253b56 !important; text-decoration:none !important; }
+.hotel .reviews h4 + p { padding:0; }
+.hotel .reviews small { color:#a1afc0 !important; }
+.hotel .errata { color:#f47a4e; }
+.hotel .errata a { color:#f47a4e; text-decoration:underline; }
+.room { position:relative; }
+.room .options { width:306px !important; padding:0 !important; }
+.room .options h3 { width:296px; } /* Wrap to avoid butting up against price */
+.room .price { position:absolute; top:0; right:0; width:130px; } /* Extra width to accomodate prices of £9,999+ */
+.room .price input[type="button"] { padding:6px 14px 0 14px; } /* Adjust padding for button vs submit */
+.room .beds { width:430px; padding:0 10px 0 0; }
+.room .request { width:430px; padding:0 10px 0 0; color:#f47a4e; }
+.room .request a[href^="tel"] { color:#f47a4e; }
+.room .accessible { width:440px; border-top:#dfdfdf 1px solid; margin-top:2px; }
+fieldset > div.room { padding:0; }
+fieldset > div.room > img { float:left; width:170px; height:95px; margin-bottom:9px; } 
+.room .accessible > div { width:440px; padding:11px 0; border-top:#dfdfdf 1px dotted; }
+.room .accessible > div:first-child { border:none; }
+.room .accessible > div input { top:13px; }
+.room .accessible > div label { width:412px; }
+.room .accessible > div h4, .room .accessible > div p { padding:0; }
+.room .accessible p.request { width:412px; padding:0 0 0 0; color:#f47a4e; }
+.room .offer { width:440px; margin-top:2px; padding:11px 0 0 0; border-top:#dfdfdf 1px solid; }
+
+/* Tickets */
+#ticket .ticket { position:relative; }
+#ticket .ticket .options { width:306px !important; padding:0 !important; }
+#ticket .ticket .options h3 { white-space:nowrap; }
+#ticket .ticket .price { position:absolute; top:0; right:0; width:130px; } /* Extra width to accomodate prices of £9,999+ */
+#ticket .ticket .details { width:440px; margin-top:2px; padding:11px 0 0 0; border-top:#dfdfdf 1px dotted; }
+#ticket .errata { color:#f47a4e; }
+#ticket .no-tickets { width:440px !important; float:right; }
+
+/* Dining */
+.plan { position:relative; }
+.plan .options { width:306px !important; padding:0 !important; }
+.plan .options h3 { white-space:nowrap; }
+.plan .price { position:absolute; top:0; right:0; width:130px; } /* Extra width to accomodate prices of £9,999+ */
+.plan .details { width:440px; margin-top:2px; padding:11px 0 9px 0; border-top:#dfdfdf 1px solid; }
+.plan .details ul { padding-bottom:0; } 
+.plan .details h4 { width:440px; margin-top:11px; padding:11px 0 0 0; border-top:#dfdfdf 1px dotted; }
+.no-dining { width:440px !important; float:right; }
+
+/* Extras */
+#extras fieldset h4 { color:#ca342e; }
+#extras fieldset .opt-in { width:440px; margin:2px 0 11px 0; padding:11px 0 2px 0; border:#dfdfdf 1px dotted; border-left:none; border-right:none; }
+#extras fieldset .opt-in input { top:13px; }
+
+/* Itinerary */
+.itinerary .images { width:50px; }
+.itinerary .images > img + img { margin:0 0 9px 0; }
+.itinerary .transfers { color:#f47a4e; }
+.itinerary .transfers a { color:#f47a4e; text-decoration:underline; }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Tickets */
+.tickets .header { width:940px; padding:0 0 20px 0; }
+.tickets .header .headline { width:900px; padding:0 20px 9px 20px; border-bottom: 1px solid #dfdfdf; }
+.tickets .header .headline h2 { font-size:18px; line-height:23px; font-family:'Avenir Roman'; }
+.tickets .header .headline h2 strong { font-family:'Avenir Roman'; }
+.tickets .header .headline img { margin-bottom:11px; }
+.tickets .header .benefits { width:900px; padding:20px 10px 0 30px; }
+.tickets .header .benefits .row { width:900px; padding:20px 0 0 0; }
+.tickets .header .benefit { width:210px; padding-left:60px; background-repeat:no-repeat; background-position:left center; } 
+.tickets .header .benefit strong { display:block; } /* Force line break */
+.tickets .header .access { padding-left:65px; background-image:url(/walt-disney-world/images/tickets/parks-map.png); } 
+.tickets .header .fastpass { margin:0 35px 0 40px; background-image:url(/walt-disney-world/images/tickets/fastpass.png); } 
+.tickets .header .tickets { background-image:url(/walt-disney-world/images/tickets/tickets.png); }
+.tickets .header .entertainment { padding-left:65px; background-image:url(/walt-disney-world/images/tickets/entertainment.png); } 
+.tickets .header .thrills { margin:0 35px 0 40px; background-image:url(/walt-disney-world/images/tickets/characters.png); } 
+.tickets .header .characters { background-image:url(/walt-disney-world/images/tickets/keepsakes.png); }
+#tickets fieldset div { width:630px; }
+#tickets fieldset .holiday { border-top:#dfdfdf 1px dotted; /* border-left:none; border-right:none; padding:13px 0;*/ padding:13px 0 11px 0; }
+#tickets fieldset .holiday label { float:left; display:inline-block; padding:0 6px 0 0; line-height:20px; }
+#tickets fieldset .holiday select { margin:0 18px 0 0; }
+#tickets fieldset .holiday #day, #tickets fieldset .holiday #month { margin-right:6px }
+#tickets fieldset .holiday .calendar { width:27px; height:20px; padding:0; border:none; margin-right:18px; cursor:pointer; overflow:hidden; background:url(/walt-disney-world/images/homepage/search/calendar.png) no-repeat top top; }
+#tickets fieldset .holiday #children { margin-right:0; }
+#tickets fieldset .offer { padding:13px 0 0 0; }
+#tickets .columns { width:630px; padding:0 0 9px 0; }
+#tickets .columns .prices { color:#a1afc0; }
+#tickets .details  { width:385px; }
+#tickets .prices  { width:200px; float:right; }
+#tickets .adult, #tickets .child {  width:100px; text-align:center; }
+#tickets .ticket { border-top:#dfdfdf 1px dotted; }
+#tickets .ticket .details, #tickets .ticket .prices  { padding:5px 0; }
+#tickets .ticket h3 { padding:0; }
+#tickets .ticket h4 { padding:2px 0 0 0; color:#6fa623; }
+#tickets .ticket p { padding:2px 0 0 0; }
+#tickets .ticket .prices p { font-size:12px; color:#a1afc0; }
+#tickets .ticket .prices h3 strong { font-family:'Avenir Heavy'; }
+#tickets fieldset input { position:absolute; left:0; top:0; display:none; }
+#tickets fieldset input + label { position:relative; padding:6px 0 6px 45px; }
+#tickets fieldset input + label { background-image:url(/images/form/radio/unchecked.png); background-repeat:no-repeat; background-position:0 6px; }
+#tickets fieldset input:checked + label { background-image:url(/images/form/radio/checked.png); }
+#tickets fieldset .ticks { padding-bottom:9px; color:#6fa623; }
+#tickets fieldset .ticks span { padding-right:20px; font-family:'Avenir Heavy'; }
+#tickets fieldset .ticks span:before { padding-right:2px; content:'\e241'; font-family:'PEP Icon'; }
+#itinerary.tickets .item { padding-bottom:11px !important; }
+#itinerary.tickets h4, #itinerary.tickets p { padding-bottom:9px; }
+#itinerary.tickets p.children { width:183px; color:#a1afc0; }
+#itinerary.tickets em { color:#a1afc0; display:block; }
+#itinerary.tickets h3 { padding:0 0 9px 27px; font-family:'Avenir Heavy'; }
+
+
+/* 2 day ticket test table */
+/* icons */
+#page #priceComparison #themeParks .ticketToolTips::after, #page #priceComparison #waterParks .ticketToolTips::after, #page #priceComparison #miniGolf .ticketToolTips::after, #page #priceComparison #fastPass .ticketToolTips::after, #page #priceComparison #parkHopper .ticketToolTips::after, #page #priceComparison #magicalExtras .ticketToolTips::after, #page #priceComparison #parkEntry .ticketToolTips::after  { position: absolute; margin-top: 1px; content: "\e201"; color: #8BCAE9; font-size: 13px; cursor: pointer; }
+
+#priceComparison .ticked::before, #page #priceComparison #parkEntry::before, #page #priceComparison #themeParks::before, #page #priceComparison #waterParks::before, #page #priceComparison #fastPass::before, #page #priceComparison #parkHopper:before, #page #priceComparison #magicalExtras::before, #priceComparison .crossed::before, #page #priceComparison #miniGolf::before, #page #priceComparison #themeParks .ticketToolTips::after, #page #priceComparison #waterParks .ticketToolTips::after, #page #priceComparison #miniGolf .ticketToolTips::after, #page #priceComparison #fastPass .ticketToolTips::after, #page #priceComparison #parkHopper .ticketToolTips::after, #page #priceComparison #magicalExtras .ticketToolTips::after, #page #priceComparison #parkEntry .ticketToolTips::after { font-family: "PEP Icon"; }
+#page #priceComparison #parkEntry::before, #page #priceComparison #themeParks::before, #page #priceComparison #waterParks::before, #page #priceComparison #miniGolf::before { position: absolute; margin-top: 1px; }
+#priceComparison .ticked::before, #page #priceComparison #parkEntry::before, #page #priceComparison #themeParks::before, #page #priceComparison #waterParks::before, #page #priceComparison #fastPass::before, #page #priceComparison #parkHopper:before, #page #priceComparison #magicalExtras::before, #priceComparison .crossed::before, #page #priceComparison #miniGolf::before { font-size: 16px; }
+#priceComparison .ticked::before { content: "\e241"; }
+#priceComparison .crossed::before { content: "\e25c"; }
+#priceComparison .crossed { color: #f62b2b; }
+#page #priceComparison #parkEntry::before { content: "\e0d3"; }
+#page #priceComparison #themeParks::before { content: "\e001"; }
+#page #priceComparison #waterParks::before { content: "\e045"; }
+#page #priceComparison #fastPass::before { content: "\e0c3"; }
+#page #priceComparison #miniGolf::before { content: "\e1c0"; }
+#page #priceComparison #magicalExtras::before { content: "\e140"; }
+#page #priceComparison #parkHopper::before { content: "\e040"; }
+/* /icons */
+
+#tickets { padding-bottom: 0; }
+.ticketTableContentSeparator { margin: 0; background: #dfdfdf; }
+#tickets fieldset { padding-left: 0; padding-right: 0; }
+#tickets fieldset div:first-of-type, #tickets fieldset .holiday { padding-left: 20px; padding-right: 20px; }
+#page #priceComparison tr td:first-child { padding-left: 8px; }
+#page #priceComparison tr td:last-child { padding-right: 20px; }
+#tickets .holiday { margin-bottom: 11px; }
+#page #priceComparison { border: 0; border-radius: 0; position: relative; width: 670px; padding: 0 10px; }
+#priceComparison tr td:first-child { padding-left: 3px; width: 131px!important;  }
+#priceComparison tr:first-child td { border-top: 0; }
+#page #priceComparison tr:nth-child(2n+1) { background: none; }
+#priceComparison .ticked, #priceComparison .highlightBenefits { color: #6fa623; } 
+#page #priceComparison td { border-bottom: 1px dotted #dfdfdf; border-top: 0; border-left: 0; border-right: 0; }
+#page #priceComparison tr:last-child td { border-bottom: 0; }
+#page #priceComparison #parkEntry, #page #priceComparison #themeParks, #page #priceComparison #waterParks, #page #priceComparison #fastPass, #page #priceComparison #parkHopper, #page #priceComparison #magicalExtras, #page #priceComparison #pricingAdult, #page #priceComparison #pricingChild, #page #priceComparison #miniGolf { text-align: left!important; margin-left: 10px; } 
+#page #priceComparison #parkEntry strong, #page #priceComparison #themeParks strong, #page #priceComparison #waterParks strong, #page #priceComparison #miniGolf strong { padding-left: 25px;  }
+#page #priceComparison #parkEntry strong, #page #priceComparison #themeParks strong, #page #priceComparison #waterParks strong, #page #priceComparison #miniGolf strong, #page #priceComparison #fastPass strong, #page #priceComparison #parkHopper strong, #page #priceComparison #magicalExtras strong { margin-right: 5px; }
+#page #priceComparison #fastPass strong, #page #priceComparison #parkHopper strong, #page #priceComparison #magicalExtras strong { padding-left: 6px; }
+
+#page #priceComparison #pricingAdult span, #page #priceComparison #pricingChild span { display: block; }
+#page #priceComparison tr:first child td { position: relative; }
+#page #priceComparison input { top: auto; left: auto; margin-top: 5px; }
+#page #priceComparison tr:first-child td { height: 55px; padding-top: 39px; }
+#page #priceComparison input[type=radio], #offerOverlay, #page #priceComparison .infoOverlay, #pricingOfferDetails2016, #pricingOfferDetails { display: none;}
+#page #priceComparison input[checked=checked] + label { background-image: url("/images/form/radio/checked.png"); }
+#tickets fieldset .greyedOut input + label { opacity: 0.3; }
+#page #priceComparison label { margin-top: 5px; padding: 0 0 38px 0; color: #253b56; font-size: 16px; }
+#page #priceComparison input + label { background-position: 38px 23px; }
+#page #priceComparison tr:first-child td, #page #priceComparison tr:nth-child(7) td { border-bottom: 1px solid #dfdfdf; }
+#page #priceComparison tr td:nth-child(3) { border-left: 1px dotted #dfdfdf; border-right: 1px dotted #F47A4E; }
+#page #priceComparison tr td:nth-child(4) { border-right: 1px dotted #F47A4E; }
+#page #priceComparison tr:nth-child(8) td:not(:first-child) strong, #page #priceComparison tr:last-child td:not(:first-child) strong, #page #priceComparison #pricingAdult:not(span), #page #priceComparison #pricingChild:not(span)  { font-size: 18px; }
+#page #priceComparison .subText { display: block; color: #929fae; font-size: 12px; }
+#page #priceComparison .subText, #page #priceComparison .infoOverlay { font-family: avenir roman; }
+#page #priceComparison tr:last-child td:last-child { border-radius: 0; }
+#ticketColumnHighlighter p { margin-bottom: 0; }
+#ticketColumnHighlighter .featured, #ticketColumnHighlighter2016 .featured  { left: 394px; top: 0px!important; width: 128px; z-index: 1; }
+#ticketColumnHighlighter .featured::after, #ticketColumnHighlighter2016 .featured::after { border-left: 63px solid rgba(0, 0, 0, 0); border-right: 63px solid rgba(0, 0, 0, 0); top: 17px!important; }
+
+#pricingOfferDetails { position: absolute; background-color: #f47a4e; left: 394px; width: 88px!important; color: white; text-align: center; top: 17px; padding: 5px 0; z-index: 3; }
+#ticketColumnHighlighter:hover #pricingOfferDetails { display: block; height: 36px; } 
+#ticketColumnHighlighter:hover .featured::after { top: 63px!important; }  
+#page #priceComparison #parkEntry, #page #priceComparison #themeParks, #page #priceComparison #waterParks, #page #priceComparison #fastPass, #page #priceComparison #parkHopper, #page #priceComparison #magicalExtras { position: relative; }
+#page #priceComparison .infoOverlay { width: 155px; height: auto; background-color: #ebf6fc; position: absolute; left: 3px; font-size: 12px; padding: 5px 10px; z-index: 1; }
+#page #priceComparison .infoOverlay p { padding-bottom: 0; }
+#itinerary div:nth-child(3) .button { margin-left: 25px; margin-bottom: 20px; }
+#itinerary .total { height: 15px; }
+.greyedOut, .greyedOut .subText, #priceComparison .twoDayOnlyTick::before { color: #c4c4c4!important; }
+.greyedOut input, .greyedOut label { cursor: default; }
+
+/* tooltip */
+.ui-tooltip { max-width: 260px; text-align: left; position: absolute; }
+.ui-tooltip-content { position: relative; background-color: white; border-radius: 5px; box-shadow: 0 1px 4px #888; color: #253b56; display: inline-block; font-size: 12px; font-weight: normal; line-height: 16px; padding: 20px; }
+.ui-tooltip-content::after, .ui-tooltip-content::before { content: ""; position: absolute; border-style: solid; display: block; left: 49%; }
+.bottom .ui-tooltip-content::before { bottom: -10px; border-color: #d4d2d2 transparent; border-width: 10px 10px 0; }
+.bottom .ui-tooltip-content::after { bottom: -7px; border-color: white transparent; border-width: 10px 10px 0; }
+.top .ui-tooltip-content::before { top: -10px; border-color: #d4d2d2 transparent; border-width: 0 10px 10px; }
+.top .ui-tooltip-content::after { top: -7px; border-color: white transparent; border-width: 0 10px 10px; }
+/* /tooltip */
+
+/* /2 day ticket test table */
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* CTA */
+#sidebar .prices { background:#1994d7; }
+#sidebar .prices a.button, div.availability a.button { background:#1994d7 !important; }
+#sidebar .prices a.button:hover, div.availability a.button:hover { background:#51a8d6 !important; }
+.lt-ie9 #sidebar .prices a.button, .lt-ie9 #sidebar .prices span.button, .lt-ie9 div.availability a.button, .lt-ie9 div.availability span.button { background:transparent url(/walt-disney-world/images/legacy/lt-ie9/global/button.png) no-repeat top left !important; }
+.lt-ie9 #sidebar .prices a.button:after, .lt-ie9 #sidebar .prices span.button:after, .lt-ie9 div.availability a.button:after, .lt-ie9 div.availability span.button:after { background:transparent url(/walt-disney-world/images/legacy/lt-ie9/global/button.png) no-repeat top right !important; }
+.lt-ie8 #sidebar .prices a.button, .lt-ie8 #sidebar .prices span.button, .lt-ie8 div.availability a.button, .lt-ie8 div.availability span.button { background:#51a8d6 !important;  } /* Use square buttons for IE6/7 */
+div.availability { background:#1994d7; }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Deals */
+section.offers .offer { color:#253b56; background-image:url(/walt-disney-world/images/icons/m/inactive/arrow.png); }
+section.offers .offer a { color:#253b56; }
+section.offers .offer:hover { color:#1994d7; background-image:url(/walt-disney-world/images/icons/m/hover/arrow.png); }
+section.offers .offer:hover a { color:#1994d7; }
+#countdown { border-bottom:#51a8d6 solid 1px; }
+#calendar { color:#253b56; }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Hotel; formats TripAdvisor elements in bookflow */
+.tripadvisor { display:block; width:133px; height:22px; background:url(/walt-disney-world/images/hotels/tripadvisor.png) no-repeat top left; text-indent:-9999px; padding-bottom:9px; }
+.item .rating, p.rating { display:block; width:82px; height:17px; background:url(/walt-disney-world/images/hotels/rating.png) no-repeat 0 0; text-indent:-9999px; padding:0; margin:0 0 9px 0; }
+.item .rating.r5, p.rating.r5 { background-position:0 0; }
+.item .rating.r45, p.rating.r45 { background-position:0 -20px; }
+.item .rating.r4, p.rating.r4 { background-position:0 -40px; }
+.item .rating.r35, p.rating.r35 { background-position:0 -60px; }
+.item .rating.r3, p.rating.r3 { background-position:0 -80px; }
+.item .rating.r25, p.rating.r25 { background-position:0 -100px; }
+.item .rating.r2, p.rating.r2 { background-position:0 -120px; }
+.item .rating.r15, p.rating.r15 { background-position:0 -140px; }
+.item .rating.r1, p.rating.r1 { background-position:0 -160px; }
+.item .rating.r05, p.rating.r05 { background-position:0 -180px; }
+.item .rating.r0, p.rating.r0 { background-position:0 -200px; }
+.item .rating.null, p.rating.null { background-position:0 -220px; }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Travel Agents */
+#agents img { -webkit-border-radius:7px; -moz-border-radius:7px; border-radius:7px; margin-top:9px; }
+#itinerary h4.register:before { content:'\e24e'; }
+#itinerary h4.pdf:before { content:'\e30a'; }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Cruise & Stay */
+#cruise .package { width:590px; padding:17px 20px 19px 20px; margin-bottom:9px; background-color:#ebf6fc; -webkit-border-radius:7px; -moz-border-radius:7px; border-radius:7px; }
+#cruise .package hgroup { float:left; width:470px; }
+#cruise .package small { float:left; width:590px; }
+#cruise .package small a { color:#253b56; text-decoration:underline; }
+#cruise table td { vertical-align:top; }
+#cruise table td:last-child { text-align:left; }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Free Planning Tools */
+.header.tools { width:940px; padding:0 !important; border-bottom: 1px solid #dfdfdf !important; }
+.header.tools .headline { width:900px; padding:0 20px 11px 20px; }
+.header.tools .headline h2 { font-size:18px; line-height:21px; font-family:'Avenir Roman'; }
+.header.tools .planning { width:890px; padding:20px 20px 20px 30px; border-top: 1px solid #dfdfdf; }
+.header.tools .plan { width:210px; padding-left:70px; background-repeat:no-repeat; background-position:left center; } 
+.header.tools .plan strong { display:block; } /* Force line break */
+.header.tools .brochure { background-image:url(/walt-disney-world/images/plan/walt-disney-world-brochure.png); } 
+.header.tools .lbbom { margin:0 30px 0 30px; background-image:url(/walt-disney-world/images/plan/little-big-book-of-magic.png); } 
+.header.tools .newsletter { width:200px; background-image:url(/walt-disney-world/images/plan/disney-online-newsletter.png); }
+#tools section.action { width:940px; padding:20px 0 0 0; }
+#tools section.action > div { width:900px; }
+#tools section.action div.tools { padding:0 20px; }
+#tools section.action div.tools fieldset { width:900px; padding:13px 0; border-top:#dfdfdf dotted 1px; }
+#tools section.action div.questions h3 { padding-bottom:11px; }
+#tools section.action div.extras p.orange { padding-bottom:13px; }
+#tools #action { padding-bottom:13px !important; }
+#tools fieldset input { float:left; border:none; margin:0 18px 0 0; }
+#tools fieldset select { margin:0 18px 0 0; }
+#tools fieldset label { float:left; display:inline-block; line-height:20px; padding:0 6px 0 0; }
+#tools fieldset select.narrow { width:80px; }
+#tools fieldset input.narrow { width:90px; }
+#tools fieldset span { float:left; display:inline-block; line-height:20px; padding:0 18px 0 0; }
+#tools fieldset.tools { padding:10px 0; }
+#tools fieldset.tools input { margin:3px 0 0 0; padding:0; }
+#tools fieldset.tools label { padding:0 18px 0 6px; font-family:'Avenir Heavy'; }
+#tools fieldset.address label[for=house].error + input[type=text] + input[type=text] { outline:none; -moz-box-shadow:0 0 4px rgba(202,52,46,0.8); -webkit-box-shadow:0 0 4px rgba(202,52,46,0.8); box-shadow:0 0 4px rgba(202,52,46,0.8); }
+#tools fieldset.address #house { margin:0 6px 0 0; }
+#tools fieldset.address #postcode { text-transform:uppercase; }
+#tools fieldset.address #country { margin:0; }
+#tools fieldset.marketing { padding-bottom:7px !important; }
+#tools fieldset.marketing p.error, #tools fieldset.marketing span.error { color:#ca342e; }
+#tools fieldset.marketing p.error a, #tools fieldset.marketing span.error a { color:#ca342e; text-decoration:underline; }
+#tools fieldset.marketing input { margin:2px 0 0 0; padding:0; }
+#tools fieldset.marketing label { padding:0 18px 0 6px; }
+#tools fieldset.visited input { margin:2px 0 0 0; padding:0; }
+#tools fieldset.visited legend + div label { padding:0 18px 0 6px; }
+#tools fieldset.booked input { margin:2px 0 0 0; padding:0; }
+#tools fieldset.booked label { padding:0 18px 0 6px; }
+#tools fieldset.intending select { margin:0 6px 0 0;}
+#tools fieldset.child-ages { padding:0 !important; }
+#tools fieldset.child-ages > div { padding:13px 0; }
+#tools fieldset.child-ages span { padding:0; }
+#tools fieldset.child-ages select.compact { width:130px; }
+#tools div.thanks { width:400px; }
+#tools div.img { float:right; width:240px; height:300px; background-image:url(/walt-disney-world/images/modal/jessie.png); }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Footer */
+footer section p, footer section a, footer section h5 { color:#253b56 !important; }
+footer section li > a:hover { color:#1994d7 !important; }
+
+
+
