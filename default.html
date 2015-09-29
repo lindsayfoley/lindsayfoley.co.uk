@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	
+	
+<head>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>	
+	
+</head>
+
+
+<body>
+	
+<style type="text/css">
+
+body { position: relative; }
+#viewersPopup { width: 320px; height: 50px; position: absolute; /* bottom: 15px; */ right: 15px; background-color: rgba(255, 255, 255, 0.7); border: 1px solid gray; border-radius: 10px; box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); display: none;  z-index: 98; }	
+#viewersPopup p { text-align: center; padding-top: 14px; }
+	
+</style>
+
+<div id="viewersPopup">
+	<p><span></span> viewing this resort right now</p>
+</div>
+
+
+<script>
+	
+var SessionCookieSetter = {
+	
+	cookieKey: "pageIdsWherePopupHasBeenSeen",
+	
+	run: function() {
+		
+		var urlId = SessionCookieSetter.getUrlId(window.location.href);
+		var myCookieData = SessionCookieSetter.readCookie(SessionCookieSetter.cookieKey);
+		var idIsStored = SessionCookieSetter.doesCookieDataContainUrlId(urlId, myCookieData);
+		
+		if(idIsStored) {
+			SessionCookieSetter.hideNoOfUsersDiv();
+		}
+		
+		var updatedCookieData = SessionCookieSetter.addNewPageIdToCookieDataIfNotFoundPreviously(urlId, myCookieData);
+
+		SessionCookieSetter.setCookie(SessionCookieSetter.cookieKey, updatedCookieData);
+		
+	},
+	
+	getUrlId: function(url) {
+		
+		var urlId = url.substring(url.lastIndexOf('/') + 1);
+		return urlId.substring(0, 3);
+	},
+	
+	doesCookieDataContainUrlId: function(urlId, cookieData) {
+		
+		if(cookieData === null || urlId === "") {
+			return false;
+		}
+		
+		var indexOfUrlIdWithinCookieDataString = cookieData.indexOf(urlId);
+		
+		return (indexOfUrlIdWithinCookieDataString >= 0);
+	},
+	
+	hideNoOfUsersDiv: function() {
+		
+		$('#viewersPopup').remove();
+	},
+	
+	addNewPageIdToCookieDataIfNotFoundPreviously: function(urlId, cookieData) {
+		
+		if(cookieData === null || cookieData === "") {
+			return urlId;
+		}
+		
+		var pageIdWasFoundPreviously = SessionCookieSetter.doesCookieDataContainUrlId(urlId, cookieData);
+		
+		if(!pageIdWasFoundPreviously && urlId != "") {
+			cookieData = cookieData + "," + urlId;
+		} 
+		
+		return cookieData;	
+	},
+	
+	setCookie: function(cookieName, cookieValue) {
+		
+		document.cookie = cookieName + "=" + cookieValue + "; path=/";
+	
+	},
+		
+	readCookie: function(cookieName) { 
+		var nameEquals = cookieName + "=";
+		var cookieArray = document.cookie.split(';');
+			
+		for(var i=0; i < cookieArray.length; i++) {
+			var cookie = cookieArray[i];
+			
+			while (cookie.charAt(0)==' '){ 
+				cookie = cookie.substring(1,cookie.length);
+			}
+			
+			if (cookie.indexOf(nameEquals) == 0) {
+				 return cookie.substring(nameEquals.length,cookie.length);
+			}
+		}
+		return null;
+	}
+}
+	 
+	
+var ViewingResortAdder = {
+	
+	generateNumberOfUsersForCurrentTime: function() {
+		
+		var today = new Date();
+		var timeOfDay = today.getHours();
+		
+		if(timeOfDay >= 12 && timeOfDay <= 15) {
+			return Math.round((Math.random() * 5) + 1); // lunch hours
+			
+		} else if(timeOfDay >= 0 && timeOfDay <= 8) { 
+			return Math.round((Math.random() * 2) + 1); // night hours
+			
+		} else {
+			return Math.round((Math.random() * 4) + 1);	
+		}
+
+	},
+		
+	addUsersToText: function(numberOfUsers) {
+		
+		var accessPopupText = $('#viewersPopup p span');
+		var person = numberOfUsers + " Person is";
+		var people = numberOfUsers + " People are";
+		
+		var addUserInfo = (numberOfUsers === 1) ? $(accessPopupText).text(person) : $(accessPopupText).text(people);
+		
+		$('#viewersPopup').delay(200).fadeIn(2000).delay(3000).fadeOut("slow");
+	}
+};	
+
+
+/*
+var Tester = {
+	
+	testSplitsLast3CharactersOfUrl: function(url, expectedResult) {
+		var result = SessionCookieSetter.getUrlId(url);
+		
+		if(result !== expectedResult){
+			console.log("Error " + result + " is not equal to " + expectedResult);
+		} else {
+			console.log("Yes " + result + " correctly matched " + expectedResult);
+		}
+	},
+	
+	testConfirmsWeHaveVisitedPageBefore: function(url, cookieData, shouldBeFound) {
+		
+		var result = SessionCookieSetter.getUrlId(url);
+		var idFound = SessionCookieSetter.doesCookieDataContainUrlId(result, cookieData);
+		
+		if(idFound !== shouldBeFound){
+			console.log("Error Should be found failed for " + url + " " + cookieData + " " + shouldBeFound);
+		} else {
+			console.log("Should be found worked for " + url + " " + cookieData + " " + shouldBeFound);
+		}
+		
+	},
+	
+	testAddsCookieDataIfNotFoundPreviously: function(newPageId, oldCookieData, newCookieData) {
+		
+		var updatedCookieData = SessionCookieSetter.addNewPageIdToCookieDataIfNotFoundPreviously(newPageId, oldCookieData);
+		
+		if(updatedCookieData === newCookieData) {
+			console.log("Correct " + newCookieData + " matches");
+		} else {
+			console.log("Error " + newCookieData + " does not match " + updatedCookieData);
+		}
+		
+	}
+	
+}
+
+Tester.testSplitsLast3CharactersOfUrl('http://www.disney.co.uk/offers/012', "012");
+Tester.testSplitsLast3CharactersOfUrl('http://www.disney.co.uk/offers/tst', "tst");
+Tester.testSplitsLast3CharactersOfUrl('http://www.disney.co.uk/offers/tst?disneyTracker=43245', "tst");
+Tester.testSplitsLast3CharactersOfUrl('http://www.disney.co.uk/offers/tester?disneyTracker=43245', "tes");
+Tester.testSplitsLast3CharactersOfUrl('', "");
+Tester.testSplitsLast3CharactersOfUrl('http://www.disney.co.uk/offers/t', "t");
+
+Tester.testConfirmsWeHaveVisitedPageBefore("http://www.disney.co.uk/lindsay", "013", false);
+Tester.testConfirmsWeHaveVisitedPageBefore("http://www.disney.co.uk/013", "013", true);
+Tester.testConfirmsWeHaveVisitedPageBefore("", "013", false);
+Tester.testConfirmsWeHaveVisitedPageBefore("a", "013", false);
+Tester.testConfirmsWeHaveVisitedPageBefore("a", "", false);
+Tester.testConfirmsWeHaveVisitedPageBefore("", "", false);
+
+Tester.testAddsCookieDataIfNotFoundPreviously("014", "", "014");
+Tester.testAddsCookieDataIfNotFoundPreviously("020", "014", "014,020");
+Tester.testAddsCookieDataIfNotFoundPreviously("022", "014,020", "014,020,022");
+Tester.testAddsCookieDataIfNotFoundPreviously("", "014,020", "014,020");
+*/
+
+
+$(document).ready(function() {
+	SessionCookieSetter.run();
+	
+	var numberOfUsers = ViewingResortAdder.generateNumberOfUsersForCurrentTime();
+	ViewingResortAdder.addUsersToText(numberOfUsers);
+});
+
+	
+</script>
+
+	
+</body>
+
+
+
+</html>

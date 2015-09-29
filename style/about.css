@@ -5,18 +5,20 @@ section { width: 801px; margin: 0 auto; }
 #professionalCopy  h2 { color: #338078; text-shadow: 1px 0 #c6c8c8; }
 #skillsSection { background-color: #4fb5aa; width: 100%; display: none; margin-bottom: 20px; padding-bottom: 20px; position: relative; overflow: hidden; }	
 #skillsSection h2 { text-align: center; font-size: 28px; background-color: #54C0B4; padding-bottom: 40px; }
-#skillsSection h3 { text-decoration: underline; font-size: 18px; margin-bottom: 0; }
 #skillsSection .standOut { text-decoration: underline; font-size: 21px; font-weight: normal; }
-#skillsSection ul  { width: 400px; padding-left: 0; }
-#skillsSection ul li { margin-left: 29%; padding: 0; list-style-type: none; font-size: 14px; }
+#skillsSection dl { width: 400px; color:white; padding-left: 0; }
+#skillsSection dl dt { text-decoration: underline; font-size: 18px; text-align: center; margin:0 0 5px 0; }
+#skillsSection dl dd { font-size: 14px; display: list-item; list-style-type: disc; margin:0 15%; }
 #viewProjectLink, #skillsSection div, #webDevSkills img, #otherSkills img  { float: left; }
-#viewProjectLink, #skillsLink { width: 31.875%!important; }
+#viewProjectLink, #skillsLink { width: 31.875%!important; line-height:35px;  }
 #webDevSkills img, #otherSkills img { margin: 0 118px; }
 #otherSkills { padding-top: 20px; }
 #otherSkills img { width: 163px; }
 #cog { width: 104px; margin-top: -59px; }
 #column_divider { position: absolute; background-color: #54C0B4; width: 5px; height: 100%; top: 165px; left: 49.8%; }
+#skills_animated_screen img { max-width: 163px; }
 #skillsLink { float: right; cursor: pointer; }
+#otherSkills dl dt:last-of-type { margin-top: 30px; }
 #professionalPics { border-bottom: 3px solid #F1F0EE; clear: left; padding: 30px 0; margin: 0 auto; max-width: 801px; width: 100%; }
 #professionalPics figure { float: left; margin-bottom: 50px; position: relative; margin: 0; }
 figure, figure img, figcaption { max-width: 267px; width: 100%; }

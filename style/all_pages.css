@@ -19,8 +19,8 @@ nav { clear: left; }
 nav a { width: 524px; }
 header a, nav a, p a { text-decoration: none; }
 .nav_button { margin-bottom: 35px; width: 249px; height: 37px; border: 1px solid white; font-size: 95%; font-weight: bold; }
-#left_nav_button, #right_nav_button, #socialIcons div, #socialIcons a { float: left;  }
-#left_nav_button, #right_nav_button { padding-top: 2%; }
+#left_nav_button, #right_nav_button, #socialIcons div, #socialIcons a { float: left; }
+#left_nav_button, #right_nav_button { line-height: 35px; }
 #left_nav_button { margin-right: 2.1%; }
 #right_nav_button { margin-left: 2.1%; }
 .end_of_element { clear: both; }
