@@ -1,0 +1,41 @@
+/* Base styles */
+header, nav, main, section, small, footer, header img, main img, footer img, small, details, nav a, figure, figcaption { display:block; }
+header h1, header h2, header img, main img, footer img, nav, small, details { margin:0 auto; }
+h1, header h2, nav a, .button, small, #social-icons { text-align:center; }
+body, header, main, header h1, main img { width:100%; }
+body { background-color:#338078; }
+.wf-loading body { visibility:hidden; } /* Hides flash of unstyled font as it's downloading */
+.wf-active body { font-family:"orator-std",sans-serif; visibility:visible; }
+body { margin:0; }
+header a, nav a, p a { text-decoration:none; }
+h2 { font-size:22px; margin:0 0 16px 0; }
+p, ul li { font-size:16px; line-height:22px; margin-top:0; }
+ul { padding-left:0; }
+a img { border:0; }
+i { vertical-align:middle; }
+.header-separator-img { max-width:225px; width:100%; margin-bottom:5px; } 
+
+/* Header */
+header, main { background-color:#54C0B4; min-width:320px; }
+header h2 { font-weight:normal; }
+header h2:first-child { color:#423F3F; font-size:27px; padding:10px 0 5px 0; }
+header h2:last-child { font-family:serif; font-size:21px; font-style:italic; padding-top:10px; letter-spacing:0.5px; }
+header h1 { font-size:39px; letter-spacing:-0.5px; border-bottom:4px double white; max-width:400px; border-top:4px solid white; line-height:90%; padding-bottom:10px; }
+header h1, header h1 a, header h2:last-child, nav a, h2, p, p a, ul li { color:white; }
+header img { padding-top:2.6%; width:30%; }
+main { padding-top:2.05%; }
+main img { margin:0 auto; max-width:540px; }
+
+/* Nav */
+nav { width:524px; overflow:hidden; clear:left; }
+nav a, .button { float:left; width:249px; height:37px; margin-bottom:35px; border:1px solid white; font-weight:bold;  }
+nav a:first-child, nav a:last-child { line-height:35px; }
+nav a:first-child { margin-right:2.1%; }
+nav a:last-child { margin-left:2.1%; }
+
+/* Footer */
+footer { padding-top:1.15%; }
+#social-icons a { border:0; }
+#social-icons a i { font-size:20px; color:#fabb77; }
+#social-icons a:nth-of-type(2) i { margin:0 10px; }
+small { color:#c1a944; padding:0.8% 0 1.25% 0; letter-spacing:1px; }
