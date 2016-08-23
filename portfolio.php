@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Lindsay Foley: Web Developer - London - Portfolio</title>
-<meta name="keywords" content="freelancer, freelance, web, developer, development, London, XHTML, HTML, HTML 5, css, jQuery, JavaScript, web design, web development, web site development, web site design, web design development, interactive, london web design, london ecommerce, london e-commerce, london web development, uk, web site, web sites, Lindsay Foley">
-<meta name="description" content="Lindsay Foley is a freelance web developer in London, have a look at some completed projects here...">
-<meta charset="UTF-8">
-<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+<title>My Portfolio | Lindsay Foley | Web Developer based in London</title>
+<?php include('structure/meta.php'); ?>
+<meta name="keywords" content="freelancer, freelance, web, developer, development, London, XHTML, HTML, HTML 5, css, jQuery, Javascript, web design, web development, web site development, web site design, web design development, interactive, london web design, london ecommerce, london e-commerce, london web development, uk, web site, web sites, Lindsay Foley">
+<meta name="description" content="Lindsay Foley is a freelance web developer in London, have a look at some completed projects here.">
 <?php include('structure/styles.php'); ?>
 <link rel="stylesheet" type="text/css" href="style/portfolio.css">
 <link rel="stylesheet" type="text/css" href="style/portfolio_responsive.css">
@@ -14,43 +13,43 @@
 <?php include('structure/legacy.php'); ?>
 </head>
 
-<body>
+<body itemscope itemtype="http://schema.org/Person">
 
-<header><h1><a href="/">lindsay foley</a></h1></header>
+<header><h1 itemprop="name"><a href="/">Lindsay Foley</a></h1></header>
 
 <main>
-	<h2>web development projects</h2>
+	<h2><span itemprop="jobTitle">Web Development</span> Projects</h2>
 	<img class="header-separator-img" src="images/lamp.png" alt="" />
 	<section id="wrapper" class="companies">	
 		
 		<div class="row">
 			<section id="disney">
-				<div>
-					<h3>disney holidays</h3>
+				<div itemscope itemtype="http://schema.org/CreativeWork">
+					<h3 itemprop="name">Disney Holidays</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p>i am currently co-developing a responsive/adaptive version of this site, due to launch august 2016.</p>
-						<a href="http://www.disneyholidays.co.uk/" target="_blank">take a look &rsaquo;</a>
+						<p itemprop="description">I am currently co-developing a <span itemprop="keywords">responsive/adaptive</span> version of this site, due to launch August 2016.</p>
+						<a itemprop="url" href="http://www.disneyholidays.co.uk/" target="_blank">Take a look &rsaquo;</a>
 					</div>
 				</div>
 			</section>
 			<section id="dashwood">
-				<div>
-					<h3>e hayes dashwood</h3>
+				<div itemscope itemtype="http://schema.org/CreativeWork">
+					<h3 itemprop="name">E Hayes Dashwood</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p>i volunteered to update the look and feel of this website. it was written in html5, css &amp; jquery.</p>
-						<a href="http://www.hayesdashwood.org.uk/" target="_blank">take a look &rsaquo;</a>
+						<p itemprop="description">I volunteered to update the look and feel of this website. it was <span itemprop="keywords">written in HTML5, CSS &amp; jQuery</span>.</p>
+						<a itemprop="url" href="http://www.hayesdashwood.org.uk/" target="_blank">Take a look &rsaquo;</a>
 					</div>
 				</div>
 			</section>
 			<section id="hopelands">
-				<div>
-					<h3>hopelands cattery</h3>
+				<div itemscope itemtype="http://schema.org/CreativeWork">
+					<h3 itemprop="name">Hopelands Cattery</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p>i designed &amp; developed this site using html5, css &amp; jquery.</p>
-						<a href="http://hopelandscattery.com" target="_blank">take a look &rsaquo;</a>
+						<p itemprop="description">I designed &amp; developed this site using <span itemprop="keywords">HTML5, CSS &amp; jQuery</span>.</p>
+						<a itemprop="url" href="http://hopelandscattery.com" target="_blank">Take a look &rsaquo;</a>
 					</div>
 				</div>
 			</section>
@@ -58,40 +57,40 @@
 				
 		<div class="row">
 			<section id="selfridges">
-				<div>
-					<h3>selfridges</h3>
+				<div itemscope itemtype="http://schema.org/CreativeWork">
+					<h3 itemprop="name">Selfridges</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p>i developed responsive content &amp; html emails using html5, css &amp; jquery.</p>
+						<p itemprop="description">I developed responsive content &amp; HTML emails using <span itemprop="keywords">HTML5, CSS &amp; jQuery</span>.</p>
 						<ul>
-							<li><a href="http://www.selfridges.com/content/article/investment-classics-menswear" target="_blank">give me five &rsaquo;</a></li>
-							<li><a href="http://www.selfridges.com/content/article/how-to-wear-it-london-collection-mens" target="_blank">how to wear it &rsaquo;</a></li>
-							<li><a href="http://www.selfridges.com/content/article/paddington" target="_blank">paddington curiosity shop &rsaquo;</a></li>
+							<li><a itemprop="url" href="http://www.selfridges.com/content/article/investment-classics-menswear" target="_blank">Give me five &rsaquo;</a></li>
+							<li><a itemprop="url" href="http://www.selfridges.com/content/article/how-to-wear-it-london-collection-mens" target="_blank">How to wear it &rsaquo;</a></li>
+							<li><a itemprop="url" href="http://www.selfridges.com/content/article/paddington" target="_blank">Paddington curiosity shop &rsaquo;</a></li>
 						</ul>
 					</div>
 				</div>
 			</section>
 			<section id="whitestuff">
-				<div>
-					<h3>white stuff</h3>
+				<div itemscope itemtype="http://schema.org/CreativeWork">
+					<h3 itemprop="name">White Stuff</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p>i creating web content &amp; html emails using xhtml4, css3 &amp; jquery.</p>
+						<p itemprop="description">I created web content &amp; <span itemprop="keywords">HTML emails using XHTML4, CSS3 &amp; jQuery</span>.</p>
 						<ul>
-							<li><a href="http://web.archive.org/web/20140701070509/http://www.whitestuff.com/explore" target="_blank">explore landing page &rsaquo;</a></li>
-							<li><a href="http://www.whitestuff.com/faqs" target="_blank">faq toggle menu &rsaquo;</a></li>
-							<li><a href="http://www.whitestuff.com/wild-reads" target="_blank">wild reads &rsaquo;</a></li>
+							<li><a itemprop="url" href="http://web.archive.org/web/20140701070509/http://www.whitestuff.com/explore" target="_blank">Explore landing page &rsaquo;</a></li>
+							<li><a itemprop="url" href="http://www.whitestuff.com/faqs" target="_blank">FAQ toggle menu &rsaquo;</a></li>
+							<li><a itemprop="url" href="http://www.whitestuff.com/wild-reads" target="_blank">Wild reads &rsaquo;</a></li>
 						</ul>
 					</div>
 				</div>
 			</section>
 			<section id="ppp">
-				<div>
-					<h3>paw print productions</h3>
+				<div itemscope itemtype="http://schema.org/CreativeWork">
+					<h3 itemprop="name">Paw Print Productions</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p>i co-developed &amp; designed this responsive site many years ago using html5, css3 &amp; jquery.</p>
-						<a href="http://www.paw-print-productions.co.uk" target="_blank">take a look &rsaquo;</a>
+						<p itemprop="description">I co-developed &amp; designed this responsive site many years ago using <span itemprop="keywords">HTML5, CSS3 &amp; jQuery</span>.</p>
+						<a itemprop="url" href="https://web.archive.org/web/20160115162243/http://paw-print-productions.co.uk/" target="_blank">Take a look &rsaquo;</a>
 					</div>
 				</div>
 			</section>
@@ -99,34 +98,34 @@
 		
 		<div class="row">
 			<section id="jia">
-				<div>
-					<h3>jesus in action</h3>
+				<div itemscope itemtype="http://schema.org/CreativeWork">
+					<h3 itemprop="name">Jesus In Action</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p>this website underwent a complete refresh using html5, css3 &amp; jquery.</p>
-						<a href="http://jesusinaction.org.uk" target="_blank">take a look &rsaquo;</a>
+						<p itemprop="description">This website underwent a complete refresh using <span itemprop="keywords">HTML5, CSS3 &amp; jQuery</span>.</p>
+						<a itemprop="url" href="http://jesusinaction.org.uk" target="_blank">Take a look &rsaquo;</a>
 					</div>
 				</div>
 			</section>
 			<section id="theyer">
-				<div>
-					<h3>theyer fitness</h3>
+				<div itemscope itemtype="http://schema.org/CreativeWork"> 
+					<h3 itemprop="name">Theyer Fitness</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p>this site was revamped in 2011 using html5 &amp; css3.</p>
-						<a href="http://theyerfitness.co.uk" target="_blank">take a look &rsaquo;</a>
+						<p itemprop="description">This site was revamped in <span itemprop="dateCreated">2011</span> using <span itemprop="keywords">HTML5 &amp; CSS3</span>.</p>
+						<a itemprop="url" href="http://theyerfitness.co.uk" target="_blank">Take a look &rsaquo;</a>
 					</div>
 				</div>
 			</section>
 			<section id="ob">
-				<div>
-					<h3>oliver bonas</h3>
+				<div itemscope itemtype="http://schema.org/CreativeWork">
+					<h3 itemprop="name">Oliver Bonas</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p>i joined the web team in 2008, designing content and html emails. they look very dated &amp; far too long now!</p>
+						<p itemprop="description">I joined the web team in <span itemprop="dateCreated">2008</span>, <span itemprop="keywords">designing content and HTML emails</span>. they look very dated &amp; far too long now!</p>
 						<ul>
-							<li><a href="/images/OB_12days.jpg" target="_blank">12 days of xmas email &rsaquo;</a></li>
-							<li><a href="/images/OB_luxeliving.jpg" target="_blank">luxe living email &rsaquo;</a></li>
+							<li><a itemprop="url" href="/images/OB_12days.jpg" target="_blank">12 days of xmas email &rsaquo;</a></li>
+							<li><a itemprop="url" href="/images/OB_luxeliving.jpg" target="_blank">luxe living email &rsaquo;</a></li>
 						</ul>					
 					</div>
 				</div>
@@ -135,7 +134,7 @@
 	</section>
 
 	<nav>
-		<a href="about.php">about me</a>
+		<a itemprop="url" href="about">about me</a>
 		<a href="/">back to home</a>
 	</nav>
 </main>

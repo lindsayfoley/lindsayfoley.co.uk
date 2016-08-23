@@ -1,12 +1,10 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<title>About Lindsay Foley: Web Developer - London</title>
-<meta name="keywords" content="freelancer, freelance, web, developer, development, London, XHTML, HTML, HTML 5, CSS, jQuery, JavaScript, web design, web development, web site development, web site design, web design development, interactive, london web design, london ecommerce, london e-commerce, london web development, uk, web site, web sites, Lindsay Foley">
-<meta name="description" content="Lindsay Foley is a freelance web developer in London, find out about me here...">
-<meta charset="UTF-8">
-<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-
+<title>About Me | Lindsay Foley | Web Developer based in London</title>
+<?php include('structure/meta.php'); ?>
+<meta name="keywords" content="freelancer, freelance, web, developer, development, London, XHTML, HTML, HTML 5, CSS, jQuery, Javascript, web design, web development, web site development, web site design, web design development, interactive, london web design, london ecommerce, london e-commerce, london web development, uk, web site, web sites, Lindsay Foley">
+<meta name="description" content="Lindsay Foley is a freelance web developer in London, find out about me here and get in touch to discuss your next project.">
 <?php include('structure/styles.php'); ?>
 <link rel="stylesheet" type="text/css" href="style/about.css">
 <link rel="stylesheet" type="text/css" href="style/about_responsive.css">
@@ -15,25 +13,24 @@
 <?php include('structure/legacy.php'); ?>
 </head>
 
-<body>
+<body itemscope itemtype="http://schema.org/Person">
 
-<header><h1><a href="/">lindsay foley</a></h1></header>
+<header><h1 itemprop="name"><a href="/">Lindsay Foley</a></h1></header>
 
 <main>	
 	<section id="professional">
 		<div>
-			<h2>a little bit about me</h2>
+			<h2>A Bit About Me</h2>
 			<img class="header-separator-img" src="images/plug.png" alt="" />
-			<p>i’ve been working on my corner of the internet for quite a while so thanks for stopping by!</p>
-			<p>i have 6 years of experience working in an ecommerce environment and have been developing professionally for about 5 years now.</p>
-			<p>i have worked for oliver bonas, anya hindmarch, white stuff, selfridges &amp; co and have recently joined the walt disney travel company as a front end developer.</p>
-			<p>as well as developing, i am learning and practising graphic design. i have designed and drawn all content you see here and on 
-			<a href="http://paw-print-productions.co.uk" target="_blank"> paw print productions</a>, my little web development company.</p>
-			<p>&bull; &bull; &bull;</p>
-			<p><a id="contact-cta" class="button" href="mailto:me@lindsayfoley.co.uk">contact me</a> <span id="skills-cta" class="button">my skills</span></p>
+			<p>I’ve been busy working on my little corner of the internet for quite a while so thanks for stopping by!</p>
+			<p>I have 6 years of experience working in an ecommerce environment and have been developing professionally for about 5 years now.</p>
+			<p itemprop="description">I have been lucky enough to work for some notable companies such as Anya Hindmarch and Selfridges &amp; Co. in February 2015, I joined the Walt Disney Travel Company as a <span itemprop="jobTitle">Front End Web Developer</span>.</p>
+			<p itemprop="makesOffer">I'm freelancing in my spare time so please can get in touch if I can get involved in your upcoming projects.</p>
+			<a id="contact-cta" class="button" itemprop="email" href="mailto:me@lindsayfoley.co.uk">contact me</a> 
+			<a id="skills-cta" class="button">my skills</a>
 		</div>
 		<div id="skills-section">
-			<h2>key skills<br> <span>and</span> <br>experience</h2>
+			<h2>Key Skills<br> <span>and</span> <br>Experience</h2>
 			<div>
 				<section id="animated-screen">
 					<div>
@@ -56,60 +53,60 @@
 				<dl>
 					<dt>WEB DEVELOPMENT</dt>
 					<dd>5 years developing</dd>
-					<dd>html5 and below</dd>
-					<dd>css3 and below</dd>
-					<dd>jquery</dd>
-					<dd>javascript</dd>
-					<dd>bit of php</dd>
-					<dd>foundation/bootstrap experience</dd>
-					<dd>responsive/adaptive development</dd>
-					<dd>cross browser compatibility</dd>
-					<dd>git and svn</dd>
-					<dd>optimisation techniques</dd>
-					<dd>web performance tuning</dd>
-					<dd>mvt testing</dd>
-					<dd>vast cms experience</dd>
-					<dd>structured data markup/microdata</dd>
+					<dd>HTML5 and below</dd>
+					<dd>CSS3 and below</dd>
+					<dd>jQuery</dd>
+					<dd>Javascript</dd>
+					<dd>Bit of php</dd>
+					<dd>Foundation &amp; Bootstrap experience</dd>
+					<dd>Responsive/adaptive development</dd>
+					<dd>Cross browser compatibility</dd>
+					<dd>Git and SVN</dd>
+					<dd>Optimisation techniques</dd>
+					<dd>Web performance tuning</dd>
+					<dd>MVT testing</dd>
+					<dd>Vast CMS experience</dd>
+					<dd>Structured data markup/Microdata</dd>
 				</dl>
 		  </div>
 			<div>
 				<img src="images/skills_email.png" alt="HTML emails" />
 				<dl>
 					<dt>HTML EMAILS</dt>
-					<dd>writing rich html emails</dd>
-					<dd>responsive emails</dd>
-					<dd>dynamic emails</dd>
-					<dd>email platform experience</dd>
+					<dd>Writing rich HTML emails</dd>
+					<dd>Responsive emails</dd>
+					<dd>Dynamic emails</dd>
+					<dd>Email platform experience</dd>
 					<dt>OTHER</dt>
-					<dd>social plugin integration</dd>
-					<dd>analytics platforms</dd>
-					<dd>issue tracking software</dd>
-					<dd>wordpress customisation</dd>
-					<dd>accessibility</dd>
-					<dd>seo best practices</dd>
-					<dd>graphic design</dd>
-					<dd>adobe cc</dd>
+					<dd>Social plugin integration</dd>
+					<dd>Analytics platforms</dd>
+					<dd>Issue tracking software</dd>
+					<dd>Wordpress customisation</dd>
+					<dd>Accessibility</dd>
+					<dd>Modern SEO</dd>
+					<dd>Graphic design</dd>
+					<dd>Adobe CC</dd>
 				</dl>
 			</div>
 		</div>
 		<div id="professional-tiles">
 			<figure id="coding">
 				<img src="images/coding.png" alt="Coding tools" />
-				<figcaption><p>i am pc and mac literate and<br> the editor i use the most<br> is Coda</p></figcaption>		  
+				<figcaption><p>I am PC and Mac literate and<br> the editor I use the most<br> is Coda</p></figcaption>		  
 			</figure>
 			<figure id="learning">
 				<img src="images/reading.png" alt="Online resources that have helped me learn" />
-				<figcaption><p>i use online resources such<br> as codecademy to learn and<br> practice programming</p></figcaption>
+				<figcaption><p>I use online resources such<br> as Codecademy to learn and<br> practice programming</p></figcaption>
 			</figure>
 			<figure id="time">
 				<img src="images/time.png" alt="Blogs I read" />
-				<figcaption><p>i read blogs like <br>'Smashing Magazine' to keep<br> updated about new<br> stuff in web</p></figcaption>		  
+				<figcaption><p>I read blogs like <br>'Smashing Magazine' to keep<br> updated about new<br> stuff in web</p></figcaption>		  
 			</figure>	
 		</div>
 	</section>
-	<nav>
-		<a href="portfolio.php">view my work</a>
-		<a href="/">back to home</a>
+	<nav itemscope itemtype="http://schema.org/CreativeWork">
+		<a href="portfolio" itemprop="url">View my work</a>
+		<a href="/">Back to home</a>
 	</nav>
 </main>
 <?php include('structure/footer.php'); ?>
