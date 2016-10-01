@@ -1,3 +1,8 @@
+/* Desktop */
+@media all and (min-width:768px) {
+#professional p:last-of-type { padding-bottom:20px; }
+}
+
 /* Animating screen */
 @media all and (min-width:901px) {
 #animated-screen{ position:relative; }
@@ -35,7 +40,7 @@
 figure img { transition:all 0.5s ease; }
 figure:hover img { opacity:0.7; transition:opacity 0.35s ease 0s, transform 0.35s ease 0s; -webkit-transition:opacity 0.35s ease 0s, transform 0.35s ease 0s; transform:scale(1.15); overflow:hidden; }
 figure:hover p { display:block; }
-figure:hover figcaption { height:235px; background-color:rgba(255, 255, 255, 0.5); position:absolute; max-width:266.5px; top:0; left:0; margin:0; }
+figure:hover figcaption { height:235px; background-color:rgba(255, 255, 255, 0.7); position:absolute; max-width:266.5px; top:0; left:0; margin:0; }
 nav { margin-top:45px; }
 }
 @media all and (max-width:768px) { #contact-cta { display:none; } #skills-cta { float:none; display:block; margin:0 auto 5% auto; width:100%!important; max-width:522px; } }

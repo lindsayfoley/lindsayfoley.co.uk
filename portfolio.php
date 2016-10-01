@@ -18,7 +18,7 @@
 <header><h1 itemprop="name"><a href="/">Lindsay Foley</a></h1></header>
 
 <main>
-	<h2><span itemprop="jobTitle">Web Development</span> Projects</h2>
+	<h2><span itemprop="jobTitle">Web Based</span> Projects</h2>
 	<img class="header-separator-img" src="images/lamp.png" alt="" />
 	<section id="wrapper" class="companies">	
 		
@@ -28,7 +28,7 @@
 					<h3 itemprop="name">Disney Holidays</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p itemprop="description">I am currently co-developing a <span itemprop="keywords">responsive/adaptive</span> version of this site, due to launch August 2016.</p>
+						<p itemprop="description">I co-developed a <span itemprop="keywords">responsive/adaptive</span> version of this site, which launched September 2016.</p>
 						<a itemprop="url" href="http://www.disneyholidays.co.uk/" target="_blank">Take a look &rsaquo;</a>
 					</div>
 				</div>
@@ -79,7 +79,7 @@
 						<ul>
 							<li><a itemprop="url" href="http://web.archive.org/web/20140701070509/http://www.whitestuff.com/explore" target="_blank">Explore landing page &rsaquo;</a></li>
 							<li><a itemprop="url" href="http://www.whitestuff.com/faqs" target="_blank">FAQ toggle menu &rsaquo;</a></li>
-							<li><a itemprop="url" href="http://www.whitestuff.com/wild-reads" target="_blank">Wild reads &rsaquo;</a></li>
+							<li><a itemprop="url" href="http://web.archive.org/web/20140511040437/http://www.whitestuff.com/jobs/" target="_blank">Jobs Microsite &rsaquo;</a></li>
 						</ul>
 					</div>
 				</div>
@@ -112,7 +112,7 @@
 					<h3 itemprop="name">Theyer Fitness</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p itemprop="description">This site was revamped in <span itemprop="dateCreated">2011</span> using <span itemprop="keywords">HTML5 &amp; CSS3</span>.</p>
+						<p itemprop="description">My first piece of freelance work! This site was revamped in <span itemprop="dateCreated">2011</span> using <span itemprop="keywords">HTML5 &amp; CSS3</span>.</p>
 						<a itemprop="url" href="http://theyerfitness.co.uk" target="_blank">Take a look &rsaquo;</a>
 					</div>
 				</div>

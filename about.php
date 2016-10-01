@@ -25,12 +25,12 @@
 			<p>I’ve been busy working on my little corner of the internet for quite a while so thanks for stopping by!</p>
 			<p>I have 6 years of experience working in an ecommerce environment and have been developing professionally for about 5 years now.</p>
 			<p itemprop="description">I have been lucky enough to work for some notable companies such as Anya Hindmarch and Selfridges &amp; Co. in February 2015, I joined the Walt Disney Travel Company as a <span itemprop="jobTitle">Front End Web Developer</span>.</p>
-			<p itemprop="makesOffer">I'm freelancing in my spare time so please can get in touch if I can get involved in your upcoming projects.</p>
+			<p itemprop="makesOffer">I'm freelancing in my spare time so please get in touch if I can get involved in your upcoming projects.</p>
 			<a id="contact-cta" class="button" itemprop="email" href="mailto:me@lindsayfoley.co.uk">contact me</a> 
 			<a id="skills-cta" class="button">my skills</a>
 		</div>
 		<div id="skills-section">
-			<h2>Key Skills<br> <span>and</span> <br>Experience</h2>
+			<h2>Key Skills &amp; Experience</h2>
 			<div>
 				<section id="animated-screen">
 					<div>
@@ -58,15 +58,15 @@
 					<dd>jQuery</dd>
 					<dd>Javascript</dd>
 					<dd>Bit of php</dd>
-					<dd>Foundation &amp; Bootstrap experience</dd>
-					<dd>Responsive/adaptive development</dd>
+					<dd>Foundation and Bootstrap</dd>
+					<dd>Responsive/adaptive work</dd>
 					<dd>Cross browser compatibility</dd>
 					<dd>Git and SVN</dd>
 					<dd>Optimisation techniques</dd>
 					<dd>Web performance tuning</dd>
-					<dd>MVT testing</dd>
+					<dd>Structured data/Microdata</dd>
+					<dd>Load testing</dd>
 					<dd>Vast CMS experience</dd>
-					<dd>Structured data markup/Microdata</dd>
 				</dl>
 		  </div>
 			<div>
@@ -76,31 +76,32 @@
 					<dd>Writing rich HTML emails</dd>
 					<dd>Responsive emails</dd>
 					<dd>Dynamic emails</dd>
-					<dd>Email platform experience</dd>
+					<dd>Email marketing platforms</dd>
 					<dt>OTHER</dt>
+					<dd>MVT testing</dd>
 					<dd>Social plugin integration</dd>
 					<dd>Analytics platforms</dd>
 					<dd>Issue tracking software</dd>
 					<dd>Wordpress customisation</dd>
+					<dd>Squarespace customisation</dd>
 					<dd>Accessibility</dd>
 					<dd>Modern SEO</dd>
 					<dd>Graphic design</dd>
-					<dd>Adobe CC</dd>
 				</dl>
 			</div>
 		</div>
 		<div id="professional-tiles">
 			<figure id="coding">
 				<img src="images/coding.png" alt="Coding tools" />
-				<figcaption><p>I am PC and Mac literate and<br> the editor I use the most<br> is Coda</p></figcaption>		  
+				<figcaption><p>My last 2 projects involved re-writing web frameworks making them mobile friendly</p></figcaption>		  
 			</figure>
 			<figure id="learning">
 				<img src="images/reading.png" alt="Online resources that have helped me learn" />
-				<figcaption><p>I use online resources such<br> as Codecademy to learn and<br> practice programming</p></figcaption>
+				<figcaption><p>I use online resources such as Codecademy to learn and practice programming</p></figcaption>
 			</figure>
 			<figure id="time">
 				<img src="images/time.png" alt="Blogs I read" />
-				<figcaption><p>I read blogs like <br>'Smashing Magazine' to keep<br> updated about new<br> stuff in web</p></figcaption>		  
+				<figcaption><p>I read publications like Smashing Magazine to keep my knowledge current</p></figcaption>		  
 			</figure>	
 		</div>
 	</section>

@@ -6,4 +6,3 @@
 	</div>
 	<small>&#169; LINDSAY FOLEY</small>
 </footer>
-

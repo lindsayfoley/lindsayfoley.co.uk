@@ -1,22 +1,20 @@
 /* General page styles */
 main { width:100%; margin:0 auto; background-color:#54c0b4; }
-header h1 { padding-top:20px; border-top:0; }
 main > section { margin:0 auto; }
 #professional div:first-child { font-size:16px; text-align:center; }
 
 /* Skills section  */
-#professional h2 { color:#296761; }
 #skills-section > div { display:table-cell; width:395px; margin-top:30px; padding:40px 0; background-color:#4fb5aa; }
 #skills-section > div:first-of-type { border-right:9px solid #54C0B4; }
 #skills-section > div:last-of-type img { width:163px; }
-#skills-section > div:last-of-type dl dt:nth-of-type(2) { margin-top:30px; }
+#skills-section > div:last-of-type dl dt:nth-of-type(2) { margin-top:15px; }
 #skills-section { width:100%; display:none; position:relative; overflow:hidden; margin-bottom:20px; }	
-#skills-section h2 { text-align:center; font-size:28px; background-color:#54C0B4; margin-bottom:20px; }
-#skills-section #skills-section .standOut { text-decoration:underline; font-size:21px; font-weight:normal; }
+#skills-section h2 { text-align:center; font-size:28px!important; padding-bottom:10px; }
 #skills-section dl { width:400px; color:white; padding:16px 0 0 0; margin:0; }
 #skills-section dl dt { text-decoration:underline; font-size:18px; text-align:center; margin:0 0 5px 0; }
-#skills-section dl dd { font-size:14px; display:list-item; list-style-type:disc; margin:0 15%; }
-#contact-cta, #skills-cta { width:31.875%!important; line-height:35px; }
+#skills-section dl dd { font-size:16px; display:list-item; list-style-type:disc; margin:0 15%; }
+#contact-cta, #skills-cta { width:31.875%!important; line-height:35px; color:white; }
+#skills-section img { margin:0 auto; }
 #animated-screen img { max-width:163px; }
 #skills-cta { float:right; cursor:pointer; }
 
@@ -26,5 +24,5 @@ figure { float:left; margin-bottom:50px; position:relative; margin:0; }
 figure, figure img, figcaption { max-width:267px; width:100%; }
 figcaption p { text-align:center; display:none; }
 figure { overflow:hidden; max-height:235px;}
-figure p { margin-top:30%; font-size:14px; font-weight:bold; color:black; line-height:20px; text-transform:lowercase; }
+figure p { margin-top:30%; font-size:17px; font-weight:bold; color:black; line-height:20px; text-transform:lowercase; }
 #ppp_link { border-bottom:1px solid #c2e6d4; }

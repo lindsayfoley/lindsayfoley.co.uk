@@ -1,30 +1,29 @@
 /* Base styles */
 header, nav, main, section, small, footer, header img, main img, footer img, small, details, nav a, figure, figcaption { display:block; }
-header h1, header h2, header img, main img, footer img, nav, small, details { margin:0 auto; }
+header h1, header h2, header img, footer img, nav, small, details { margin:0 auto; }
 h1, header h2, nav a, .button, small, #social-icons { text-align:center; }
 body, header, main, header h1, main img { width:100%; }
 body { background-color:#338078; }
+body * { text-transform:lowercase; }
 .wf-loading body { visibility:hidden; } /* Hides flash of unstyled font as it's downloading */
 .wf-active body { font-family:"orator-std",sans-serif; visibility:visible; }
 body { margin:0; }
-header a, nav a, p a { text-decoration:none; }
-h2 { font-size:22px; margin:0 0 16px 0; }
-p, ul li { font-size:16px; line-height:22px; margin-top:0; }
+header h1, header h1 a, nav a, h2, p, p a, ul li { color:white; }
+a { text-decoration:none; }
+body:not(#home) h2 { color:#338078; font-size:24px; margin:0 0 5px 0; }
+p, ul li { font-size:17px; line-height:22px; margin-top:0; }
 ul { padding-left:0; }
 a img { border:0; }
 i { vertical-align:middle; }
-.header-separator-img { max-width:225px; width:100%; margin-bottom:5px; } 
+.header-separator-img { max-width:225px; width:100%; margin:0 auto 15px auto; } 
 
 /* Header */
 header, main { background-color:#54C0B4; min-width:320px; }
-header h2 { font-weight:normal; }
-header h2:first-child { color:#423F3F; font-size:27px; padding:10px 0 5px 0; }
-header h2:last-child { font-family:serif; font-size:21px; font-style:italic; padding-top:10px; letter-spacing:0.5px; }
-header h1 { font-size:39px; letter-spacing:-0.5px; border-bottom:4px double white; max-width:400px; border-top:4px solid white; line-height:90%; padding-bottom:10px; }
-header h1, header h1 a, header h2:last-child, nav a, h2, p, p a, ul li { color:white; }
-header img { padding-top:2.6%; width:30%; }
-main { padding-top:2.05%; }
-main img { margin:0 auto; max-width:540px; }
+header h1 { letter-spacing:-0.5px; border-bottom:4px double white; line-height:90%; padding:0 0 10px 0; }
+#home h2 { font-size:21px; font-family:serif; font-style:italic; font-weight:normal; padding-top:10px; letter-spacing:0.5px; }
+#home img { margin:20px auto 0 auto; max-width:540px; }
+header img { padding-top:20px; width:30%; }
+main { padding-top:10px; }
 
 /* Nav */
 nav { width:524px; overflow:hidden; clear:left; }
