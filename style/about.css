@@ -1,29 +1,28 @@
-main { width: 100%; margin: 0 auto; background-color: #54c0b4; }
-header h1 { padding-top: 20px; border-top: 0; }
-section { width: 801px; margin: 0 auto; }
-#professionalCopy { width: 100%; font-size: 16px; text-align: center; }
-#professionalCopy  h2 { color: #338078; text-shadow: 1px 0 #c6c8c8; }
-#skillsSection { background-color: #4fb5aa; width: 100%; display: none; margin-bottom: 20px; padding-bottom: 20px; position: relative; overflow: hidden; }	
-#skillsSection h2 { text-align: center; font-size: 28px; background-color: #54C0B4; padding-bottom: 40px; }
-#skillsSection .standOut { text-decoration: underline; font-size: 21px; font-weight: normal; }
-#skillsSection dl { width: 400px; color:white; padding-left: 0; }
-#skillsSection dl dt { text-decoration: underline; font-size: 18px; text-align: center; margin:0 0 5px 0; }
-#skillsSection dl dd { font-size: 14px; display: list-item; list-style-type: disc; margin:0 15%; }
-#viewProjectLink, #skillsSection div, #webDevSkills img, #otherSkills img  { float: left; }
-#viewProjectLink, #skillsLink { width: 31.875%!important; line-height:35px;  }
-#webDevSkills img, #otherSkills img { margin: 0 118px; }
-#otherSkills { padding-top: 20px; }
-#otherSkills img { width: 163px; }
-#cog { width: 104px; margin-top: -59px; }
-#column_divider { position: absolute; background-color: #54C0B4; width: 5px; height: 100%; top: 165px; left: 49.8%; }
-#skills_animated_screen img { max-width: 163px; }
-#skillsLink { float: right; cursor: pointer; }
-#otherSkills dl dt:last-of-type { margin-top: 30px; }
-#professionalPics { border-bottom: 3px solid #F1F0EE; clear: left; padding: 30px 0; margin: 0 auto; max-width: 801px; width: 100%; }
-#professionalPics figure { float: left; margin-bottom: 50px; position: relative; margin: 0; }
-figure, figure img, figcaption { max-width: 267px; width: 100%; }
-figcaption p { text-align: center; display: none; }
-#coding, #learning, #time { overflow: hidden; max-height: 235px;}
-#coding p, #learning p, #time p { margin-top: 30%; font-size: 14px; font-weight: bold; color: black; line-height: 20px; text-transform: lowercase; }
-#otherSkills img:nth-child(2) { margin: 174px 0 0 -15px; }
-#ppp_link { border-bottom: 1px solid #c2e6d4; }
+/* General page styles */
+main { width:100%; margin:0 auto; background-color:#54c0b4; }
+main > section { margin:0 auto; }
+#professional div:first-child { font-size:16px; text-align:center; }
+
+/* Skills section  */
+#skills-section > div { display:table-cell; width:395px; margin-top:30px; padding:40px 0; background-color:#4fb5aa; }
+#skills-section > div:first-of-type { border-right:9px solid #54C0B4; }
+#skills-section > div:last-of-type img { width:163px; }
+#skills-section > div:last-of-type dl dt:nth-of-type(2) { margin-top:15px; }
+#skills-section { width:100%; display:none; position:relative; overflow:hidden; margin-bottom:20px; }	
+#skills-section h2 { text-align:center; font-size:28px!important; padding-bottom:10px; }
+#skills-section dl { width:400px; color:white; padding:16px 0 0 0; margin:0; }
+#skills-section dl dt { text-decoration:underline; font-size:18px; text-align:center; margin:0 0 5px 0; }
+#skills-section dl dd { font-size:16px; display:list-item; list-style-type:disc; margin:0 15%; }
+#contact-cta, #skills-cta { width:31.875%!important; line-height:35px; color:white; }
+#skills-section img { margin:0 auto; }
+#animated-screen img { max-width:163px; }
+#skills-cta { float:right; cursor:pointer; }
+
+/* Image tiles */
+#professional-tiles { border-bottom:3px solid #F1F0EE; clear:left; padding:10px 0 30px 0; margin:0 auto; max-width:801px; width:100%; overflow:hidden; }
+figure { float:left; margin-bottom:50px; position:relative; margin:0; }
+figure, figure img, figcaption { max-width:267px; width:100%; }
+figcaption p { text-align:center; display:none; }
+figure { overflow:hidden; max-height:235px;}
+figure p { margin-top:30%; font-size:17px; font-weight:bold; color:black; line-height:20px; text-transform:lowercase; }
+#ppp_link { border-bottom:1px solid #c2e6d4; }

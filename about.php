@@ -52,20 +52,21 @@
 				</section>
 				<dl>
 					<dt>WEB DEVELOPMENT</dt>
-					<dd>5 years developing</dd>
-					<dd>HTML5 and below</dd>
-					<dd>CSS3 and below</dd>
-					<dd>jQuery</dd>
-					<dd>Javascript</dd>
-					<dd>Bit of php</dd>
+					<dd>6 years experience</dd>
+					<dd>HTML5</dd>
+					<dd>CSS3</dd>
+					<dd>jQuery, jQuery UI</dd>
+					<dd>JavaScript</dd>
+					<dd>Bit of PHP</dd>
 					<dd>Foundation and Bootstrap</dd>
-					<dd>Responsive/adaptive work</dd>
+					<dd>RWD/AWD/RESS</dd>
 					<dd>Cross browser compatibility</dd>
-					<dd>Git and SVN</dd>
-					<dd>Optimisation techniques</dd>
-					<dd>Web performance tuning</dd>
-					<dd>Structured data/Microdata</dd>
-					<dd>Load testing</dd>
+					<dd>SVN, Git - Gitflow workflow</dd>
+					<dd>Webpage optimisation</dd>
+					<dd>JMeter, Blazemeter</dd>
+					<dd>Performance tuning</dd>
+					<dd>Microdata</dd>
+					<dd>Agile methodologies</dd>
 					<dd>Vast CMS experience</dd>
 				</dl>
 		  </div>
@@ -73,11 +74,12 @@
 				<img src="images/skills_email.png" alt="HTML emails" />
 				<dl>
 					<dt>HTML EMAILS</dt>
-					<dd>Writing rich HTML emails</dd>
+					<dd>Rich HTML emails</dd>
 					<dd>Responsive emails</dd>
 					<dd>Dynamic emails</dd>
 					<dd>Email marketing platforms</dd>
 					<dt>OTHER</dt>
+					<dd>Qualified Digital Marketer</dd>
 					<dd>MVT testing</dd>
 					<dd>Social plugin integration</dd>
 					<dd>Analytics platforms</dd>
