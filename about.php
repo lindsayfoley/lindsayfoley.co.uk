@@ -99,7 +99,7 @@
 			</figure>
 			<figure id="learning">
 				<img src="images/reading.png" alt="Online resources that have helped me learn" />
-				<figcaption><p>I use online resources such as Codecademy to learn and practice programming</p></figcaption>
+				<figcaption><p>I use online resources like Edabit &amp; Codecademy to learn and practice programming</p></figcaption>
 			</figure>
 			<figure id="time">
 				<img src="images/time.png" alt="Blogs I read" />
