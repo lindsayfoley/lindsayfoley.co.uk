@@ -28,11 +28,13 @@ hr { margin:20px 0; }
 
 <main>
 	<section>
-		<h3>Enter <strong>each</strong> tea drinker below:</h3>
-		<textarea></textarea>	
-		<button class="button">Add more people</button>
-		<p class="empty">Your list is empty.</p>
-		<button class="button" id="remove" class="button">Remove someone from round</button>
+		<div id="drinker-info">
+			<h3>Enter <strong>each</strong> tea drinker below:</h3>
+			<textarea></textarea>	
+			<button class="button">Add more people</button>
+			<p class="empty">Your list is empty.</p>
+			<button class="button" id="remove" class="button">Remove someone from round</button>
+		</div>
 		<hr>
 		<div id="result">
 			<h3>Click the button below to see who fate has chosen</h3>

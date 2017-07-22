@@ -3,7 +3,7 @@ var teaDrinkers = [];
 var TeaRound = {
 		
 	registerAddButtonForClick: function() {
-		$("section > button:not(#remove)").click(function() {
+		$("#drinker-info > button:not(#remove)").click(function() {
 			TeaRound.verifyNameIsValidAfterAddIsClicked($("textarea").val().toLowerCase());
 		});
 	},
@@ -20,22 +20,13 @@ var TeaRound = {
 		});
 	},	
 	
-	displayMessage: function(message, elemClass) {
+	displayMessage: function(element, message, elemClass) {
 		
 		if(elemClass != "") {
 			elemClass = "class='" + elemClass + "'";
 		} 
-		
-		$("section > p").replaceWith("<p " + elemClass + ">" + message + "</p>");
-	},
-	
-	displayResult: function(message, elemClass) {
-		
-		if(elemClass != "") {
-			elemClass = "class='" + elemClass + "'";
-		} 
-		
-		$("#result > p").replaceWith("<p " + elemClass + ">" + message + "</p>");	
+				
+		$(element + " > p").replaceWith("<p " + elemClass + ">" + message + "</p>");
 	},
 	
 	resetNameField: function() {
@@ -45,7 +36,7 @@ var TeaRound = {
 	verifyNameIsValidAfterAddIsClicked: function(name) {
 								
 		if(name.length === 0) {
-			TeaRound.displayMessage("Enter a name", "error");
+			TeaRound.displayMessage("#drinker-info", "Enter a name", "error");
 		} 
 		else {
 			TeaRound.addNameIfNotInRound(name);		
@@ -58,19 +49,19 @@ var TeaRound = {
 		for(var i = 0; i < teaDrinkers.length; i++) {
 						
 			if(teaDrinkers[i] === name) {
-				TeaRound.displayMessage("Name already exists in round", "error");
+				TeaRound.displayMessage("#drinker-info", "Name already exists in round", "error");
 				return;
 			}
 		}
 		
 		teaDrinkers.push(name);
-		$("section > p").text(teaDrinkers + " has been added!").removeClass();
+		TeaRound.displayMessage("#drinker-info", teaDrinkers + " has been added!", "");
 	},
 
 	removeNameIfInRound: function(name) {
 						
 		if(name.length === 0 || teaDrinkers.length === 0) {
-			TeaRound.displayMessage("Enter a name to remove", "error");
+			TeaRound.displayMessage("#drinker-info", "Enter a name to remove", "error");
 			return;
 		}
 				
@@ -78,9 +69,9 @@ var TeaRound = {
 
 			if(teaDrinkers[i] === name) {
 				teaDrinkers.splice(i, 1);
-				TeaRound.displayMessage(name + " has been deleted. The round consists of " + teaDrinkers, "");
+				TeaRound.displayMessage("#drinker-info", name + " has been deleted. The round consists of " + teaDrinkers, "");
 			} else {
-				TeaRound.displayMessage(name +  " isn't in this round!", "error");
+				TeaRound.displayMessage("#drinker-info", name +  " isn't in this round!", "error");
 			}
 		}
 
@@ -92,16 +83,16 @@ var TeaRound = {
 		var randomValue = Math.floor((Math.random() * teaDrinkers.length) + 1);
 
 		if(teaDrinkers.length === 0) {
-			TeaRound.displayResult("Enter name(s) above in the tea round field", "error");
+			TeaRound.displayMessage("#result", "Enter name(s) above in the tea round field", "error");
 		} else {
-			TeaRound.displayResult(teaDrinkers[randomValue - 1] + " should make the next round!", "");
+			TeaRound.displayMessage("#result", teaDrinkers[randomValue - 1] + " should make the next round!", "");
 			TeaRound.resetTeaArrayAfterPersonSelected();
 		}
 	},
 	
 	resetTeaArrayAfterPersonSelected: function() {
 		teaDrinkers = [];
-		TeaRound.displayMessage("", "");
+		TeaRound.displayMessage("#drinker-info", "", "");
 	},
 	
 	run: function() {
