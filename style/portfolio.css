@@ -1,12 +1,12 @@
 /* General page styles */
-#wrapper, .companies .row { max-width:901px; }
+#wrapper, .companies .row { max-width:900px; }
 #wrapper { margin:0 auto 30px auto; overflow:hidden; }
 h2, .fa-caret-down { text-align:center; }
 h3 { margin:5px 0 0 0; }
 .fa-caret-down { font-size:20px; display:block; }
 
 /* Company tiles */
-.companies section { float:left; width:295px; height:250px; position:relative; cursor:pointer; background-size:contain; background-repeat:no-repeat; } /* Tile */
+.companies section { float:left; width:294px; height:250px; position:relative; cursor:pointer; background-size:contain; background-repeat:no-repeat; } /* Tile */
 .companies section > div { width:295px; position:absolute; bottom:0; height:60px; padding-bottom:5px; left:0; background-color:#feb865; color:white; transition:height 1.5s ease 0s; } /* Orange name panel */
 .companies section > div * { text-align:center; }
 

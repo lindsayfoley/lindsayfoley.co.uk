@@ -21,7 +21,7 @@
 	<section id="professional">
 		<div>
 			<h2>A Bit About Me</h2>
-			<img class="header-separator-img" src="images/plug.png" alt="" />
+			<img class="header-separator-img" src="images/plug.png" alt="Illustration of an electrical plug head" />
 			<p>I’ve been busy working on my little corner of the internet for quite a while so thanks for stopping by!</p>
 			<p>I have 6 years of experience working in an ecommerce environment and have been developing professionally for about 5 years now.</p>
 			<p itemprop="description">I have been lucky enough to work for some notable companies such as Anya Hindmarch and Selfridges &amp; Co. in February 2015, I joined the Walt Disney Travel Company as a <span itemprop="jobTitle">Front End Web Developer</span>.</p>
@@ -82,7 +82,7 @@
 					<dd>Qualified Digital Marketer</dd>
 					<dd>MVT testing</dd>
 					<dd>Social plugin integration</dd>
-					<dd>Analytics platforms</dd>
+					<dd>Google Analytics</dd>
 					<dd>Issue tracking software</dd>
 					<dd>Wordpress customisation</dd>
 					<dd>Squarespace customisation</dd>

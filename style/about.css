@@ -19,9 +19,9 @@ main > section { margin:0 auto; }
 #skills-cta { float:right; cursor:pointer; }
 
 /* Image tiles */
-#professional-tiles { border-bottom:3px solid #F1F0EE; clear:left; padding:10px 0 30px 0; margin:0 auto; max-width:801px; width:100%; overflow:hidden; }
+#professional-tiles { border-bottom:3px solid #F1F0EE; clear:left; padding:10px 0 30px 0; margin:0 auto; max-width:800px; width:100%; overflow:hidden; }
 figure { float:left; margin-bottom:50px; position:relative; margin:0; }
-figure, figure img, figcaption { max-width:267px; width:100%; }
+figure, figure img, figcaption { max-width:266px; width:100%; }
 figcaption p { text-align:center; display:none; }
 figure { overflow:hidden; max-height:235px;}
 figure p { margin-top:30%; font-size:17px; font-weight:bold; color:black; line-height:20px; text-transform:lowercase; }
