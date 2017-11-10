@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Home | Lindsay Foley | Web Developer based in London</title>
+<title>I'm Lindsay Foley, A Front End Web Developer Based In London</title>
 <?php include('structure/meta.php'); ?>
 <meta name="keywords" content="freelancer, freelance, web, developer, development, London, XHTML, HTML, HTML 5, CSS, jQuery, JavaScript, web design, web development, web site development, web site design, web design development, interactive, london web design, london ecommerce, london e-commerce, london web development, uk, web site, web sites, Lindsay Foley">
-<meta name="description" content="Lindsay Foley is a freelance web developer based in London, with 5 years of professional development experience. Currently taking on new projects.">
+<meta name="description" content="I'm a Web Developer with 7 years of  experience, specialising in the front end with a focus on design, UX , HTML, CSS, Javascript and web optimisation.">
 <?php include('structure/styles.php'); ?>
 <?php include('structure/icons.php'); ?>
 <?php include('structure/scripts.php'); ?>
@@ -14,7 +14,7 @@
 <body id="home">
 	<header itemscope itemtype="http://schema.org/Person">
 		<h1 itemprop="name">Lindsay Foley</h1>
-		<h2 itemprop="description"><span itemprop="jobTitle">Web developer</span> based in <span itemprop="workLocation">London</span></h2>
+		<h2 itemprop="description"><span itemprop="jobTitle">Web Developer</span> based in <span itemprop="workLocation">London</span></h2>
 	</header>
 	<main id="homepage">
 		<img src="images/hp_hero.png" alt="A neat and tidy desk housing all the essentials including a cat mug full of english breakfast tea, biscuits and an iMac">

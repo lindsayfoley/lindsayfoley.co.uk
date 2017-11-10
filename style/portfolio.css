@@ -52,3 +52,28 @@ p, ul li { font-size:16px; }
 .overview-panel h3 { padding:10px 0; }
 .overview-panel .fa-caret-down { display:none; }
 
+/********************/
+
+/* Desktop */
+@media all and (min-width:768px) {
+.row:last-of-type { padding-bottom:30px; border-bottom:3px solid #F1F0EE; }
+}
+
+/* Tiles in 3 columns */
+@media all and (max-width:4000px) and (min-width:901px) {
+.companies .row:not(:first-of-type) { margin:8px 0; }
+.companies .row { overflow:hidden; }
+.companies .row section:nth-of-type(2) { margin:0 8px; }
+}
+
+/* Tiles in 2 columns */
+@media all and (max-width:900px) and (min-width:599px) {
+.companies .row { width:598px; margin:0 auto; }
+.companies section { background-size:cover; margin-bottom:8px; }
+.companies .row:first-of-type section:first-of-type, .companies .row:first-of-type section:last-of-type, .companies .row:nth-of-type(2) section:nth-of-type(2), .companies .row:nth-of-type(3) section:nth-of-type(1) { margin-right:8px; }
+}
+
+/* Tiles in 1 column */
+@media all and (max-width:598px) {
+.companies section { float:none; margin:0 auto; margin-bottom:8px; }
+}

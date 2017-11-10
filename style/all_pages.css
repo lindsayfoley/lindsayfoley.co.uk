@@ -38,3 +38,47 @@ footer { padding-top:1.15%; }
 #social-icons a i { font-size:20px; color:#fabb77; }
 #social-icons a:nth-of-type(2) i { margin:0 10px; }
 small { color:#c1a944; padding:0.8% 0 1.25% 0; letter-spacing:1px; }
+
+/********************/
+
+@media all and (min-width:768px) {
+#home header { padding-top:50px; }
+header { padding-top:30px; }
+h1 { max-width:285px; font-size:34px; }
+}
+
+@media all and (max-width:767px) {
+header { padding-top:15px; }
+}
+
+@media all and (min-width:770px) {
+nav a:hover, .button:hover { background-color:white; border:1px solid #4baca1; color:#54C0B4!important; transition:all 0.3s ease 0s; }
+footer { border-top:1px solid white; }
+footer a i:hover { color:#f39e39!important; } }
+
+@media all and (min-width:601px) { header img { min-width:350px; } }
+@media all and (max-width:624px) {
+body, header, main, footer { overflow-x:hidden; min-width:300px; }
+#social-icons { padding-top:5px; }
+footer small { padding:0 0 10px 0; }
+small { margin-top:10px; } }
+
+@media all and (min-width:582px) { #home img { min-width:522px; } }
+@media all and (max-width:535px) { nav { width:100%; } nav a { float:none; width:90%; margin:0 auto 5% auto!important; } }
+
+@media all and (max-width:414px) {
+header h1 { font-size:33px; }
+}
+
+/* iPhone 5s- portrait */
+@media all and (max-width:625px) and (orientation:portrait) {
+nav a:first-child, nav-button:last-child, #view-project { height:37px; }
+header img { min-width:275px!important; margin-top:5px; margin-bottom:10px; }
+#home img { width:90%!important; }
+}
+
+/* iPhone 5s- landscape */
+@media all and (max-width:581px) and (orientation:landscape) {
+header img { width:60%; }
+}
+
