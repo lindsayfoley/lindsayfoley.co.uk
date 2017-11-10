@@ -6,7 +6,7 @@
 <meta name="keywords" content="freelancer, freelance, web, developer, development, London, XHTML, HTML, HTML 5, CSS, jQuery, JavaScript, web design, web development, web site development, web site design, web design development, interactive, london web design, london ecommerce, london e-commerce, london web development, uk, web site, web sites, Lindsay Foley">
 <meta name="description" content="Lindsay Foley is a freelance web developer based in London, with 5 years of professional development experience.">
 <?php include('structure/styles.php'); ?>
-<link href="style/squared.css" type="text/css" rel="stylesheet">
+<link href="style/squared.min.css" type="text/css" rel="stylesheet">
 <?php include('structure/icons.php'); ?>
 <?php include('structure/legacy.php'); ?>
 <script src="//use.typekit.net/kbv2zpu.js"></script>

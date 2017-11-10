@@ -4,8 +4,7 @@
 <title>Tea Round Decider | Lindsay Foley | Web Developer based in London</title>
 <?php include('structure/meta.php'); ?>
 <?php include('structure/styles.php'); ?>
-<link rel="stylesheet" type="text/css" href="style/portfolio.css">
-<link rel="stylesheet" type="text/css" href="style/portfolio_responsive.css">
+<link rel="stylesheet" type="text/css" href="style/portfolio.min.css">
 <?php include('structure/icons.php'); ?>
 <?php include('structure/scripts.php'); ?>
 <?php include('structure/legacy.php'); ?>
