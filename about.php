@@ -51,21 +51,22 @@
 				</section>
 				<dl>
 					<dt>WEB DEVELOPMENT</dt>
-					<dd>6 years experience</dd>
+					<dd>7 years experience</dd>
 					<dd>HTML5</dd>
 					<dd>CSS3</dd>
 					<dd>jQuery, jQuery UI</dd>
 					<dd>JavaScript</dd>
 					<dd>Bit of PHP</dd>
-					<dd>Foundation and Bootstrap</dd>
 					<dd>RWD/AWD/RESS</dd>
-					<dd>Cross browser compatibility</dd>
+					<dd>Schema/Microdata</dd>
 					<dd>SVN, Git - Gitflow workflow</dd>
-					<dd>Webpage optimisation</dd>
-					<dd>JMeter, Blazemeter</dd>
+					<dd>UX &amp; UI design</dd>
+					<dd>Foundation and Bootstrap</dd>
+					<dd>Site monitoring scripting</dd>
+					<dd>Site optimisation</dd>
 					<dd>Performance tuning</dd>
-					<dd>Microdata</dd>
-					<dd>Agile methodologies</dd>
+					<dd>JMeter, Blazemeter</dd>
+					<dd>Cross browser compatibility</dd>
 					<dd>Vast CMS experience</dd>
 				</dl>
 		  </div>
@@ -79,15 +80,16 @@
 					<dd>Email marketing platforms</dd>
 					<dt>OTHER</dt>
 					<dd>Qualified Digital Marketer</dd>
-					<dd>MVT testing</dd>
+					<dd>A/B &amp; MVT testing</dd>
+					<dd>Agile/Scrum workflow</dd>
+					<dd>Modern SEO</dd>
+					<dd>Graphic design</dd>			
+					<dd>Accessibility</dd>
 					<dd>Social plugin integration</dd>
 					<dd>Google Analytics</dd>
 					<dd>Issue tracking software</dd>
+					<dd>Squarespace customisation</dd>				
 					<dd>Wordpress customisation</dd>
-					<dd>Squarespace customisation</dd>
-					<dd>Accessibility</dd>
-					<dd>Modern SEO</dd>
-					<dd>Graphic design</dd>
 				</dl>
 			</div>
 		</div>
