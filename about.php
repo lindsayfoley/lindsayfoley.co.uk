@@ -22,7 +22,7 @@
 			<h2>A Bit About Me</h2>
 			<img class="header-separator-img" src="images/plug.png" alt="Illustration of an electrical plug head" />
 			<p>I’ve been busy working on my little corner of the internet for quite a while so thanks for stopping by!</p>
-			<p>I have 6 years of experience working in an ecommerce environment and have been developing professionally for about 5 years now.</p>
+			<p>I have 6 years of experience working in an ecommerce environment and have been developing professionally for about 5 years.</p>
 			<p itemprop="description">I have been lucky enough to work for some notable companies such as Anya Hindmarch and Selfridges &amp; Co. in February 2015, I joined the Walt Disney Travel Company as a <span itemprop="jobTitle">Front End Web Developer</span>.</p>
 			<p itemprop="makesOffer">I'm freelancing in my spare time so please get in touch if I can get involved in your upcoming projects.</p>
 			<a id="contact-cta" class="button" itemprop="email" href="mailto:me@lindsayfoley.co.uk">contact me</a> 
@@ -104,7 +104,7 @@
 			</figure>
 			<figure id="time">
 				<img src="images/time.png" alt="Blogs I read" />
-				<figcaption><p>I read publications like Smashing Magazine to keep my knowledge current</p></figcaption>		  
+				<figcaption><p>I read publications like Smashing Magazine to keep my knowledge up to date</p></figcaption>		  
 			</figure>	
 		</div>
 	</section>

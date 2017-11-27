@@ -37,7 +37,7 @@
 					<h3 itemprop="name">E Hayes Dashwood</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p itemprop="description">I volunteered to update the design & functionality of this charities website. It was <span itemprop="keywords">written in HTML5, CSS, jQuery &amp; uses the Google Maps API</span>.</p>
+						<p itemprop="description">I volunteered to update the design & functionality of this website. It was <span itemprop="keywords">written in HTML5, CSS, jQuery &amp; uses the Google Maps API</span>.</p>
 						<a itemprop="url" href="http://www.hayesdashwood.org.uk/" target="_blank">Hayes Dashwood Foundation &rsaquo;</a>
 					</div>
 				</div>
@@ -101,7 +101,7 @@
 					<h3 itemprop="name">Jesus In Action</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p itemprop="description">This website underwent a complete refresh in 2012 making it responsive, using <span itemprop="keywords">HTML5, CSS3 &amp; jQuery</span>.</p>
+						<p itemprop="description">This website underwent a complete refresh making it responsive, using <span itemprop="keywords">HTML5, CSS3 &amp; jQuery</span>.</p>
 						<a itemprop="url" href="http://jesusinaction.org.uk" target="_blank">View Jesus In Action &rsaquo;</a>
 					</div>
 				</div>
@@ -111,7 +111,7 @@
 					<h3 itemprop="name">Theyer Fitness</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p itemprop="description">My first piece of freelance work! This site was revamped in <span itemprop="dateCreated">2011</span>, it was given a new design and developed using <span itemprop="keywords">HTML5 &amp; CSS3</span>.</p>
+						<p itemprop="description">My first piece of freelance work! This site was revamped in <span itemprop="dateCreated">2011</span>, it was given a new design &amp; developed using <span itemprop="keywords">HTML5 &amp; CSS3</span>.</p>
 						<a itemprop="url" href="http://theyerfitness.co.uk" target="_blank">Visit Theyer Fitness &rsaquo;</a>
 					</div>
 				</div>
@@ -121,7 +121,7 @@
 					<h3 itemprop="name">Oliver Bonas</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p itemprop="description">I joined the web team in <span itemprop="dateCreated">2008</span>, <span itemprop="keywords">designing content and HTML emails</span>. they are very dated &amp; far too long now!</p>
+						<p itemprop="description">I joined the web team in <span itemprop="dateCreated">2008</span>, <span itemprop="keywords">designing content &amp; HTML emails</span>. they are dated &amp; far too long now!</p>
 						<ul>
 							<li><a itemprop="url" href="/images/OB_12days.jpg" target="_blank">12 days of xmas email &rsaquo;</a></li>
 							<li><a itemprop="url" href="/images/OB_luxeliving.jpg" target="_blank">luxe living email &rsaquo;</a></li>

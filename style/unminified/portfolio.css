@@ -9,6 +9,7 @@ h3 { margin:5px 0 0 0; }
 .companies section { float:left; width:294px; height:250px; position:relative; cursor:pointer; background-size:contain; background-repeat:no-repeat; } /* Tile */
 .companies section > div { width:295px; position:absolute; bottom:0; height:60px; padding-bottom:5px; left:0; background-color:#feb865; color:white; transition:height 1.5s ease 0s; } /* Orange name panel */
 .companies section > div * { text-align:center; }
+.companies section > div h3 { line-height:33px; }
 
 /* Tile backgrounds */
 #disney { background-image:url('/images/disney_tile.png'); }
@@ -42,7 +43,6 @@ h3 { margin:5px 0 0 0; }
 }
 
 /* Overview panel contents */
-p, ul li { font-size:16px; }
 .overiew ul, .overiew p ~ a { border:1px solid white; padding:5px 0;  } /* Frame CTA links */
 .overiew ul { list-style-type:none; }
 .overiew li { line-height:25px; }
