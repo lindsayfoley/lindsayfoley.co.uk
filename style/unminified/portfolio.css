@@ -1,4 +1,4 @@
-#wrapper,.companies .row{max-width:900px}#wrapper{margin:0 auto 30px auto;overflow:hidden}h2,.fa-caret-down{text-align:center}h3{margin:5px 0 0 0}.fa-caret-down{font-size:20px;display:block}.companies section{float:left;width:294px;height:250px;position:relative;cursor:pointer;background-size:contain;background-repeat:no-repeat}.companies section > div{width:295px;position:absolute;bottom:0;height:60px;padding-bottom:5px;left:0;background-color:#feb865;color:white;transition:height 1.5s ease 0s}.companies section > div *{text-align:center}.companies section > div h3{line-height:33px}#travel-blog{background-image:url('/images/come-fly-with-lindsay-tile.jpg')}#disney{background-image:url('/images/disney_tile.png')}#perfume{background-image:url('/images/perfume-tile.jpg')}#dashwood{background-image:url('/images/dashwood_tile.png')}#hopelands{background-image:url('/images/hopelands_tile.png')}#selfridges{background-image:url('/images/selfridges_tile.png')}#ppp{background-image:url('/images/ppp_tile.png')}#whitestuff{background-image:url('/images/ws_tile.png')}#jia{background-image:url('/images/jia_tile.png')}#theyer{background-image:url('/images/theyer_tile.png')}#ob{background-image:url('/images/ob_tile.png')}.overview-panel{height:250px !important;-moz-animation:overview-bg-change 1.5s forwards;-webkit-animation:overview-bg-change 1.5s forwards;animation:overview-bg-change 1.5s forwards;overflow-y:hidden}.overiew{display:none;padding:0 10px}.overview-panel .overiew{display:block}@-moz-keyframes overview-bg-change {from{background-color:#feb865;}to{background-color:rgba(151, 148, 145, 0.95);}}@-webkit-keyframes "overview-bg-change"{from{background-color:#feb865;}to{background-colo/* General page styles */
+/* General page styles */
 #wrapper, .companies .row { max-width:900px; }
 #wrapper { margin:0 auto 30px auto; overflow:hidden; }
 h2, .fa-caret-down { text-align:center; }
@@ -9,7 +9,6 @@ h3 { margin:5px 0 0 0; }
 .companies section { float:left; width:294px; height:250px; position:relative; cursor:pointer; background-size:contain; background-repeat:no-repeat; } /* Tile */
 .companies section > div { width:295px; position:absolute; bottom:0; height:60px; padding-bottom:5px; left:0; background-color:#feb865; color:white; transition:height 1.5s ease 0s; } /* Orange name panel */
 .companies section > div * { text-align:center; }
-.companies section > div h3 { line-height:33px; }
 
 /* Tile backgrounds */
 #travel-blog { background-image:url('/images/come-fly-with-lindsay-tile.jpg'); }
@@ -54,23 +53,18 @@ h3 { margin:5px 0 0 0; }
 .overview-panel h3 { padding:10px 0; }
 .overview-panel .fa-caret-down { display:none; }
 
-/********************/
-
 /* Desktop */
-@media all and (min-width:767px) {
-.row:last-of-type { padding-bottom:30px; border-bottom:3px solid #F1F0EE; }
-}
-
 /* Tiles in 3 columns */
 @media all and (max-width:4000px) and (min-width:901px) {
 .companies .row:not(:first-of-type) { margin:8px 0; }
 .companies .row { overflow:hidden; }
 .companies .row section:nth-of-type(2) { margin:0 8px; }
+.row:last-of-type { padding-bottom:30px; border-bottom:3px solid #F1F0EE; }
 }
 
 /* Tiles in 2 columns */
 @media all and (max-width:900px) and (min-width:599px) {
-.companies .row { width:598px; margin:0 auto; clear:both; }
+.companies .row { width:598px; margin:0 auto; }
 .companies section { background-size:cover; margin-bottom:8px; }
 .companies .row:first-of-type section:first-of-type, .companies .row:first-of-type section:last-of-type, .companies .row:nth-of-type(2) section:nth-of-type(2), .companies .row:nth-of-type(3) section:nth-of-type(1) { margin-right:8px; }
 }
@@ -78,4 +72,5 @@ h3 { margin:5px 0 0 0; }
 /* Tiles in 1 column */
 @media all and (max-width:598px) {
 .companies section { float:none; margin:0 auto; margin-bottom:8px; }
-}r:rgba(151, 148, 145, 0.95);}}@keyframes "overview-bg-change"{from{background-color:#feb865;}to{background-color:rgba(151, 148, 145, 0.95);}}.overiew ul,.overiew p ~ a{border:1px solid white;padding:5px 0}.overiew ul{list-style-type:none}.overiew li{line-height:25px}.overiew p ~ a{display:block}.overiew a{color:white}.companies section > div li:hover,.companies section > div a:hover{background-color:#bbb7b4}.overview-panel h3{padding:10px 0}.overview-panel .fa-caret-down{display:none}@media all and (min-width:76px){.row:last-of-type{padding-bottom:30px;border-bottom:3px solid #F1F0EE}}@media all and (max-width:4000px) and (min-width:901px){.companies .row:not(:first-of-type){margin:8px 0}.companies .row{overflow:hidden}.companies .row section:nth-of-type(2){margin:0 8px}}@media all and (max-width:900px) and (min-width:599px){.companies .row{width:598px;margin:0 auto}.companies section{background-size:cover;margin-bottom:8px}.companies .row:first-of-type section:first-of-type,.companies .row:first-of-type section:last-of-type,.companies .row:nth-of-type(2) section:nth-of-type(2),.companies .row:nth-of-type(3) section:nth-of-type(1){margin-right:8px}}@media all and (max-width:598px){.companies section{float:none;margin:0 auto;margin-bottom:8px}}
+}
+
