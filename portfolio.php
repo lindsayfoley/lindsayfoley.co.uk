@@ -20,21 +20,54 @@
 	<h2><span itemprop="jobTitle">Web Based</span> Projects</h2>
 	<img class="header-separator-img" src="images/lamp.png" alt="Illustration of a spot light" />
 	<section id="wrapper" class="companies">	
-		
+
 		<div class="row">
+			<section id="travel-blog">
+				<div itemscope itemtype="http://schema.org/CreativeWork">
+					<h3 itemprop="name">Come Fly With Lindsay</h3>
+					<i class="fa fa-caret-down"></i>
+					<div class="overiew">
+						<p itemprop="description">My newly launched travel blog which I designed and coded using <span itemprop="keywords">HTML5, CSS3, jQuery &amp; Foundation 6</span>.</p>
+						<a itemprop="url" href="http://comeflywithlindsay.com" target="_blank">Visit Come Fly With Lindsay &rsaquo;</a>
+					</div>
+				</div>
+			</section>		
 			<section id="disney">
 				<div itemscope itemtype="http://schema.org/CreativeWork">
 					<h3 itemprop="name">Disney Holidays</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
 						<p itemprop="description">I co-developed this site using the <span itemprop="keywords">Foundation framework with RESS principles</span>, allowing us to dynamically serve content.</p>
-						<a itemprop="url" href="http://www.disneyholidays.co.uk/" target="_blank">View Disney Holidays &rsaquo;</a>
+						<a itemprop="url" href="http://www.disneyholidays.co.uk/" target="_blank">Explore Disney Holidays &rsaquo;</a>
+					</div>
+				</div>
+			</section>	
+			<section id="jia">
+				<div itemscope itemtype="http://schema.org/CreativeWork">
+					<h3 itemprop="name">Jesus In Action</h3>
+					<i class="fa fa-caret-down"></i>
+					<div class="overiew">
+						<p itemprop="description">This website underwent a complete refresh making it responsive, using <span itemprop="keywords">HTML5, CSS3, jQuery &amp; Foundation 6</span>.</p>
+						<a itemprop="url" href="http://jesusinaction.org.uk" target="_blank">View Jesus In Action &rsaquo;</a>
+					</div>
+				</div>
+			</section>	
+		</div>
+		
+		<div class="row">
+			<section id="perfume">
+				<div itemscope itemtype="http://schema.org/CreativeWork">
+					<h3 itemprop="name">The Perfume Mistress</h3>
+					<i class="fa fa-caret-down"></i>
+					<div class="overiew">
+						<p itemprop="description">I used the Squarespace platform adding bespoke <span itemprop="keywords">CSS and JavaScript</span> to customise the Hayden template.</p>
+						<a itemprop="url" href="https://www.theperfumemistress.com/" target="_blank">The Perfume Mistress &rsaquo;</a>
 					</div>
 				</div>
 			</section>
 			<section id="dashwood">
 				<div itemscope itemtype="http://schema.org/CreativeWork">
-					<h3 itemprop="name">E Hayes Dashwood</h3>
+					<h3 itemprop="name">Hayes Dashwood Foundation</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
 						<p itemprop="description">I volunteered to update the design & functionality of this website. It was <span itemprop="keywords">written in HTML5, CSS, jQuery &amp; uses the Google Maps API</span>.</p>
@@ -42,19 +75,6 @@
 					</div>
 				</div>
 			</section>
-			<section id="hopelands">
-				<div itemscope itemtype="http://schema.org/CreativeWork">
-					<h3 itemprop="name">Hopelands Cattery</h3>
-					<i class="fa fa-caret-down"></i>
-					<div class="overiew">
-						<p itemprop="description">I designed &amp; co-developed this site using <span itemprop="keywords">HTML5, CSS, jQuery, Slick carousel &amp; the Google Maps API</span>.</p>
-						<a itemprop="url" href="http://hopelandscattery.com" target="_blank">Visit Hopelands Cattery &rsaquo;</a>
-					</div>
-				</div>
-			</section>
-		</div>
-				
-		<div class="row">
 			<section id="selfridges">
 				<div itemscope itemtype="http://schema.org/CreativeWork">
 					<h3 itemprop="name">Selfridges</h3>
@@ -68,7 +88,20 @@
 						</ul>
 					</div>
 				</div>
-			</section>
+			</section>			
+		</div>
+				
+		<div class="row">
+			<section id="hopelands">
+				<div itemscope itemtype="http://schema.org/CreativeWork">
+					<h3 itemprop="name">Hopelands Cattery</h3>
+					<i class="fa fa-caret-down"></i>
+					<div class="overiew">
+						<p itemprop="description">I designed &amp; co-developed this site using <span itemprop="keywords">HTML5, CSS, jQuery, Slick carousel &amp; the Google Maps API</span>.</p>
+						<a itemprop="url" href="http://hopelandscattery.com" target="_blank">Visit Hopelands Cattery &rsaquo;</a>
+					</div>
+				</div>
+			</section>			
 			<section id="whitestuff">
 				<div itemscope itemtype="http://schema.org/CreativeWork">
 					<h3 itemprop="name">White Stuff</h3>
@@ -92,17 +125,18 @@
 						<a itemprop="url" href="https://web.archive.org/web/20160115162243/http://paw-print-productions.co.uk/" target="_blank">Paw Print Productions &rsaquo;</a>
 					</div>
 				</div>
-			</section>
+			</section>		
 		</div>
 		
+<!--
 		<div class="row">
-			<section id="jia">
+			<section id="ppp">
 				<div itemscope itemtype="http://schema.org/CreativeWork">
-					<h3 itemprop="name">Jesus In Action</h3>
+					<h3 itemprop="name">Paw Print Productions</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p itemprop="description">This website underwent a complete refresh making it responsive, using <span itemprop="keywords">HTML5, CSS3 &amp; jQuery</span>.</p>
-						<a itemprop="url" href="http://jesusinaction.org.uk" target="_blank">View Jesus In Action &rsaquo;</a>
+						<p itemprop="description">I co-developed &amp; designed this responsive site many years ago (2011) using <span itemprop="keywords">HTML5, CSS3 &amp; jQuery</span>.</p>
+						<a itemprop="url" href="https://web.archive.org/web/20160115162243/http://paw-print-productions.co.uk/" target="_blank">Paw Print Productions &rsaquo;</a>
 					</div>
 				</div>
 			</section>
@@ -130,6 +164,7 @@
 				</div>
 			</section>
 		</div>
+-->
 	</section>
 
 	<nav>
