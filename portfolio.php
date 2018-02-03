@@ -27,7 +27,7 @@
 					<h3 itemprop="name">Come Fly With Lindsay</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p itemprop="description">My newly launched travel blog which I designed and coded using <span itemprop="keywords">HTML5, CSS3, jQuery &amp; Foundation 6</span>.</p>
+						<p itemprop="description">My newly launched travel blog which I designed and coded using <span itemprop="keywords">PHP, Markdown, HTML5, CSS3, jQuery &amp; Foundation 6</span>.</p>
 						<a itemprop="url" href="http://comeflywithlindsay.com" target="_blank">Visit Come Fly With Lindsay &rsaquo;</a>
 					</div>
 				</div>

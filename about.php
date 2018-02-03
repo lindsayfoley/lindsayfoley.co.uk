@@ -56,7 +56,8 @@
 					<dd>CSS3</dd>
 					<dd>jQuery, jQuery UI</dd>
 					<dd>JavaScript</dd>
-					<dd>Bit of PHP</dd>
+					<dd>PHP</dd>
+					<dd>Markdown</dd>
 					<dd>RWD/AWD/RESS</dd>
 					<dd>Schema/Microdata</dd>
 					<dd>SVN, Git - Gitflow workflow</dd>
@@ -75,15 +76,16 @@
 				<dl>
 					<dt>HTML EMAILS</dt>
 					<dd>Rich HTML emails</dd>
-					<dd>Responsive emails</dd>
-					<dd>Dynamic emails</dd>
+					<dd>Responsive &amp; dynamic emails</dd>
 					<dd>Email marketing platforms</dd>
 					<dt>OTHER</dt>
 					<dd>Qualified Digital Marketer</dd>
 					<dd>A/B &amp; MVT testing</dd>
-					<dd>Agile/Scrum workflow</dd>
-					<dd>Modern SEO</dd>
+					<dd>UX testing</dd>
+					<dd>UX design</dd>			
 					<dd>Graphic design</dd>			
+					<dd>SEO</dd>
+					<dd>Agile/Scrum workflow</dd>
 					<dd>Accessibility</dd>
 					<dd>Social plugin integration</dd>
 					<dd>Google Analytics</dd>
