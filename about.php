@@ -22,8 +22,8 @@
 			<h2>A Bit About Me</h2>
 			<img class="header-separator-img" src="images/plug.png" alt="Illustration of an electrical plug head" />
 			<p>I’ve been busy working on my little corner of the internet for quite a while so thanks for stopping by!</p>
-			<p>I have 8 years of experience working in an Ecommerce environment and have been developing professionally for about 7	 years.</p>
-			<p itemprop="description">I have been lucky enough to work for some notable companies such as Anya Hindmarch and Selfridges &amp; Co. in February 2015, I joined the Walt Disney Travel Company as a <span itemprop="jobTitle">Front End Web Developer</span>.</p>
+			<p>I have 8 years of experience working in an Ecommerce environment and have been developing professionally for 7 years now.</p>
+			<p itemprop="description">I've been lucky enough to work for some notable companies such as Oliver Bonas, Anya Hindmarch,  Selfridges and in February 2015 I joined the Walt Disney Travel Company as a <span itemprop="jobTitle">Front End Web Developer</span>.</p>
 			<p itemprop="makesOffer">I'm freelancing in my spare time so please get in touch if I can get involved in your upcoming projects.</p>
 			<a id="contact-cta" class="button" itemprop="email" href="mailto:me@lindsayfoley.co.uk">contact me</a> 
 			<a id="skills-cta" class="button">my skills</a>
@@ -54,19 +54,20 @@
 					<dd>7 years experience</dd>
 					<dd>HTML5</dd>
 					<dd>CSS3</dd>
-					<dd>jQuery, jQuery UI</dd>
+					<dd>jQuery and jQuery UI</dd>
 					<dd>JavaScript</dd>
 					<dd>PHP</dd>
 					<dd>Markdown</dd>
 					<dd>RWD/AWD/RESS</dd>
 					<dd>Schema/Microdata</dd>
 					<dd>SVN, Git - Gitflow workflow</dd>
-					<dd>UX &amp; UI design</dd>
+					<dd>UX and usability testing</dd>
+					<dd>UI design and wifeframing</dd>
 					<dd>Foundation and Bootstrap</dd>
 					<dd>Site monitoring scripting</dd>
 					<dd>Site optimisation</dd>
 					<dd>Performance tuning</dd>
-					<dd>JMeter, Blazemeter</dd>
+					<dd>JMeter and Blazemeter</dd>
 					<dd>Cross browser compatibility</dd>
 					<dd>Vast CMS experience</dd>
 				</dl>
@@ -76,19 +77,20 @@
 				<dl>
 					<dt>HTML EMAILS</dt>
 					<dd>Rich HTML emails</dd>
-					<dd>Responsive &amp; dynamic emails</dd>
+					<dd>Responsive and dynamic emails</dd>
 					<dd>Email marketing platforms</dd>
 					<dt>OTHER</dt>
 					<dd>Qualified Digital Marketer</dd>
-					<dd>A/B &amp; MVT testing</dd>
-					<dd>UX testing</dd>
-					<dd>UX design</dd>			
-					<dd>Graphic design</dd>			
+					<dd>A/B and MVT testing</dd>
+					<dd>Usability best practices</dd>
+					<dd>Graphic design</dd>		
+					<dd>Wireframing</dd>	
 					<dd>SEO</dd>
-					<dd>Agile/Scrum workflow</dd>
+					<dd>Agile methodologies</dd> 
 					<dd>Accessibility</dd>
 					<dd>Social plugin integration</dd>
 					<dd>Google Analytics</dd>
+					<dd>Copywriting</dd>
 					<dd>Issue tracking software</dd>
 					<dd>Squarespace customisation</dd>				
 					<dd>Wordpress customisation</dd>

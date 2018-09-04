@@ -27,7 +27,7 @@
 					<h3 itemprop="name">Come Fly With Lindsay</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p itemprop="description">My newly launched travel blog which I designed and coded using <span itemprop="keywords">PHP, Markdown, HTML5, CSS3, jQuery &amp; Foundation 6</span>.</p>
+						<p itemprop="description">My travel blog which I launched in November 2016 which I designed and coded using <span itemprop="keywords">PHP, Markdown, HTML5, CSS3, jQuery &amp; Foundation 6</span>.</p>
 						<a itemprop="url" href="http://comeflywithlindsay.com" target="_blank">Visit Come Fly With Lindsay &rsaquo;</a>
 					</div>
 				</div>
@@ -121,7 +121,7 @@
 					<h3 itemprop="name">Paw Print Productions</h3>
 					<i class="fa fa-caret-down"></i>
 					<div class="overiew">
-						<p itemprop="description">I co-developed &amp; designed this responsive site many years ago (2011) using <span itemprop="keywords">HTML5, CSS3 &amp; jQuery</span>.</p>
+						<p itemprop="description">I co-developed &amp; designed this responsive site many years ago (2011!) using <span itemprop="keywords">HTML5, CSS3 &amp; jQuery</span>.</p>
 						<a itemprop="url" href="https://web.archive.org/web/20160115162243/http://paw-print-productions.co.uk/" target="_blank">Paw Print Productions &rsaquo;</a>
 					</div>
 				</div>
