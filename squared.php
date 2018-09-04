@@ -16,12 +16,12 @@
 
 <body>
 	<header>
-		<h1><a href="/">Hi squares <span>i'm Lindsay, nice to meet you all</span></a></h1>
+		<h1><a href="/">Hi squares <span>I'm Lindsay, nice to meet you</span></a></h1>
 	</header>
 	<main>
 		<section>
 			<h2>Where are you at this moment?</h2>
-			<p>Currently in the comfort of my own home, with some snacks and the tv on...preparing to catch up on on some Squared work.</p>
+			<p>Currently in the comfort of my own home, with some snacks and the tv on... preparing to catch up on on some Squared work.</p>
 			<img src="/images/squared/simpsons-vegging-out.jpg" alt="Homer Simpson on his couch surrounded by loads of treats">
 			<hr>
 			<h2>If you had a choice, where would you be and what would you be doing?</h2>
