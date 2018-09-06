@@ -66,7 +66,7 @@
 					<dd>Foundation and Bootstrap</dd>
 					<dd>Site monitoring scripting</dd>
 					<dd>Site optimisation</dd>
-					<dd>Performance tuning</dd>
+					<dd>Web performance tuning</dd>
 					<dd>JMeter and Blazemeter</dd>
 					<dd>Cross browser compatibility</dd>
 					<dd>Vast CMS experience</dd>
