@@ -82,9 +82,9 @@
 					<div class="overiew">
 						<p itemprop="description">I worked on the new site launch in 2014, migrating &amp; <span itemprop="keywords">developing new responsive content &amp; HTML emails</span>.</p>
 						<ul>
-							<li><a itemprop="url" href="http://www.selfridges.com/content/article/investment-classics-menswear" target="_blank">Give me five &rsaquo;</a></li>
-							<li><a itemprop="url" href="http://www.selfridges.com/content/article/how-to-wear-it-london-collection-mens" target="_blank">How to wear it &rsaquo;</a></li>
-							<li><a itemprop="url" href="http://www.selfridges.com/content/article/paddington" target="_blank">Paddington curiosity shop &rsaquo;</a></li>
+							<li><a itemprop="url" href="https://web.archive.org/web/20150129013448/http://www.selfridges.com/content/article/investment-classics-menswear" target="_blank">Give me five &rsaquo;</a></li>
+							<li><a itemprop="url" href="https://web.archive.org/web/20150129013627/http://www.selfridges.com/content/article/how-to-wear-it-london-collection-mens" target="_blank">How to wear it &rsaquo;</a></li>
+							<li><a itemprop="url" href="https://web.archive.org/web/20150707135538/http://www.selfridges.com/content/article/paddington" target="_blank">Paddington curiosity shop &rsaquo;</a></li>
 						</ul>
 					</div>
 				</div>
