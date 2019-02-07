@@ -1,45 +1,56 @@
-var ResponsiveHelper = {
+const pageDetails = {
+
+	desktopBreakPoint: 900,
 	
-	windowWidth : function() {	
+	windowWidth() {
 		return $(window).width();
 	},
-	
-	tabletWidth : 769,
-	mobileWidth : 628,
-	desktopWidth : 900,
-
-	swapAnimatingScreenForStatic: function() {
-		if(ResponsiveHelper.windowWidth() > ResponsiveHelper.desktopWidth) {
-			return;
-		}
-		$('#animated-screen > div').empty().html('<img src="/images/skills_webdev.png" alt="my skills">');
+		
+	currentPage() {
+		const pageName = window.location.pathname;
+		return window.location.pathname.slice(1, pageName.length);
 	}
 }
 
-// Portfolio page toggle panel	
-showJobDesciption = function() {
+const removeCssAnimationOnSmallScreens = width => {
+
+	if(width < pageDetails.desktopBreakPoint ) {
+		$('#animated-screen > div').replaceWith('<img src="/images/skills_webdev.png" alt="my skills">');
+	}
+}
+
+const showCompanyDesciption = () => {
+		
 	$('.companies section').click(function() {
-		$(this).children('div').toggleClass('overview-panel');
-		// Stop clicks to portfolio links from toggling panel
+		$(this).find('div').toggleClass('overview-panel');
+		
+		// Prevent clicks on portfolio links bubbling up
 		$('.overview-panel a').click(function(e) {
 			e.stopPropagation();  
 		});
-	}); 
+	}); 		
 }
 
-// About page sliding panel
-var openSkillsPanel = function() {
+const slideDownSkillsPanel = () => {
 	$('#skills-cta').click(function() {
 		$('#skills-section').slideToggle('slow');
 	});
 };
 
+
 $(document).ready(function() {
-	ResponsiveHelper.swapAnimatingScreenForStatic();
-	showJobDesciption();
-	openSkillsPanel();
+
+	if(pageDetails.currentPage() === 'about') {
+		slideDownSkillsPanel();
+		removeCssAnimationOnSmallScreens(pageDetails.windowWidth());
+	} else if(pageDetails.currentPage() === 'portfolio') {
+		showCompanyDesciption();
+	}
 });
 
 $(window).resize(function() {
-	ResponsiveHelper.swapAnimatingScreenForStatic();
+	
+	if(pageDetails.currentPage() === 'about') {
+		removeCssAnimationOnSmallScreens(pageDetails.windowWidth());
+	}	
 });
