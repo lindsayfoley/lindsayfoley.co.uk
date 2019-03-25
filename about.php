@@ -22,7 +22,7 @@
 			<h2>A Bit About Me</h2>
 			<img class="header-separator-img" src="images/plug.png" alt="Illustration of an electrical plug head" />
 			<p>I’ve been busy working on my little corner of the internet for quite a while so thanks for stopping by!</p>
-			<p>I have 8 years of experience working in an Ecommerce environment and have been developing professionally for 7 years now.</p>
+			<p>I have 9 years of experience working in an Ecommerce environment and have been developing professionally for 8 years now.</p>
 			<p itemprop="description">I've been lucky enough to work for some notable companies such as Oliver Bonas, Anya Hindmarch and  Selfridges. In February 2015 I joined the Walt Disney Travel Company as a <span itemprop="jobTitle">Front End Web Developer</span>.</p>
 			<p itemprop="makesOffer">I'm freelancing in my spare time so please get in touch if I can get involved in your upcoming projects.</p>
 			<a id="contact-cta" class="button" itemprop="email" href="mailto:me@lindsayfoley.co.uk">contact me</a> 
@@ -51,25 +51,25 @@
 				</section>
 				<dl>
 					<dt>WEB DEVELOPMENT</dt>
-					<dd>7 years experience</dd>
-					<dd>HTML5</dd>
-					<dd>CSS3</dd>
+					<dd>8 years experience</dd>
+					<dd>HTML</dd>
+					<dd>CSS</dd>
+					<dd>JavaScript including ES6</dd>
 					<dd>jQuery and jQuery UI</dd>
-					<dd>JavaScript</dd>
 					<dd>PHP</dd>
+					<dd>SQL</dd>
 					<dd>Markdown</dd>
 					<dd>RWD/AWD/RESS</dd>
 					<dd>Schema/Microdata</dd>
-					<dd>SVN, Git - Gitflow workflow</dd>
+					<dd>Git (Gitflow workflow), SVN</dd>
 					<dd>UX and usability testing</dd>
-					<dd>UI design and wifeframing</dd>
-					<dd>Foundation and Bootstrap</dd>
-					<dd>Site monitoring scripting</dd>
+					<dd>Prototyping and wireframing</dd>
+					<dd>Foundation/Bootstrap</dd>
+					<dd>Site monitoring</dd>
 					<dd>Site optimisation</dd>
-					<dd>Web performance tuning</dd>
-					<dd>JMeter and Blazemeter</dd>
-					<dd>Cross browser compatibility</dd>
-					<dd>Vast CMS experience</dd>
+					<dd>Performance tuning</dd>
+					<dd>Load and regression testing</dd>
+					<dd>Cross-browser compatibility</dd>
 				</dl>
 		  </div>
 			<div>
@@ -78,20 +78,20 @@
 					<dt>HTML EMAILS</dt>
 					<dd>Rich HTML emails</dd>
 					<dd>Responsive and dynamic emails</dd>
-					<dd>Email marketing platforms</dd>
+					<dd>Used various EMPs</dd>
 					<dt>OTHER</dt>
 					<dd>Qualified Digital Marketer</dd>
 					<dd>A/B and MVT testing</dd>
+					<dd>Graphic and UI design</dd>		
+					<dd>Solid SEO experience</dd>
 					<dd>Usability best practices</dd>
-					<dd>Graphic design</dd>		
-					<dd>Wireframing</dd>	
-					<dd>SEO</dd>
 					<dd>Agile methodologies</dd> 
-					<dd>Accessibility</dd>
+					<dd>GA and Adobe Analytics</dd>
 					<dd>Social plugin integration</dd>
-					<dd>Google Analytics</dd>
+					<dd>Accessibility best practises</dd>
 					<dd>Copywriting</dd>
-					<dd>Issue tracking software</dd>
+					<dd>JIRA/Confluence experience</dd>
+					<dd>Vast CMS experience</dd>
 					<dd>Squarespace customisation</dd>				
 					<dd>Wordpress customisation</dd>
 				</dl>

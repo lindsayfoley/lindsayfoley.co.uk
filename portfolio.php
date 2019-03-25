@@ -127,44 +127,6 @@
 				</div>
 			</section>		
 		</div>
-		
-<!--
-		<div class="row">
-			<section id="ppp">
-				<div itemscope itemtype="http://schema.org/CreativeWork">
-					<h3 itemprop="name">Paw Print Productions</h3>
-					<i class="fa fa-caret-down"></i>
-					<div class="overiew">
-						<p itemprop="description">I co-developed &amp; designed this responsive site many years ago (2011) using <span itemprop="keywords">HTML5, CSS3 &amp; jQuery</span>.</p>
-						<a itemprop="url" href="https://web.archive.org/web/20160115162243/http://paw-print-productions.co.uk/" target="_blank">Paw Print Productions &rsaquo;</a>
-					</div>
-				</div>
-			</section>
-			<section id="theyer">
-				<div itemscope itemtype="http://schema.org/CreativeWork"> 
-					<h3 itemprop="name">Theyer Fitness</h3>
-					<i class="fa fa-caret-down"></i>
-					<div class="overiew">
-						<p itemprop="description">My first piece of freelance work! This site was revamped in <span itemprop="dateCreated">2011</span>, it was given a new design &amp; developed using <span itemprop="keywords">HTML5 &amp; CSS3</span>.</p>
-						<a itemprop="url" href="http://theyerfitness.co.uk" target="_blank">Visit Theyer Fitness &rsaquo;</a>
-					</div>
-				</div>
-			</section>
-			<section id="ob">
-				<div itemscope itemtype="http://schema.org/CreativeWork">
-					<h3 itemprop="name">Oliver Bonas</h3>
-					<i class="fa fa-caret-down"></i>
-					<div class="overiew">
-						<p itemprop="description">I joined the web team in <span itemprop="dateCreated">2008</span>, <span itemprop="keywords">designing content &amp; HTML emails</span>. they are dated &amp; far too long now!</p>
-						<ul>
-							<li><a itemprop="url" href="/images/OB_12days.jpg" target="_blank">12 days of xmas email &rsaquo;</a></li>
-							<li><a itemprop="url" href="/images/OB_luxeliving.jpg" target="_blank">luxe living email &rsaquo;</a></li>
-						</ul>					
-					</div>
-				</div>
-			</section>
-		</div>
--->
 	</section>
 
 	<nav>
