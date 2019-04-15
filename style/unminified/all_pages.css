@@ -32,10 +32,10 @@ nav a:first-child { margin-right:2.1%; }
 nav a:last-child { margin-left:2.1%; }
 
 /* Footer */
-footer { padding-top:1.15%; }
+footer { padding-top:20px; }
 #social-icons a { border:0; }
-#social-icons a i { font-size:20px; color:#fabb77; }
-#social-icons a:nth-of-type(2) i { margin:0 10px; }
+#social-icons a i { font-size:23px; color:#fabb77; }
+#social-icons a:not(:first-of-type) { margin-left:8px; }
 small { color:#c1a944; padding:0.8% 0 1.25% 0; letter-spacing:1px; }
 
 /********************/
@@ -47,12 +47,12 @@ h1 { max-width:285px; font-size:34px; }
 }
 
 @media all and (max-width:767px) {
-header { padding-top:15px; }
+header { padding-top:30px; }
+header h1 { width:70%; margin-bottom:10px; }
 }
 
 @media all and (min-width:770px) {
 nav a:hover, .button:hover { background-color:white; border:1px solid #4baca1; color:#54C0B4!important; transition:all 0.3s ease 0s; }
-footer { border-top:1px solid white; }
 footer a i:hover { color:#f39e39!important; } }
 
 @media all and (min-width:601px) { header img { min-width:350px; } }
