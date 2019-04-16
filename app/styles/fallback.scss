@@ -1,0 +1,26 @@
+/* IE 7 & 8 */
+/* homepage */
+h1, h1 a, h2, h5, a, p, p a, ul li, ul li a, #skillsLink, .nav_button, #professionalCopy a { color: white\9; }
+h2:first-child {	 font-style: normal\9; }
+header h1 { max-width: 390px\9!important; }
+header h2 { font-family: serif\9;  font-style: italic\9; padding-top: 10px\9; }
+#socialIcons { max-width: 300px\9!important; }
+@media screen and (min-width:0\0) {
+#socialIcons { max-width: 300px!important; } } /* ie9 + ie10 hack */
+nav { width: 525px\9!important; margin-top: 30px\9!important; }
+nav a { width: auto\9!important; }
+#home img { width: 540px\9!important; }
+
+/* about */
+#professional, #professionalPics, #professionalCopy, #skillsSection { width: 801px\9!important; margin-left: auto\9; margin-right: auto\9; } 
+.headerIconImg { width: 225px\9!important; }
+#viewProjectLink, #skillsLink { padding-top: 10px\9; }
+#professionalPics img { width: 267px; height: 235px\9; float: left\9; }
+#webDevSkills, #otherSkills { width: 400px\9!important; }
+#webDevSkills ul, #otherSkills ul { margin-left: -10px\9!important; }
+#webDevSkills h3, #otherSkills h3 { margin-top: 10px\9; }
+#webDevSkills img { width: 163px\9; height: 95px\9; }
+
+/* portfolio */
+#latest_companies .companies, #bottom_row_of_companies .companies, #latest_companies .companies, #bottom_row_of_companies .companies { width: 293px\9!important; height: 250px\9!important; padding-bottom: 0\9!important; }
+.companyDescription ul { margin-left: 0\9; }

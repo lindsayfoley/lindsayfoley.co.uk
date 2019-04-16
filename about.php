@@ -6,7 +6,7 @@
 <meta name="keywords" content="freelancer, freelance, web, developer, development, London, XHTML, HTML, HTML 5, CSS, jQuery, Javascript, web design, web development, web site development, web site design, web design development, interactive, london web design, london ecommerce, london e-commerce, london web development, uk, web site, web sites, Lindsay Foley">
 <meta name="description" content="A Front End Web Developer from London with 7 years of development experience. Find out more about my skills in HTML, CSS, JavaScript, UX and Web Optimisation.">
 <?php include('structure/styles.php'); ?>
-<link rel="stylesheet" type="text/css" href="style/about.min.css">
+<link rel="stylesheet" type="text/css" href="dist/styles/about.css">
 <?php include('structure/icons.php'); ?>
 <?php include('structure/scripts.php'); ?>
 <?php include('structure/legacy.php'); ?>
