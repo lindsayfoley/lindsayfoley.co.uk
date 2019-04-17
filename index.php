@@ -17,7 +17,7 @@
 		<h2 itemprop="description"><span itemprop="jobTitle">Web Developer</span> based in <span itemprop="workLocation">London</span></h2>
 	</header>
 	<main id="homepage">
-		<img src="images/hp_hero.png" alt="A neat and tidy desk housing all the essentials including a cat mug full of english breakfast tea, biscuits and an iMac">
+		<img src="dist/images/hp_hero.png" alt="A neat and tidy desk housing all the essentials including a cat mug full of english breakfast tea, biscuits and an iMac">
 		<nav>
 			<a href="portfolio">View my work</a>
 			<a itemprop="url" href="about">About me</a>

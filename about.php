@@ -20,7 +20,7 @@
 	<section id="professional">
 		<div>
 			<h2>A Bit About Me</h2>
-			<img class="header-separator-img" src="images/plug.png" alt="Illustration of an electrical plug head" />
+			<img class="header-separator-img" src="dist/images/plug.png" alt="Illustration of an electrical plug head" />
 			<p>I’ve been busy working on my little corner of the internet for quite a while so thanks for stopping by!</p>
 			<p>I have 9 years of experience working in an Ecommerce environment and have been developing professionally for 8 years now.</p>
 			<p itemprop="description">I've been lucky enough to work for some notable companies such as Oliver Bonas, Anya Hindmarch and  Selfridges. In February 2015 I joined the Walt Disney Travel Company as a <span itemprop="jobTitle">Front End Web Developer</span>.</p>
@@ -33,7 +33,7 @@
 			<div>
 				<section id="animated-screen">
 					<div>
-						<img src="images/skills_screen.png" alt="an animated computer screen with moving panels" />
+						<img src="dist/images/skills_screen.png" alt="an animated computer screen with moving panels" />
 						<div id="top_row"></div>
 						<div id="hero_row"></div>
 						<div>
@@ -73,7 +73,7 @@
 				</dl>
 		  </div>
 			<div>
-				<img src="images/skills_email.png" alt="HTML emails" />
+				<img src="dist/images/skills_email.png" alt="HTML emails" />
 				<dl>
 					<dt>HTML EMAILS</dt>
 					<dd>Rich HTML emails</dd>
@@ -99,15 +99,15 @@
 		</div>
 		<div id="professional-tiles">
 			<figure id="coding">
-				<img src="images/coding.png" alt="Coding tools" />
+				<img src="dist/images/coding.png" alt="Coding tools" />
 				<figcaption><p>My last 2 projects involved re-writing web frameworks making them mobile friendly</p></figcaption>		  
 			</figure>
 			<figure id="learning">
-				<img src="images/reading.png" alt="Online resources that have helped me learn" />
+				<img src="dist/images/reading.png" alt="Online resources that have helped me learn" />
 				<figcaption><p>I use online resources like Edabit &amp; Codecademy to learn and practice programming</p></figcaption>
 			</figure>
 			<figure id="time">
-				<img src="images/time.png" alt="Blogs I read" />
+				<img src="dist/images/time.png" alt="Blogs I read" />
 				<figcaption><p>I read publications like Smashing Magazine to keep my knowledge up to date</p></figcaption>		  
 			</figure>	
 		</div>

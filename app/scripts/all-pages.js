@@ -15,7 +15,7 @@ const pageDetails = {
 const removeCssAnimationOnSmallScreens = width => {
 
 	if(width < pageDetails.desktopBreakPoint ) {
-		$('#animated-screen > div').replaceWith('<img src="/images/skills_webdev.png" alt="my skills">');
+		$('#animated-screen > div').replaceWith('<img src="/dist/images/skills_webdev.png" alt="my skills">');
 	}
 }
 

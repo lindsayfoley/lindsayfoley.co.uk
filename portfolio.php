@@ -18,7 +18,7 @@
 
 <main>
 	<h2><span itemprop="jobTitle">Web Based</span> Projects</h2>
-	<img class="header-separator-img" src="images/lamp.png" alt="Illustration of a spot light" />
+	<img class="header-separator-img" src="dist/images/lamp.png" alt="Illustration of a spot light" />
 	<section id="wrapper" class="companies">	
 
 		<div class="row">

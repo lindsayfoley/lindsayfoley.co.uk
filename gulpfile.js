@@ -1,28 +1,46 @@
-let gulp = require('gulp');
-let cssnano = require('gulp-cssnano');
-let sass = require('gulp-sass');
-let concat = require('gulp-concat');
-let uglify = require('gulp-uglify-es').default;
+const { src, dest, watch, series, parallel } = require('gulp');
+const cssnano = require('gulp-cssnano');
+const sass = require('gulp-sass');
+const concat = require('gulp-concat');
+const babel = require('gulp-babel');
+const uglify = require('gulp-uglify');
+const imagemin = require('gulp-imagemin');
+const imageminMozjpeg = require('imagemin-mozjpeg');
 
-gulp.task('sass', () => {
-	return gulp.src('app/styles/*.scss')
+function css() {
+	return src('app/styles/*.scss')
 	.pipe(sass())
 	.pipe(cssnano())
-	.pipe(gulp.dest('dist/styles'))
-});
+	.pipe(dest('dist/styles'))	
+}
 
-gulp.task('js', () => {
-	return gulp.src('app/scripts/*.js')
-	.pipe(concat('all.js'))
-	.pipe(uglify({
-		ecma: 6
-	}))
-	.pipe(gulp.dest('dist/scripts'));
-});
+function js() {
+	return src('app/scripts/*.js')
+    .pipe(babel({
+        presets: ['@babel/env']
+    }))
+	.pipe(uglify())
+	.pipe(concat('all.min.js'))
+	.pipe(dest('dist/scripts'));
+}
 
-gulp.task('watch', () => {
-	gulp.watch('app/styles/*.scss', gulp.series('sass'));
-	gulp.watch('app/scripts/*.js', gulp.series('js'));
-});
+function compressImages() {
+	return src('app/images/*')
+    .pipe(imagemin([
+        imageminMozjpeg({
+            quality: 75
+        })
+    ]))
+    .pipe(dest('dist/images'))
+}
 
-gulp.task('default', gulp.series('sass', 'js', 'watch'));
+function watchForChanges() {
+	watch('app/styles/*.scss', series(sass));
+	watch('app/scripts/*.js', series(js));	
+}
+
+exports.css = css;
+exports.js = js;
+exports.compressImages = compressImages;
+exports.watchForChanges = watchForChanges;
+exports.default = parallel(css, js, compressImages, watchForChanges);
