@@ -7,14 +7,14 @@ const uglify = require('gulp-uglify');
 const imagemin = require('gulp-imagemin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
 
-function css() {
+function compileSassAndMinifyCss() {
 	return src('app/styles/*.scss')
 	.pipe(sass())
 	.pipe(cssnano())
 	.pipe(dest('dist/styles'))	
 }
 
-function js() {
+function transpileMinifyAndBundleJs() {
 	return src('app/scripts/*.js')
     .pipe(babel({
         presets: ['@babel/env']
@@ -36,11 +36,7 @@ function compressImages() {
 
 function watchForChanges() {
 	watch('app/styles/*.scss', series(sass));
-	watch('app/scripts/*.js', series(js));	
+	watch('app/scripts/*.js', series(transpileMinifyAndBundleJs));	
 }
 
-exports.css = css;
-exports.js = js;
-exports.compressImages = compressImages;
-exports.watchForChanges = watchForChanges;
-exports.default = parallel(css, js, compressImages, watchForChanges);
+exports.default = parallel(compileSassAndMinifyCss, transpileMinifyAndBundleJs, compressImages, watchForChanges);
