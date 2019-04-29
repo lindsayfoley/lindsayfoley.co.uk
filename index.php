@@ -19,8 +19,12 @@
 	<main id="homepage">
 		<img src="dist/images/hp_hero.png" alt="A neat and tidy desk housing all the essentials including a cat mug full of english breakfast tea, biscuits and an iMac">
 		<nav>
-			<a href="portfolio">View my work</a>
-			<a itemprop="url" href="about">About me</a>
+			<button>
+				<a href="portfolio">View my work</a>
+			</button>
+			<button>
+				<a itemprop="url" href="about">About me</a>
+			</button>
 		</nav>
 	</main>
 	<?php include('structure/footer.php'); ?>

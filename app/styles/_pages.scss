@@ -1,0 +1,134 @@
+//Shared
+main:not(h2) { 
+	color:$light-color; 
+}
+
+body:not(#home) h2 { 
+	color:$dark-color; 
+	margin:0 0 5px 0; 
+}
+
+//Homepage
+#home { 
+	
+	h2 {
+		font-family:$italic-font; 
+		font-style:italic; 
+		font-weight:normal; 
+		padding-top:10px; 
+		text-transform:none;
+	}
+	
+	span {
+		text-transform:none;
+	}
+	
+	img {
+		margin:20px auto 0 auto; 
+		max-width:540px;
+	}
+}
+
+//About
+#skills-section, #skills-section dl {
+	width:100%;	
+}
+
+#skills-section {
+	display:none;
+	margin-bottom:20px;
+	@include row-of-elements;
+	
+	div {
+		background-color:darken($primary-colour, 10%);
+	
+		
+		dl {
+			color:$light-color;
+		}	
+		
+	}
+	
+	div:first-of-type { 
+		border-right:10px solid $primary-colour; 
+	}
+	
+	img { 
+		max-width:163px; 
+	}
+}
+
+#professional-tiles { 
+	clear:left; 
+	border-bottom:3px solid $light-color; 
+	padding:10px 0 30px 0; 
+	overflow:hidden; 
+	@include row-of-elements;
+}
+
+figcaption p { 
+	display:none; 
+}
+
+figure p { 
+	font-size:$default-font-size; 
+	color:$dark-color; 
+	font-weight:bold; 
+	margin:0;
+	padding:35% 0; 
+}
+
+//Portfolio
+.companies {
+	margin-bottom:10px;
+	@include row-of-elements;
+	
+	* { 
+		text-align:center;
+	}
+}
+
+/* Tile backgrounds */
+#travel-blog { 
+	background-image:url('/dist/images/come-fly-with-lindsay-tile.jpg'); 
+}
+
+#disney { 
+	background-image:url('/dist/images/disney_tile.png'); 
+}
+	
+#perfume { 
+	background-image:url('/dist/images/perfume-tile.jpg'); 
+}
+
+#dashwood { 
+	background-image:url('/dist/images/dashwood_tile.png'); 
+}
+
+#hopelands { 
+	background-image:url('/dist/images/hopelands_tile.png'); 
+}
+
+#selfridges { 
+	background-image: url('/dist/images/selfridges_tile.png'); 
+}
+ 
+#ppp {
+	background-image: url('/dist/images/ppp_tile.png'); 
+}
+ 
+#whitestuff {
+	background-image:url('/dist/images/ws_tile.png'); 
+}
+ 
+#jia { 
+	background-image:url('/dist/images/jia_tile.png'); 
+}
+ 
+#theyer {
+	background-image:url('/dist/images/theyer_tile.png'); 
+}
+ 
+#ob { 
+	background-image:url('/dist/images/ob_tile.png'); 
+}

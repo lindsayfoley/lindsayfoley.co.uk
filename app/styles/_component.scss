@@ -1,0 +1,49 @@
+/* Reusable e.g. buttons */
+button { 
+	background:inherit; 
+	color:$light-color; 
+	border:0; 
+	width:250px; 
+	font-size:$small-font-size; 
+	line-height:35px; 
+	border:$default-border; 
+	font-weight:bold; 
+	text-transform:$stand-out; 
+	
+	&:hover {
+		background:$light-color; 
+		color:$primary-colour; 		
+	}
+}
+
+.square-card {
+	@include ui-card(300px, 300px);
+	position:relative;
+	cursor:pointer;
+	color:$dark-color;
+}
+
+.fact {
+	margin:0;
+}
+
+.company {
+	background-size:contain;
+	background-repeat:no-repeat;	
+}
+
+.overview-panel {
+	@include ui-card(300px, 300px);
+	
+}
+
+.label {
+	@include ui-card(300px, 60px);
+    position:absolute;
+    left:0;
+    bottom:0;
+    padding-bottom:5px;
+    background-color:$accent-color;
+    transition:height 1.5s ease 0s;	
+}
+

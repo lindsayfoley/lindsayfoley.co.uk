@@ -1,0 +1,111 @@
+/* resets, variables, mixins, and some utility CSS classes */
+$primary-colour:#54c0b4;
+$light-color:#ffffff;
+$accent-color:#feb865;
+$dark-color:#338078;
+$pale-accent-color:#c1a944;
+$primary-font:'"Anaheim",sans-serif';
+$italic-font:'serif';
+$default-font-size:18px;
+$small-font-size:12px;
+$medium-font-size:22px;
+$stand-out:uppercase;
+$default-border:1px solid white;
+$largeDevices: 813px; 
+$mediumDevices: 812px; //iPhone X landscape
+
+@mixin largeScreen() {
+	@media (min-width:#{$largeDevices}) {
+		@content;
+	}
+}
+
+@mixin mediumScreen() {
+	@media (max-width:#{$mediumDevices}) {
+		@content;
+	}
+}
+
+@mixin ui-card($width, $height) {
+	width:$width;
+	height:$height;
+}
+
+@mixin row-of-elements() {
+	display:flex;
+	
+	@include largeScreen {
+		flex-direction:row;
+	}
+}
+
+header, nav, main, section, img, details, nav a, figure, figcaption, small, footer { 
+	display:block; 
+}
+
+body { 
+	background-color:$primary-colour; 
+	font-family:$primary-font; 
+	min-width:320px; 
+	margin:0; 
+	text-align:center; 
+}
+
+h1, h2, h3 { 
+	margin:0 auto; 
+	text-transform:$stand-out; 
+}
+
+h1 { 
+	border-bottom:4px double $light-color; 
+	padding-bottom:10px; 
+}
+
+h2 { 
+	font-size:$medium-font-size; 
+}
+
+h3 {
+	padding-top:10px;	
+}
+
+a { 
+	text-decoration:none; 
+	
+	img {
+		border:0;
+	}
+}
+
+p, ul li, dt, dl { 
+	font-size:$default-font-size; 
+	margin-top:0; 
+}
+
+ul { 
+	padding-left:0; 
+}
+
+dt {
+	text-decoration:underline;
+	text-align:center;
+	margin-bottom: 5px;
+}
+
+dd { 
+	display:list-item; 
+	list-style-type:disc; 
+	margin:0 10px; 
+}
+
+figure { 
+	margin:0; 
+}
+
+small { 
+	padding:20px 0; 
+}
+
+i { 
+	vertical-align:middle; 
+} 

@@ -1,0 +1,373 @@
+/* resets, variables, mixins, and some utility CSS classes */
+header, nav, main, section, img, details, nav a, figure, figcaption, small, footer {
+  display: block; }
+
+body {
+  background-color: #54c0b4;
+  font-family: '"Anaheim",sans-serif';
+  min-width: 320px;
+  margin: 0;
+  text-align: center; }
+
+h1, h2, h3 {
+  margin: 0 auto;
+  text-transform: uppercase; }
+
+h1 {
+  border-bottom: 4px double #ffffff;
+  padding-bottom: 10px; }
+
+h2 {
+  font-size: 22px; }
+
+h3 {
+  padding-top: 10px; }
+
+a {
+  text-decoration: none; }
+  a img {
+    border: 0; }
+
+p, ul li, dt, dl {
+  font-size: 18px;
+  margin-top: 0; }
+
+ul {
+  padding-left: 0; }
+
+dt {
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 5px; }
+
+dd {
+  display: list-item;
+  list-style-type: disc;
+  margin: 0 10px; }
+
+figure {
+  margin: 0; }
+
+small {
+  padding: 20px 0; }
+
+i {
+  vertical-align: middle; }
+
+/* Reusable e.g. buttons */
+button {
+  background: inherit;
+  color: #ffffff;
+  border: 0;
+  width: 250px;
+  font-size: 12px;
+  line-height: 35px;
+  border: 1px solid white;
+  font-weight: bold;
+  text-transform: uppercase; }
+  button:hover {
+    background: #ffffff;
+    color: #54c0b4; }
+
+.square-card {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  cursor: pointer;
+  color: #338078; }
+
+.fact {
+  margin: 0; }
+
+.company {
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.overview-panel {
+  width: 300px;
+  height: 300px; }
+
+.label {
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 5px;
+  background-color: #feb865;
+  transition: height 1.5s ease 0s; }
+
+/* overall layout of the web page such as container and grid systems */
+/* Footer */
+footer {
+  background-color: #338078;
+  color: #c1a944;
+  padding-top: 20px; }
+
+#social-icons a i {
+  font-size: 22px; }
+
+#social-icons a:not(:first-of-type) {
+  margin-left: 10px; }
+
+/* Animating screen */
+@media all and (min-width: 901px) {
+  #animated-screen {
+    position: relative; }
+  #animated-screen div:first-child {
+    background-color: #54c0b4; }
+  #top_row, #hero_row, #last_row_first_square {
+    animation: screenContentsSlideIn 1.5s forwards;
+    -moz-animation: screenContentsSlideIn 1.5s forwards;
+    -webkit-animation: screenContentsSlideIn 1.5s forwards;
+    animation-delay: 1.25s;
+    -moz-animation-delay: 1.25s;
+    -webkit-animation-delay: 1.25s; }
+  #top_row, #hero_row, #last_row_first_square, #last_row_second_square, #last_row_top_rectangle, #last_row_middle_rectangle, #last_row_bottom_rectangle {
+    position: absolute;
+    opacity: 0; }
+  #top_row {
+    width: 150px;
+    height: 16px;
+    background-color: #97DDEB;
+    top: 14px;
+    left: 125px; }
+  #hero_row {
+    width: 150px;
+    height: 34px;
+    background-color: #F96F74;
+    top: 33px;
+    left: 125px;
+    animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s; }
+  #last_row_first_square, #last_row_second_square {
+    width: 26px;
+    height: 20px;
+    background-color: #FCDC7B;
+    top: 70px;
+    animation-delay: 1.75s;
+    -moz-animation-delay: 1.75s;
+    -webkit-animation-delay: 1.75s; }
+  #last_row_first_square {
+    left: 125px; }
+  #last_row_second_square {
+    left: 153px;
+    animation: secondSquareSlideIn 1.25s forwards;
+    -moz-animation: secondSquareSlideIn 1.25s forwards;
+    -webkit-animation: secondSquareSlideIn 1.25s forwards;
+    animation-delay: 1.75s;
+    -moz-animation-delay: 1.75s;
+    -webkit-animation-delay: 1.75s; }
+  #last_row_top_rectangle, #last_row_middle_rectangle, #last_row_bottom_rectangle {
+    width: 93px;
+    height: 5px;
+    background-color: #F8AE85;
+    animation: rectangleSlideIn 1.5s forwards;
+    -moz-animation: rectangleSlideIn 1.5s forwards;
+    -webkit-animation: rectangleSlideIn 1.5s forwards;
+    left: 182px;
+    animation-delay: 2.00s;
+    -moz-animation-delay: 2.00s;
+    -webkit-animation-delay: 2.00s; }
+  #last_row_top_rectangle {
+    top: 71px; }
+  #last_row_middle_rectangle {
+    top: 78px; }
+  #last_row_bottom_rectangle {
+    top: 85px; }
+  /* Top_row animation */
+  @-moz-keyframes screenContentsSlideIn {
+    0% {
+      left: 0px; }
+    25% {
+      left: 170px; }
+    50% {
+      left: 110px; }
+    100% {
+      left: 125px;
+      opacity: 1; } }
+  @-webkit-keyframes screenContentsSlideIn {
+    0% {
+      left: 0px; }
+    25% {
+      left: 170px; }
+    50% {
+      left: 110px; }
+    100% {
+      left: 125px;
+      opacity: 1; } }
+  @keyframes screenContentsSlideIn {
+    0% {
+      left: 0px; }
+    25% {
+      left: 170px; }
+    50% {
+      left: 110px; }
+    100% {
+      left: 125px;
+      opacity: 1; } }
+  @-moz-keyframes secondSquareSlideIn {
+    0% {
+      left: 0px; }
+    25% {
+      left: 190px; }
+    50% {
+      left: 140px; }
+    100% {
+      left: 153px;
+      opacity: 1; } }
+  @-webkit-keyframes secondSquareSlideIn {
+    0% {
+      left: 0px; }
+    25% {
+      left: 190px; }
+    50% {
+      left: 140px; }
+    100% {
+      left: 153px;
+      opacity: 1; } }
+  @keyframes secondSquareSlideIn {
+    0% {
+      left: 0px; }
+    25% {
+      left: 190px; }
+    50% {
+      left: 140px; }
+    100% {
+      left: 153px;
+      opacity: 1; } }
+  @-moz-keyframes rectangleSlideIn {
+    0% {
+      left: 0px; }
+    25% {
+      left: 220px; }
+    50% {
+      left: 170px; }
+    100% {
+      left: 182px;
+      opacity: 1; } }
+  @-webkit-keyframes rectangleSlideIn {
+    0% {
+      left: 0px; }
+    25% {
+      left: 220px; }
+    50% {
+      left: 170px; }
+    100% {
+      left: 182px;
+      opacity: 1; } }
+  @keyframes rectangleSlideIn {
+    0% {
+      left: 0px; }
+    25% {
+      left: 220px; }
+    50% {
+      left: 170px; }
+    100% {
+      left: 182px;
+      opacity: 1; } } }
+
+/* / Animating screen */
+main:not(h2) {
+  color: #ffffff; }
+
+body:not(#home) h2 {
+  color: #338078;
+  margin: 0 0 5px 0; }
+
+#home h2 {
+  font-family: "serif";
+  font-style: italic;
+  font-weight: normal;
+  padding-top: 10px;
+  text-transform: none; }
+
+#home span {
+  text-transform: none; }
+
+#home img {
+  margin: 20px auto 0 auto;
+  max-width: 540px; }
+
+#skills-section, #skills-section dl {
+  width: 100%; }
+
+#skills-section {
+  display: none;
+  margin-bottom: 20px;
+  display: flex; }
+  @media (min-width: 813px) {
+    #skills-section {
+      flex-direction: row; } }
+  #skills-section div {
+    background-color: #3da499; }
+    #skills-section div dl {
+      color: #ffffff; }
+  #skills-section div:first-of-type {
+    border-right: 10px solid #54c0b4; }
+  #skills-section img {
+    max-width: 163px; }
+
+#professional-tiles {
+  clear: left;
+  border-bottom: 3px solid #ffffff;
+  padding: 10px 0 30px 0;
+  overflow: hidden;
+  display: flex; }
+  @media (min-width: 813px) {
+    #professional-tiles {
+      flex-direction: row; } }
+
+figcaption p {
+  display: none; }
+
+figure p {
+  font-size: 18px;
+  color: #338078;
+  font-weight: bold;
+  margin: 0;
+  padding: 35% 0; }
+
+.companies {
+  margin-bottom: 10px;
+  display: flex; }
+  @media (min-width: 813px) {
+    .companies {
+      flex-direction: row; } }
+  .companies * {
+    text-align: center; }
+
+/* Tile backgrounds */
+#travel-blog {
+  background-image: url("/dist/images/come-fly-with-lindsay-tile.jpg"); }
+
+#disney {
+  background-image: url("/dist/images/disney_tile.png"); }
+
+#perfume {
+  background-image: url("/dist/images/perfume-tile.jpg"); }
+
+#dashwood {
+  background-image: url("/dist/images/dashwood_tile.png"); }
+
+#hopelands {
+  background-image: url("/dist/images/hopelands_tile.png"); }
+
+#selfridges {
+  background-image: url("/dist/images/selfridges_tile.png"); }
+
+#ppp {
+  background-image: url("/dist/images/ppp_tile.png"); }
+
+#whitestuff {
+  background-image: url("/dist/images/ws_tile.png"); }
+
+#jia {
+  background-image: url("/dist/images/jia_tile.png"); }
+
+#theyer {
+  background-image: url("/dist/images/theyer_tile.png"); }
+
+#ob {
+  background-image: url("/dist/images/ob_tile.png"); }

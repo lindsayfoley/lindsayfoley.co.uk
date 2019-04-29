@@ -18,7 +18,6 @@
 
 <main>
 	<h2><span itemprop="jobTitle">Web Based</span> Projects</h2>
-	<img class="header-separator-img" src="dist/images/lamp.png" alt="Illustration of a spot light" />
 	<section id="wrapper" class="companies">	
 
 		<div class="row">
@@ -130,8 +129,12 @@
 	</section>
 
 	<nav>
-		<a itemprop="url" href="about">about me</a>
-		<a href="/">back to home</a>
+		<button>
+			<a itemprop="url" href="about">about me</a>
+		</button>
+		<button>
+			<a href="/">back to home</a>
+		</button>
 	</nav>
 </main>
 <?php include('structure/footer.php'); ?>

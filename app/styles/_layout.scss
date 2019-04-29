@@ -1,0 +1,16 @@
+/* overall layout of the web page such as container and grid systems */
+
+/* Footer */
+footer { 
+	background-color:$dark-color; 
+	color:$pale-accent-color; 
+	padding-top:20px; 
+}
+
+#social-icons a i { 
+	font-size:$medium-font-size; 
+}
+
+#social-icons a:not(:first-of-type) { 
+	margin-left:10px; 
+}
