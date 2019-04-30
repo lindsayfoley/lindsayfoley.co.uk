@@ -54,6 +54,11 @@ small {
 i {
   vertical-align: middle; }
 
+.fa-caret-down {
+  text-align: center;
+  font-size: 22px;
+  display: block; }
+
 /* Reusable e.g. buttons */
 button {
   background: inherit;
@@ -98,6 +103,9 @@ button {
   transition: height 1.5s ease 0s; }
 
 /* overall layout of the web page such as container and grid systems */
+main {
+  max-width: 900px; }
+
 /* Footer */
 footer {
   background-color: #338078;
@@ -268,7 +276,29 @@ footer {
       left: 182px;
       opacity: 1; } } }
 
-/* / Animating screen */
+.overview-panel {
+  -moz-animation: overview-bg-change 1.5s forwards;
+  -webkit-animation: overview-bg-change 1.5s forwards;
+  animation: overview-bg-change 1.5s forwards; }
+
+@-moz-keyframes overview-bg-change {
+  from {
+    background-color: #feb865; }
+  to {
+    background-color: rgba(151, 148, 145, 0.95); } }
+
+@-webkit-keyframes overview-bg-change {
+  from {
+    background-color: #feb865; }
+  to {
+    background-color: rgba(151, 148, 145, 0.95); } }
+
+@keyframes overview-bg-change {
+  from {
+    background-color: #feb865; }
+  to {
+    background-color: rgba(151, 148, 145, 0.95); } }
+
 main:not(h2) {
   color: #ffffff; }
 
@@ -337,6 +367,32 @@ figure p {
       flex-direction: row; } }
   .companies * {
     text-align: center; }
+
+.overiew {
+  display: none;
+  padding: 15px; }
+
+/* Overview panel contents */
+.overiew ul, .overiew p ~ a {
+  border: 1px solid white;
+  padding: 5px 0; }
+
+.overiew ul {
+  list-style-type: none; }
+  .overiew ul li {
+    line-height: 25px; }
+
+.overiew p ~ a {
+  display: block; }
+
+.overiew a {
+  color: #ffffff; }
+
+.overview-panel h3 {
+  padding: 10px 0; }
+
+.overview-panel .fa-caret-down {
+  display: none; }
 
 /* Tile backgrounds */
 #travel-blog {

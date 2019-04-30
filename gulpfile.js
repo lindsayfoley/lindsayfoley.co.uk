@@ -8,7 +8,7 @@ const imagemin = require('gulp-imagemin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
 
 function compileSassAndMinifyCss() {
-	return src('app/styles/*.scss')
+	return src('app/styles/main.scss')
 	.pipe(sass())
 	.pipe(cssnano())
 	.pipe(dest('dist/styles'))	

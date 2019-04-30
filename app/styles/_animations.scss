@@ -1,3 +1,4 @@
+//About
 /* Animating screen */
 @media all and (min-width:901px) {
 	#animated-screen{ position:relative; }
@@ -25,4 +26,25 @@
 	@-webkit-keyframes rectangleSlideIn { 0% { left:0px; } 25% { left:220px; } 50% { left:170px; } 100% { left:182px; opacity:1; } }
 	@keyframes rectangleSlideIn { 0% { left:0px; } 25% { left:220px; } 50% { left:170px; } 100% { left:182px; opacity:1; } }
 }
-/* / Animating screen */
+
+//Portfolio
+.overview-panel { 
+	-moz-animation:overview-bg-change 1.5s forwards; 
+	-webkit-animation:overview-bg-change 1.5s forwards; 
+	animation:overview-bg-change 1.5s forwards; 
+}
+
+@-moz-keyframes overview-bg-change {
+		from { background-color:#feb865; }
+		to { background-color:rgba(151, 148, 145, 0.95) }
+} 
+
+@-webkit-keyframes overview-bg-change {
+		from { background-color:#feb865; }
+		to { background-color:rgba(151, 148, 145, 0.95) }
+}
+
+@keyframes overview-bg-change {
+		from { background-color:#feb865; }
+		to { background-color:rgba(151, 148, 145, 0.95) }
+}

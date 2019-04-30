@@ -88,6 +88,41 @@ figure p {
 	}
 }
 
+.overiew { 
+	display:none; 
+	padding:15px; 
+}
+
+/* Overview panel contents */
+.overiew ul, .overiew p ~ a {
+	border:$default-border;
+	padding:5px 0; 
+}
+
+.overiew ul { 
+	list-style-type:none; 
+	
+	li {
+		line-height:25px;
+	}
+}
+
+.overiew p ~ a { 
+	display:block; 
+}
+
+.overiew a { 
+	color:$light-color; 
+}
+
+.overview-panel h3 { 
+	padding:10px 0; 
+}
+
+.overview-panel .fa-caret-down { 
+	display:none; 
+}
+
 /* Tile backgrounds */
 #travel-blog { 
 	background-image:url('/dist/images/come-fly-with-lindsay-tile.jpg'); 
