@@ -129,12 +129,8 @@
 	</section>
 
 	<nav>
-		<button>
-			<a itemprop="url" href="about">about me</a>
-		</button>
-		<button>
-			<a href="/">back to home</a>
-		</button>
+		<a itemprop="url" href="about"><button>about me</button></a>
+		<a href="/"><button>back to home</button></a>
 	</nav>
 </main>
 <?php include('structure/footer.php'); ?>

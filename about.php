@@ -24,12 +24,8 @@
 			<p>I have 9 years of experience working in an Ecommerce environment and have been developing professionally for 8 years now.</p>
 			<p itemprop="description">I've been lucky enough to work for some notable companies such as Oliver Bonas, Anya Hindmarch and  Selfridges. In February 2015 I joined the Walt Disney Travel Company as a <span itemprop="jobTitle">Front End Web Developer</span>.</p>
 			<p itemprop="makesOffer">I'm freelancing in my spare time so please get in touch if I can get involved in your upcoming projects.</p>
-			<button>
-				<a id="contact-cta" itemprop="email" href="mailto:me@lindsayfoley.co.uk">contact me</a> 
-			</button>
-			<button>
-				<a id="skills-cta">my skills</a>
-			</button>
+			<a id="contact-cta" itemprop="email" href="mailto:me@lindsayfoley.co.uk"><button>contact me</button></a> 
+			<a id="skills-cta"><button>my skills</button></a>
 		</div>
 		<div id="skills-section">
 			<h2>Key Skills &amp; Experience</h2>
@@ -116,12 +112,8 @@
 		</div>
 	</section>
 	<nav itemscope itemtype="http://schema.org/CreativeWork">
-		<button>
-			<a href="portfolio" itemprop="url">View my work</a>
-		</button>
-		<button>
-			<a href="/">Back to home</a>
-		</button>
+		<a href="portfolio" itemprop="url"><button>View my work</button></a>
+		<a href="/"><button>Back to home</button></a>
 	</nav>
 </main>
 <?php include('structure/footer.php'); ?>

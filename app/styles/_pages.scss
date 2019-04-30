@@ -1,8 +1,4 @@
 //Shared
-main:not(h2) { 
-	color:$light-color; 
-}
-
 body:not(#home) h2 { 
 	color:$dark-color; 
 	margin:0 0 5px 0; 
@@ -26,6 +22,10 @@ body:not(#home) h2 {
 	img {
 		margin:20px auto 0 auto; 
 		max-width:540px;
+		
+		@include smallScreen {
+			width:90%;
+		}
 	}
 }
 
@@ -41,12 +41,10 @@ body:not(#home) h2 {
 	
 	div {
 		background-color:darken($primary-colour, 10%);
-	
 		
 		dl {
 			color:$light-color;
 		}	
-		
 	}
 	
 	div:first-of-type { 
@@ -109,10 +107,6 @@ figure p {
 
 .overiew p ~ a { 
 	display:block; 
-}
-
-.overiew a { 
-	color:$light-color; 
 }
 
 .overview-panel h3 { 

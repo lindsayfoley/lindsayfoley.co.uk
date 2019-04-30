@@ -1,21 +1,20 @@
 /* resets, variables, mixins, and some utility CSS classes */
-header, nav, main, section, img, details, nav a, figure, figcaption, small, footer {
-  display: block; }
-
 body {
   background-color: #54c0b4;
-  font-family: '"Anaheim",sans-serif';
+  font-family: "Anaheim", sans-serif;
   min-width: 320px;
   margin: 0;
   text-align: center; }
 
 h1, h2, h3 {
   margin: 0 auto;
+  color: #ffffff;
   text-transform: uppercase; }
 
 h1 {
-  border-bottom: 4px double #ffffff;
-  padding-bottom: 10px; }
+  width: 285px;
+  font-size: 35px;
+  border-bottom: 4px double #ffffff; }
 
 h2 {
   font-size: 22px; }
@@ -48,8 +47,12 @@ dd {
 figure {
   margin: 0; }
 
+footer a {
+  color: #fabb77; }
+
 small {
-  padding: 20px 0; }
+  padding: 15px 0;
+  display: block; }
 
 i {
   vertical-align: middle; }
@@ -63,13 +66,13 @@ i {
 button {
   background: inherit;
   color: #ffffff;
-  border: 0;
   width: 250px;
   font-size: 12px;
   line-height: 35px;
   border: 1px solid white;
   font-weight: bold;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s; }
   button:hover {
     background: #ffffff;
     color: #54c0b4; }
@@ -104,13 +107,29 @@ button {
 
 /* overall layout of the web page such as container and grid systems */
 main {
-  max-width: 900px; }
+  max-width: 800px;
+  margin: 0 auto; }
+
+header {
+  margin-top: 40px; }
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  @media (max-width: 550px) {
+    nav {
+      flex-direction: column; } }
+  @media (max-width: 550px) {
+    nav a:first-of-type {
+      margin-bottom: 20px; } }
 
 /* Footer */
 footer {
+  margin-top: 40px;
+  padding-top: 20px;
   background-color: #338078;
-  color: #c1a944;
-  padding-top: 20px; }
+  color: #fabb77; }
 
 #social-icons a i {
   font-size: 22px; }
@@ -299,9 +318,6 @@ footer {
   to {
     background-color: rgba(151, 148, 145, 0.95); } }
 
-main:not(h2) {
-  color: #ffffff; }
-
 body:not(#home) h2 {
   color: #338078;
   margin: 0 0 5px 0; }
@@ -319,6 +335,9 @@ body:not(#home) h2 {
 #home img {
   margin: 20px auto 0 auto;
   max-width: 540px; }
+  @media (max-width: 550px) {
+    #home img {
+      width: 90%; } }
 
 #skills-section, #skills-section dl {
   width: 100%; }
@@ -384,9 +403,6 @@ figure p {
 
 .overiew p ~ a {
   display: block; }
-
-.overiew a {
-  color: #ffffff; }
 
 .overview-panel h3 {
   padding: 10px 0; }

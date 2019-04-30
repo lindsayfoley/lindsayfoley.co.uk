@@ -18,13 +18,9 @@
 	</header>
 	<main id="homepage">
 		<img src="dist/images/hp_hero.png" alt="A neat and tidy desk housing all the essentials including a cat mug full of english breakfast tea, biscuits and an iMac">
-		<nav>
-			<button>
-				<a href="portfolio">View my work</a>
-			</button>
-			<button>
-				<a itemprop="url" href="about">About me</a>
-			</button>
+		<nav>			
+			<a href="portfolio"><button>View my work</button></a>
+			<a itemprop="url" href="about"><button>About me</button></a>			
 		</nav>
 	</main>
 	<?php include('structure/footer.php'); ?>

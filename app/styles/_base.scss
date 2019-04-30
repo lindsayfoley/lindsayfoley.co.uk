@@ -3,16 +3,18 @@ $primary-colour:#54c0b4;
 $light-color:#ffffff;
 $accent-color:#feb865;
 $dark-color:#338078;
-$pale-accent-color:#c1a944;
-$primary-font:'"Anaheim",sans-serif';
+$pale-accent-color:#fabb77; //gold
+$primary-font:"Anaheim",sans-serif;
 $italic-font:'serif';
 $default-font-size:18px;
 $small-font-size:12px;
 $medium-font-size:22px;
+$large-font-size:35px;
 $stand-out:uppercase;
 $default-border:1px solid white;
-$largeDevices: 813px; 
-$mediumDevices: 812px; //iPhone X landscape
+$largeDevices:813px; 
+$mediumDevices:812px; //iPhone X landscape
+$smallDevices:550px; //iPhone X landscape
 
 @mixin largeScreen() {
 	@media (min-width:#{$largeDevices}) {
@@ -22,6 +24,12 @@ $mediumDevices: 812px; //iPhone X landscape
 
 @mixin mediumScreen() {
 	@media (max-width:#{$mediumDevices}) {
+		@content;
+	}
+}
+
+@mixin smallScreen() {
+	@media (max-width:#{$smallDevices}) {
 		@content;
 	}
 }
@@ -39,10 +47,6 @@ $mediumDevices: 812px; //iPhone X landscape
 	}
 }
 
-header, nav, main, section, img, details, nav a, figure, figcaption, small, footer { 
-	display:block; 
-}
-
 body { 
 	background-color:$primary-colour; 
 	font-family:$primary-font; 
@@ -53,12 +57,14 @@ body {
 
 h1, h2, h3 { 
 	margin:0 auto; 
+	color:$light-color;
 	text-transform:$stand-out; 
 }
 
 h1 { 
+	width:285px;
+	font-size:$large-font-size;
 	border-bottom:4px double $light-color; 
-	padding-bottom:10px; 
 }
 
 h2 { 
@@ -102,8 +108,13 @@ figure {
 	margin:0; 
 }
 
+footer a {
+	color:$pale-accent-color;
+}
+
 small { 
-	padding:20px 0; 
+	padding:15px 0; 
+	display:block;
 }
 
 i { 
