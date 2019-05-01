@@ -1,11 +1,24 @@
 /* overall layout of the web page such as container and grid systems */
+body { 
+	min-width:320px; 
+}
+
 main {
 	max-width:800px;
 	margin:0 auto;
+	
+			
+	@include mediumScreen {
+		padding:0 10px;
+	}
 }
 
 header {
 	margin-top:40px;
+}
+
+section {
+	margin-top:30px;
 }
 
 nav {
@@ -30,12 +43,4 @@ footer {
 	padding-top:20px; 
 	background-color:$dark-color; 
 	color:$pale-accent-color; 
-}
-
-#social-icons a i { 
-	font-size:$medium-font-size; 
-}
-
-#social-icons a:not(:first-of-type) { 
-	margin-left:10px; 
 }

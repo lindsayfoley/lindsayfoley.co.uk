@@ -1,9 +1,9 @@
 /* resets, variables, mixins, and some utility CSS classes */
 $primary-colour:#54c0b4;
 $light-color:#ffffff;
-$accent-color:#feb865;
-$dark-color:#338078;
+$accent-color:#feb865; //orange
 $pale-accent-color:#fabb77; //gold
+$dark-color:#338078; //footer
 $primary-font:"Anaheim",sans-serif;
 $italic-font:'serif';
 $default-font-size:18px;
@@ -45,12 +45,42 @@ $smallDevices:550px; //iPhone X landscape
 	@include largeScreen {
 		flex-direction:row;
 	}
+	
+	@include smallScreen {
+		flex-direction:column;
+	}	
+}
+
+@mixin info-rollover-tiles {
+	position:relative;	
+	overflow:hidden;
+	
+	&:hover img {
+		opacity:0.8;
+		transition:opacity .35s ease 0s,transform .35s ease 0s;
+		-webkit-transition:opacity .35s ease 0s,transform .35s ease 0s;
+		transform:scale(1.15);
+	}
+	
+	&:hover figcaption {
+		display:block;
+	    background-color:hsla(0,0%,100%,0.7);
+	    position:absolute;
+	    top:0;
+	    left:0;
+    }
+    
+    	&:hover p {
+		font-size:$default-font-size; 
+		color:darken($dark-color, 50%); 
+		font-weight:bold; 
+		padding:32% 10px; 		
+	}	
 }
 
 body { 
 	background-color:$primary-colour; 
 	font-family:$primary-font; 
-	min-width:320px; 
 	margin:0; 
 	text-align:center; 
 }
@@ -67,12 +97,21 @@ h1 {
 	border-bottom:4px double $light-color; 
 }
 
-h2 { 
+h2 {
+	font-family:$italic-font; 
 	font-size:$medium-font-size; 
+	font-style:italic; 
+	font-weight:normal; 
+	padding-top:10px; 
+	text-transform:none;
 }
 
 h3 {
 	padding-top:10px;	
+}
+
+a, p, ul li, dt, dl, i {
+	color:$light-color;	
 }
 
 a { 
@@ -92,6 +131,12 @@ ul {
 	padding-left:0; 
 }
 
+dl {
+	list-style-position:inside;
+	padding:20px;
+	margin:0;
+}
+
 dt {
 	text-decoration:underline;
 	text-align:center;
@@ -101,11 +146,16 @@ dt {
 dd { 
 	display:list-item; 
 	list-style-type:disc; 
+	text-align:left;
 	margin:0 10px; 
 }
 
 figure { 
 	margin:0; 
+}
+
+button {
+	outline:0;
 }
 
 footer a {
@@ -125,4 +175,13 @@ i {
 	text-align:center; 
 	font-size:$medium-font-size; 
 	display:block; 
+}
+
+#social-icons a i { 
+	color:$pale-accent-color;
+	font-size:$medium-font-size; 
+}
+
+#social-icons a:not(:first-of-type) { 
+	margin-left:10px; 
 }

@@ -1,6 +1,6 @@
 const pageDetails = {
 
-	desktopBreakPoint: 900,
+	desktopBreakPoint: 813,
 	
 	windowWidth() {
 		return $(window).width();
@@ -32,7 +32,7 @@ const showCompanyDesciption = () => {
 }
 
 const slideDownSkillsPanel = () => {
-	$('#skills-cta').click(function() {
+	$('#skills-cta button').click(function() {
 		$('#skills-section').slideToggle('slow');
 	});
 };

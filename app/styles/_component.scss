@@ -16,33 +16,20 @@ button {
 	}
 }
 
-.square-card {
-	@include ui-card(300px, 300px);
+.flip-card {
 	position:relative;
 	cursor:pointer;
 	color:$dark-color;
-}
-
-.fact {
-	margin:0;
-}
-
-.company {
+	margin:0 auto;
 	background-size:contain;
 	background-repeat:no-repeat;	
+	overflow:hidden;
 }
 
-.overview-panel {
-	@include ui-card(300px, 300px);
-}
-
-.label {
-	@include ui-card(300px, 60px);
+.flip-card > div {
     position:absolute;
     left:0;
-    bottom:0;
-    padding-bottom:5px;
+    bottom:10px;
     background-color:$accent-color;
     transition:height 1.5s ease 0s;	
 }
-

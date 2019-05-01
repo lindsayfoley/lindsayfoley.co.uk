@@ -1,19 +1,5 @@
-//Shared
-body:not(#home) h2 { 
-	color:$dark-color; 
-	margin:0 0 5px 0; 
-}
-
 //Homepage
 #home { 
-	
-	h2 {
-		font-family:$italic-font; 
-		font-style:italic; 
-		font-weight:normal; 
-		padding-top:10px; 
-		text-transform:none;
-	}
 	
 	span {
 		text-transform:none;
@@ -22,82 +8,113 @@ body:not(#home) h2 {
 	img {
 		margin:20px auto 0 auto; 
 		max-width:540px;
-		
-		@include smallScreen {
-			width:90%;
-		}
+		width:100%;
 	}
 }
 
 //About
-#skills-section, #skills-section dl {
-	width:100%;	
-}
-
 #skills-section {
-	display:none;
-	margin-bottom:20px;
-	@include row-of-elements;
 	
-	div {
+	display:none;
+	
+	.wrapper {
+		@include row-of-elements;		
+	}
+
+	.wrapper > section {
+		width:100%;
+		padding-top:30px;
 		background-color:darken($primary-colour, 10%);
-		
-		dl {
-			color:$light-color;
-		}	
 	}
 	
-	div:first-of-type { 
+	.wrapper > section:first-of-type { 
 		border-right:10px solid $primary-colour; 
 	}
 	
 	img { 
-		max-width:163px; 
+		width:160px; 
 	}
 }
 
 #professional-tiles { 
-	clear:left; 
-	border-bottom:3px solid $light-color; 
-	padding:10px 0 30px 0; 
-	overflow:hidden; 
+	border-bottom:2px solid $light-color; 
+	padding:30px 0; 
+	margin-bottom:30px;
 	@include row-of-elements;
+	
+	@include mediumScreen {
+		display:none;
+	}
 }
 
-figcaption p { 
-	display:none; 
+#professional + nav {
+	@include mediumScreen {
+    		margin-top:20px;
+	}
 }
 
-figure p { 
-	font-size:$default-font-size; 
-	color:$dark-color; 
-	font-weight:bold; 
-	margin:0;
-	padding:35% 0; 
+figcaption {
+	display:none;
+}
+
+figure {
+	height:235px;
+	overflow:hidden;
+	@include info-rollover-tiles;
 }
 
 //Portfolio
+.portfolio main {
+	max-width:900px;
+}
+
+section > section {
+	margin-top:0;
+}
+
 .companies {
 	margin-bottom:10px;
-	@include row-of-elements;
+	@include row-of-elements;	
+	flex-wrap:wrap;
+	justify-content:space-around;		
+			
+	@include smallScreen {
+		flex-wrap:nowrap;
+	}
 	
 	* { 
 		text-align:center;
 	}
+	
+	.flip-card {
+		@include ui-card(290px, 256px);
+	}
+		
+	.label {
+		@include ui-card(290px, 65px);		
+	}
 }
 
-.overiew { 
+.overview { 
 	display:none; 
-	padding:15px; 
 }
 
-/* Overview panel contents */
-.overiew ul, .overiew p ~ a {
+.overview-panel {
+	display:block;
+	height:100%;
+	overflow:hidden;
+}
+
+.flipcard > .overview-panel {
+	padding:15px; 	
+}
+
+.overview ul, .overview p ~ a {
 	border:$default-border;
 	padding:5px 0; 
 }
 
-.overiew ul { 
+.overview ul { 
 	list-style-type:none; 
 	
 	li {
@@ -105,7 +122,7 @@ figure p {
 	}
 }
 
-.overiew p ~ a { 
+.overview p ~ a { 
 	display:block; 
 }
 
