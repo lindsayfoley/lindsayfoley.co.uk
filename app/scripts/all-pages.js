@@ -22,10 +22,10 @@ const removeCssAnimationOnSmallScreens = width => {
 const showCompanyDesciption = () => {
 		
 	$('.companies section').click(function() {
-		$(this).find('div').toggleClass('overview-panel');
+		$(this).toggleClass('show-details');
 		
 		// Prevent clicks on portfolio links bubbling up
-		$('.overview-panel a').click(function(e) {
+		$('.description a').click(function(e) {
 			e.stopPropagation();  
 		});
 	}); 		
