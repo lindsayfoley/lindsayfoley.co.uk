@@ -19,17 +19,14 @@ button {
 .flip-card {
 	position:relative;
 	cursor:pointer;
-	color:$dark-color;
-	margin:0 auto;
-	background-size:contain;
-	background-repeat:no-repeat;	
-	overflow:hidden;
+	margin:5px auto;
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.1);
 }
 
 .flip-card > div {
-    position:absolute;
-    left:0;
-    bottom:10px;
-    background-color:$accent-color;
+    width:100%;
+    color:$light-color;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
     transition:height 1.5s ease 0s;	
 }

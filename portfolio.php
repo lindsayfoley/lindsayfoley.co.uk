@@ -19,73 +19,90 @@
 	<section id="wrapper" class="companies">	
 
 		<section id="travel-blog" class="flip-card">
+			<img src="/dist/images/come-fly-with-lindsay-tile.jpg" alt="My travel blog site">
 			<div itemscope itemtype="http://schema.org/CreativeWork">
-				<div class="label">
+				<div class="heading">
 					<h3 itemprop="name">Come Fly With Lindsay</h3>
-					<i class="fa fa-caret-down"></i>
+					<span>Details &rsaquo;</span>
 				</div>
-				<div class="overview">
-					<p itemprop="description">My travel blog which I launched in November 2016 which I designed and coded using <span itemprop="keywords">PHP, Markdown, HTML5, CSS3, jQuery &amp; Foundation 6</span>.</p>
-					<a itemprop="url" href="http://comeflywithlindsay.com" target="_blank">Visit Come Fly With Lindsay &rsaquo;</a>
+				<div class="description" itemprop="description">
+				<p>My travel blog which I launched in November 2016!</p>
+				<p>I designed and coded it using <span itemprop="keywords">PHP, Markdown, HTML5, CSS3, jQuery and Foundation 6</span>.</p>
+				<hr>
+				<a itemprop="url" href="http://comeflywithlindsay.com" target="_blank">Visit Site &rsaquo;</a>
 				</div>
 			</div>
-		</section>		
+		</section>	
+			
 		<section id="disney" class="flip-card">
+			<img src="/dist/images/disney-tile.png" alt="The Walt Disney Travel Co. website">
 			<div itemscope itemtype="http://schema.org/CreativeWork">
-				<div class="label">
+				<div class="heading">
 					<h3 itemprop="name">Disney Holidays</h3>
-					<i class="fa fa-caret-down"></i>
+					<span>Details &rsaquo;</span>
 				</div>
-				<div class="overview">
-					<p itemprop="description">I co-developed this site using the <span itemprop="keywords">Foundation framework with RESS principles</span>, allowing us to dynamically serve content.</p>
-					<a itemprop="url" href="http://www.disneyholidays.co.uk/" target="_blank">Explore Disney Holidays &rsaquo;</a>
-				</div>
+				<div class="description">
+					<p itemprop="description">I co-developed this site to make it responsive/adaptive using the <span itemprop="keywords">Foundation framework and RESS principles</span>, allowing us to dynamically serve the content that's needed by device type.</p>			
+					<hr>
+					<a itemprop="url" href="http://www.disneyholidays.co.uk/" target="_blank">Visit Site &rsaquo;</a>
 			</div>
 		</section>	
+		
 		<section id="jia" class="flip-card">
+			<img src="/dist/images/jia-tile.png" alt="Jesus In Action website">
 			<div itemscope itemtype="http://schema.org/CreativeWork">
-				<div class="label">
+				<div class="heading">
 					<h3 itemprop="name">Jesus In Action</h3>
-					<i class="fa fa-caret-down"></i>
+					<span>Details &rsaquo;</span>
 				</div>
-				<div class="overview">
-					<p itemprop="description">This website underwent a complete refresh making it responsive, using <span itemprop="keywords">HTML5, CSS3, jQuery &amp; Foundation 6</span>.</p>
-					<a itemprop="url" href="http://jesusinaction.org.uk" target="_blank">View Jesus In Action &rsaquo;</a>
+				<div class="description">
+					<p itemprop="description">This website underwent a complete refresh making it responsive, using <span itemprop="keywords">HTML5, CSS3, jQuery and Foundation 6</span>.</p>
+					<hr>
+					<a itemprop="url" href="http://jesusinaction.org.uk" target="_blank">Visit Site &rsaquo;</a>
 				</div>
 			</div>
 		</section>	
+		
 		<section id="perfume" class="flip-card">
+			<img src="/dist/images/perfume-tile.jpg" alt="The Perfume Mistress website">
 			<div itemscope itemtype="http://schema.org/CreativeWork">
-				<div class="label">
+				<div class="heading">
 					<h3 itemprop="name">The Perfume Mistress</h3>
-					<i class="fa fa-caret-down"></i>
+					<span>Details &rsaquo;</span>
 				</div>
-				<div class="overview">
-					<p itemprop="description">I used the Squarespace platform adding bespoke <span itemprop="keywords">CSS and JavaScript</span> to customise the Hayden template.</p>
-					<a itemprop="url" href="https://www.theperfumemistress.com/" target="_blank">The Perfume Mistress &rsaquo;</a>
+				<div class="description">
+					<p itemprop="description">This site is built on the Squarespace platform as my client required a site that was transactional. I added bespoke <span itemprop="keywords">CSS and JavaScript</span> to customise the Hayden template.</p>
+					<hr>
+					<a itemprop="url" href="https://www.theperfumemistress.com/" target="_blank">Visit Site &rsaquo;</a>
 				</div>
 			</div>
 		</section>
+		
 		<section id="dashwood" class="flip-card">
+			<img src="/dist/images/dashwood-tile.png" alt="Hayes Dashwood Foundation site">
 			<div itemscope itemtype="http://schema.org/CreativeWork">
-				<div class="label">
-					<h3 itemprop="name">Hayes Dashwood Foundation</h3>
-					<i class="fa fa-caret-down"></i>
+				<div class="heading">
+					<h3 itemprop="name">Hayes Dashwood</h3>
+					<span>Details &rsaquo;</span>
 				</div>
-				<div class="overview">
-					<p itemprop="description">I volunteered to update the design & functionality of this website. It was <span itemprop="keywords">written in HTML5, CSS, jQuery &amp; uses the Google Maps API</span>.</p>
-					<a itemprop="url" href="http://www.hayesdashwood.org.uk/" target="_blank">Hayes Dashwood Foundation &rsaquo;</a>
+				<div class="description">
+					<p itemprop="description">I updated the design and functionality of this website. It was <span itemprop="keywords">written in HTML5, CSS, jQuery and uses the Google Maps API</span>.</p>
+					<hr>
+					<a itemprop="url" href="http://www.hayesdashwood.org.uk/" target="_blank">Visit Site &rsaquo;</a>
 				</div>
 			</div>
 		</section>
+		
 		<section id="selfridges" class="flip-card">
+			<img src="/dist/images/selfridges-tile.png" alt="Selfridges website">
 			<div itemscope itemtype="http://schema.org/CreativeWork">
-				<div class="label">
+				<div class="heading">
 					<h3 itemprop="name">Selfridges</h3>
-					<i class="fa fa-caret-down"></i>
+					<span>Details &rsaquo;</span>
 				</div>
-				<div class="overview">
-					<p itemprop="description">I worked on the new site launch in 2014, migrating &amp; <span itemprop="keywords">developing new responsive content &amp; HTML emails</span>.</p>
+				<div class="description">
+					<p itemprop="description">I worked on the new site launch in 2014, migrating and <span itemprop="keywords">developing new responsive content as well as HTML emails</span>.</p>
+					<hr>
 					<ul>
 						<li><a itemprop="url" href="https://web.archive.org/web/20150129013448/http://www.selfridges.com/content/article/investment-classics-menswear" target="_blank">Give me five &rsaquo;</a></li>
 						<li><a itemprop="url" href="https://web.archive.org/web/20150129013627/http://www.selfridges.com/content/article/how-to-wear-it-london-collection-mens" target="_blank">How to wear it &rsaquo;</a></li>
@@ -93,27 +110,33 @@
 					</ul>
 				</div>
 			</div>
-		</section>			
+		</section>	
+				
 		<section id="hopelands" class="flip-card">
+			<img src="/dist/images/hopelands-tile.png" alt="Hopelands Cattery website">
 			<div itemscope itemtype="http://schema.org/CreativeWork">
-				<div class="label">
+				<div class="heading">
 					<h3 itemprop="name">Hopelands Cattery</h3>
-					<i class="fa fa-caret-down"></i>
+					<span>Details &rsaquo;</span>
 				</div>
-				<div class="overview">
-					<p itemprop="description">I designed &amp; co-developed this site using <span itemprop="keywords">HTML5, CSS, jQuery, Slick carousel &amp; the Google Maps API</span>.</p>
-					<a itemprop="url" href="http://hopelandscattery.com" target="_blank">Visit Hopelands Cattery &rsaquo;</a>
+				<div class="description">
+					<p itemprop="description">I designed and developed this site using <span itemprop="keywords">HTML5, CSS, jQuery, Slick carousel and the Google Maps API</span>.</p>
+					<hr>
+					<a itemprop="url" href="http://hopelandscattery.com" target="_blank">Visit Site &rsaquo;</a>
 				</div>
 			</div>
 		</section>			
+		
 		<section id="whitestuff" class="flip-card">
+			<img src="/dist/images/ws-tile.png" alt="White Stuff website">
 			<div itemscope itemtype="http://schema.org/CreativeWork">
-				<div class="label">
+				<div class="heading">
 					<h3 itemprop="name">White Stuff</h3>
-					<i class="fa fa-caret-down"></i>
+					<span>Details &rsaquo;</span>
 				</div>
-				<div class="overview">
-					<p itemprop="description">My first dev role! I created web content &amp; weekly <span itemprop="keywords">HTML emails using XHTML4, CSS3 &amp; jQuery</span>.</p>
+				<div class="description">
+					<p itemprop="description">My first dev role! I created web content and weekly <span itemprop="keywords">HTML emails using XHTML4, CSS3 and jQuery</span>.</p>
+					<hr>
 					<ul>
 						<li><a itemprop="url" href="http://web.archive.org/web/20140701070509/http://www.whitestuff.com/explore" target="_blank">Explore landing page &rsaquo;</a></li>
 						<li><a itemprop="url" href="http://www.whitestuff.com/faqs" target="_blank">FAQ toggle menu &rsaquo;</a></li>
@@ -122,18 +145,22 @@
 				</div>
 			</div>
 		</section>
+		
 		<section id="ppp" class="flip-card">
+			<img src="/dist/images/ppp-tile.png" alt="Paw Print Productions website">
 			<div itemscope itemtype="http://schema.org/CreativeWork">
-				<div class="label">
+				<div class="heading">
 					<h3 itemprop="name">Paw Print Productions</h3>
-					<i class="fa fa-caret-down"></i>
+					<span>Details &rsaquo;</span>
 				</div>
-				<div class="overview">
-					<p itemprop="description">I co-developed &amp; designed this responsive site many years ago (2011!) using <span itemprop="keywords">HTML5, CSS3 &amp; jQuery</span>.</p>
-					<a itemprop="url" href="https://web.archive.org/web/20160115162243/http://paw-print-productions.co.uk/" target="_blank">Paw Print Productions &rsaquo;</a>
+				<div class="description">
+					<p itemprop="description">I co-developed and designed this responsive site many years ago (2011!) using <span itemprop="keywords">HTML5, CSS3 and jQuery</span>.</p>
+					<hr>
+					<a itemprop="url" href="https://web.archive.org/web/20160115162243/http://paw-print-productions.co.uk/" target="_blank">Visit Site &rsaquo;</a>
 				</div>
 			</div>
 		</section>		
+
 	</section>
 
 	<nav>

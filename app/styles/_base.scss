@@ -1,13 +1,18 @@
 /* resets, variables, mixins, and some utility CSS classes */
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic');
+@import url('https://fonts.googleapis.com/css?family=Anaheim');
+
 $primary-colour:#54c0b4;
 $light-color:#ffffff;
 $accent-color:#feb865; //orange
 $pale-accent-color:#fabb77; //gold
 $dark-color:#338078; //footer
-$primary-font:"Anaheim",sans-serif;
-$italic-font:'serif';
+$uppercase-font:'Karla', sans-serif;
+$primary-font:'Anaheim', sans-serif;
+$italic-font:'Droid Serif', serif;
 $default-font-size:18px;
-$small-font-size:12px;
+$small-font-size:13px;
 $medium-font-size:22px;
 $large-font-size:35px;
 $stand-out:uppercase;
@@ -85,6 +90,15 @@ body {
 	text-align:center; 
 }
 
+p, p a, ul li, dt, dl, i {
+	font-size:$default-font-size; 
+}
+
+p, a, ul li, dt, dl, i {
+	color:$light-color;	
+	margin-top:0;
+}
+
 h1, h2, h3 { 
 	margin:0 auto; 
 	color:$light-color;
@@ -92,8 +106,10 @@ h1, h2, h3 {
 }
 
 h1 { 
-	width:285px;
+	width:240px;
+	font-family:$uppercase-font;
 	font-size:$large-font-size;
+	font-weight: 500;
 	border-bottom:4px double $light-color; 
 }
 
@@ -110,10 +126,6 @@ h3 {
 	padding-top:10px;	
 }
 
-a, p, ul li, dt, dl, i {
-	color:$light-color;	
-}
-
 a { 
 	text-decoration:none; 
 	
@@ -122,9 +134,8 @@ a {
 	}
 }
 
-p, ul li, dt, dl { 
-	font-size:$default-font-size; 
-	margin-top:0; 
+ul, dl {
+	list-style-position:inside;	
 }
 
 ul { 
@@ -132,7 +143,6 @@ ul {
 }
 
 dl {
-	list-style-position:inside;
 	padding:20px;
 	margin:0;
 }
@@ -155,6 +165,7 @@ figure {
 }
 
 button {
+	font-family:$uppercase-font;
 	outline:0;
 }
 
@@ -171,10 +182,8 @@ i {
 	vertical-align:middle; 
 } 
 
-.fa-caret-down { 
-	text-align:center; 
-	font-size:$medium-font-size; 
-	display:block; 
+hr {
+	color:darken($light-color, 50%);
 }
 
 #social-icons a i { 

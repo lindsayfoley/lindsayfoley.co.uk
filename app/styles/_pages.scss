@@ -87,94 +87,60 @@ section > section {
 	}
 	
 	.flip-card {
-		@include ui-card(290px, 256px);
+		@include ui-card(290px, auto);
 	}
-		
-	.label {
-		@include ui-card(290px, 65px);		
-	}
-}
-
-.overview { 
-	display:none; 
-}
-
-.overview-panel {
-	display:block;
-	height:100%;
-	overflow:hidden;
-}
-
-.flipcard > .overview-panel {
-	padding:15px; 	
-}
-
-.overview ul, .overview p ~ a {
-	border:$default-border;
-	padding:5px 0; 
-}
-
-.overview ul { 
-	list-style-type:none; 
 	
-	li {
-		line-height:25px;
+	ul {
+		list-style-type:none;
 	}
 }
 
-.overview p ~ a { 
-	display:block; 
-}
-
-.overview-panel h3 { 
-	padding:10px 0; 
-}
-
-.overview-panel .fa-caret-down { 
-	display:none; 
-}
-
-/* Tile backgrounds */
-#travel-blog { 
-	background-image:url('/dist/images/come-fly-with-lindsay-tile.jpg'); 
-}
-
-#disney { 
-	background-image:url('/dist/images/disney_tile.png'); 
-}
+.flip-card {
+	font-family:$uppercase-font;
 	
-#perfume { 
-	background-image:url('/dist/images/perfume-tile.jpg'); 
+	img {
+		width:290px;
+		height:260px;
+		display:block;
+		border-radius:5px;
+	}
+	
+	> div { 
+		width:100%;
+		height:74px;
+		position:absolute;
+		left:0;
+		bottom:0;
+		border-bottom-left-radius:5px;
+		border-bottom-right-radius:5px;
+		background:$accent-color;
+	}
+	
+	.heading span {
+		display:block;
+		padding:10px 0;
+	}	
+
+	.description { 
+		display:none; 
+	}	
 }
 
-#dashwood { 
-	background-image:url('/dist/images/dashwood_tile.png'); 
-}
 
-#hopelands { 
-	background-image:url('/dist/images/hopelands_tile.png'); 
-}
+.flip-card.show-details {
+	
+	> div {
+		border-top-left-radius:5px;
+		border-top-right-radius:5px;	
+		height:100%;
+	}
 
-#selfridges { 
-	background-image: url('/dist/images/selfridges_tile.png'); 
-}
- 
-#ppp {
-	background-image: url('/dist/images/ppp_tile.png'); 
-}
- 
-#whitestuff {
-	background-image:url('/dist/images/ws_tile.png'); 
-}
- 
-#jia { 
-	background-image:url('/dist/images/jia_tile.png'); 
-}
- 
-#theyer {
-	background-image:url('/dist/images/theyer_tile.png'); 
-}
- 
-#ob { 
-	background-image:url('/dist/images/ob_tile.png'); 
+	.heading span {
+		display:none;
+	}
+
+	.description {
+		display:block;
+		padding:10px;
+	}
 }

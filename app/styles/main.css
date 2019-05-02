@@ -1,9 +1,19 @@
 /* resets, variables, mixins, and some utility CSS classes */
+@import url("https://fonts.googleapis.com/css?family=Karla");
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
+@import url("https://fonts.googleapis.com/css?family=Anaheim");
 body {
   background-color: #54c0b4;
   font-family: "Anaheim", sans-serif;
   margin: 0;
   text-align: center; }
+
+p, p a, ul li, dt, dl, i {
+  font-size: 18px; }
+
+p, a, ul li, dt, dl, i {
+  color: #ffffff;
+  margin-top: 0; }
 
 h1, h2, h3 {
   margin: 0 auto;
@@ -11,12 +21,14 @@ h1, h2, h3 {
   text-transform: uppercase; }
 
 h1 {
-  width: 285px;
+  width: 240px;
+  font-family: "Karla", sans-serif;
   font-size: 35px;
+  font-weight: 500;
   border-bottom: 4px double #ffffff; }
 
 h2 {
-  font-family: "serif";
+  font-family: "Droid Serif", serif;
   font-size: 22px;
   font-style: italic;
   font-weight: normal;
@@ -26,23 +38,18 @@ h2 {
 h3 {
   padding-top: 10px; }
 
-a, p, ul li, dt, dl, i {
-  color: #ffffff; }
-
 a {
   text-decoration: none; }
   a img {
     border: 0; }
 
-p, ul li, dt, dl {
-  font-size: 18px;
-  margin-top: 0; }
+ul, dl {
+  list-style-position: inside; }
 
 ul {
   padding-left: 0; }
 
 dl {
-  list-style-position: inside;
   padding: 20px;
   margin: 0; }
 
@@ -61,6 +68,7 @@ figure {
   margin: 0; }
 
 button {
+  font-family: "Karla", sans-serif;
   outline: 0; }
 
 footer a {
@@ -73,10 +81,8 @@ small {
 i {
   vertical-align: middle; }
 
-.fa-caret-down {
-  text-align: center;
-  font-size: 22px;
-  display: block; }
+hr {
+  color: gray; }
 
 #social-icons a i {
   color: #fabb77;
@@ -90,7 +96,7 @@ button {
   background: inherit;
   color: #ffffff;
   width: 250px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 35px;
   border: 1px solid white;
   font-weight: bold;
@@ -103,17 +109,14 @@ button {
 .flip-card {
   position: relative;
   cursor: pointer;
-  color: #338078;
-  margin: 0 auto;
-  background-size: contain;
-  background-repeat: no-repeat;
-  overflow: hidden; }
+  margin: 5px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); }
 
 .flip-card > div {
-  position: absolute;
-  left: 0;
-  bottom: 10px;
-  background-color: #feb865;
+  width: 100%;
+  color: #ffffff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   transition: height 1.5s ease 0s; }
 
 /* overall layout of the web page such as container and grid systems */
@@ -307,29 +310,26 @@ footer {
       left: 182px;
       opacity: 1; } } }
 
-.overview-panel {
-  -moz-animation: overview-bg-change 1.5s forwards;
-  -webkit-animation: overview-bg-change 1.5s forwards;
-  animation: overview-bg-change 1.5s forwards; }
+.flip-card.show-details > div {
+  -moz-animation: details-bg-change 1.5s forwards;
+  -webkit-animation: details-bg-change 1.5s forwards;
+  animation: details-bg-change 1.5s forwards; }
 
-@-moz-keyframes overview-bg-change {
+@-moz-keyframes details-bg-change {
   from {
-    background-color: #feb865;
-    height: 100%; }
+    background-color: #feb865; }
   to {
     background-color: rgba(151, 148, 145, 0.95); } }
 
-@-webkit-keyframes overview-bg-change {
+@-webkit-keyframes details-bg-change {
   from {
-    background-color: #feb865;
-    height: 100%; }
+    background-color: #feb865; }
   to {
     background-color: rgba(151, 148, 145, 0.95); } }
 
-@keyframes overview-bg-change {
+@keyframes details-bg-change {
   from {
-    background-color: #feb865;
-    height: 100%; }
+    background-color: #feb865; }
   to {
     background-color: rgba(151, 148, 145, 0.95); } }
 
@@ -428,70 +428,40 @@ section > section {
     text-align: center; }
   .companies .flip-card {
     width: 290px;
-    height: 256px; }
-  .companies .label {
+    height: auto; }
+  .companies ul {
+    list-style-type: none; }
+
+.flip-card {
+  font-family: "Karla", sans-serif; }
+  .flip-card img {
     width: 290px;
-    height: 65px; }
+    height: 260px;
+    display: block;
+    border-radius: 5px; }
+  .flip-card > div {
+    width: 100%;
+    height: 74px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #feb865; }
+  .flip-card .heading span {
+    display: block;
+    padding: 10px 0; }
+  .flip-card .description {
+    display: none; }
 
-.overview {
+.flip-card.show-details > div {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 100%; }
+
+.flip-card.show-details .heading span {
   display: none; }
 
-.overview-panel {
+.flip-card.show-details .description {
   display: block;
-  height: 100%;
-  overflow: hidden; }
-
-.flipcard > .overview-panel {
-  padding: 15px; }
-
-.overview ul, .overview p ~ a {
-  border: 1px solid white;
-  padding: 5px 0; }
-
-.overview ul {
-  list-style-type: none; }
-  .overview ul li {
-    line-height: 25px; }
-
-.overview p ~ a {
-  display: block; }
-
-.overview-panel h3 {
-  padding: 10px 0; }
-
-.overview-panel .fa-caret-down {
-  display: none; }
-
-/* Tile backgrounds */
-#travel-blog {
-  background-image: url("/dist/images/come-fly-with-lindsay-tile.jpg"); }
-
-#disney {
-  background-image: url("/dist/images/disney_tile.png"); }
-
-#perfume {
-  background-image: url("/dist/images/perfume-tile.jpg"); }
-
-#dashwood {
-  background-image: url("/dist/images/dashwood_tile.png"); }
-
-#hopelands {
-  background-image: url("/dist/images/hopelands_tile.png"); }
-
-#selfridges {
-  background-image: url("/dist/images/selfridges_tile.png"); }
-
-#ppp {
-  background-image: url("/dist/images/ppp_tile.png"); }
-
-#whitestuff {
-  background-image: url("/dist/images/ws_tile.png"); }
-
-#jia {
-  background-image: url("/dist/images/jia_tile.png"); }
-
-#theyer {
-  background-image: url("/dist/images/theyer_tile.png"); }
-
-#ob {
-  background-image: url("/dist/images/ob_tile.png"); }
+  padding: 10px; }
