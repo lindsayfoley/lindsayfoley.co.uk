@@ -18,9 +18,9 @@
 <main>	
 	<section id="professional">
 		<div>
-			<p>I’ve been busy working on my little corner of the internet for quite a while so thanks for stopping by!</p>
-			<p>I have 9 years of experience working in an Ecommerce environment and have been developing professionally for 8 years now.</p>
-			<p itemprop="description">I've been lucky enough to work for some notable companies such as Oliver Bonas, Anya Hindmarch and  Selfridges. In February 2015 I joined the Walt Disney Travel Company as a <span itemprop="jobTitle">Front End Web Developer</span>.</p>
+			<p>I’ve been busy working on my little corner of the internet for quite a while so thanks for stopping by. If you've been here before the site presentation may look unchanged, however I update it every so often utilising new skills that I learn - it's currently written in HTML, CSS (SASS) and JS (ES6 standards) and my good mate Gulp is now helping out with all the manual tasks!</p>
+			<p>I have 9 years of experience working in an Ecommerce environment and have been developing professionally or 8 years now. </p>
+			<p itemprop="description">In that time, I've been lucky enough to work for notable companies such as Oliver Bonas, Anya Hindmarch and  Selfridges. In February 2015 I joined the Walt Disney Travel Company as a <span itemprop="jobTitle">Web Developer</span>.</p>
 			<p itemprop="makesOffer">I'm freelancing in my spare time so please get in touch if I can get involved in your upcoming projects.</p>
 			<nav>
 				<a id="contact-cta" itemprop="email" href="mailto:me@lindsayfoley.co.uk"><button>contact me</button></a> 

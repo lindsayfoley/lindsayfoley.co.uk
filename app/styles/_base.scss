@@ -39,6 +39,12 @@ $smallDevices:550px; //iPhone X landscape
 	}
 }
 
+@mixin end-of-content() {
+	border-bottom:2px solid $light-color; 
+	padding-bottom:30px; 
+	margin-bottom:30px;
+}
+
 @mixin ui-card($width, $height) {
 	width:$width;
 	height:$height;
@@ -183,7 +189,7 @@ i {
 } 
 
 hr {
-	color:darken($light-color, 50%);
+	color:lighten(#9B9895, 20%);
 }
 
 #social-icons a i { 

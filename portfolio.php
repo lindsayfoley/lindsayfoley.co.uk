@@ -26,10 +26,10 @@
 					<span>Details &rsaquo;</span>
 				</div>
 				<div class="description" itemprop="description">
-				<p>My travel blog which I launched in November 2016!</p>
-				<p>I designed and coded it using <span itemprop="keywords">PHP, Markdown, HTML5, CSS3, jQuery and Foundation 6</span>.</p>
-				<hr>
-				<a itemprop="url" href="http://comeflywithlindsay.com" target="_blank">Visit Site &rsaquo;</a>
+					<p>My travel blog which I launched in November 2016!</p>
+					<p>I designed and coded it using <span itemprop="keywords">PHP, Markdown, HTML5, CSS3, jQuery and Foundation 6</span>.</p>
+					<hr>
+					<a itemprop="url" href="http://comeflywithlindsay.com" target="_blank">Visit Site &rsaquo;</a>
 				</div>
 			</div>
 		</section>	
@@ -42,9 +42,10 @@
 					<span>Details &rsaquo;</span>
 				</div>
 				<div class="description">
-					<p itemprop="description">I co-developed this site to make it responsive/adaptive using the <span itemprop="keywords">Foundation framework and RESS principles</span>, allowing us to dynamically serve the content that's needed by device type.</p>			
+					<p itemprop="description">I co-developed this site to make it adaptive/responsive using the <span itemprop="keywords">Foundation framework and RESS principles</span>, allowing us to dynamically serve content by device type.</p>			
 					<hr>
 					<a itemprop="url" href="http://www.disneyholidays.co.uk/" target="_blank">Visit Site &rsaquo;</a>
+				</div>
 			</div>
 		</section>	
 		
@@ -56,7 +57,7 @@
 					<span>Details &rsaquo;</span>
 				</div>
 				<div class="description">
-					<p itemprop="description">This website underwent a complete refresh making it responsive, using <span itemprop="keywords">HTML5, CSS3, jQuery and Foundation 6</span>.</p>
+					<p itemprop="description">This website underwent a complete refresh to modernise it. It's written in <span itemprop="keywords">HTML5, CSS3, jQuery and Foundation 6</span>.</p>
 					<hr>
 					<a itemprop="url" href="http://jesusinaction.org.uk" target="_blank">Visit Site &rsaquo;</a>
 				</div>
@@ -101,7 +102,7 @@
 					<span>Details &rsaquo;</span>
 				</div>
 				<div class="description">
-					<p itemprop="description">I worked on the new site launch in 2014, migrating and <span itemprop="keywords">developing new responsive content as well as HTML emails</span>.</p>
+					<p itemprop="description">I worked on the new site launch in 2014, migrating and <span itemprop="keywords">developing new responsive content as well as new HTML emails</span>.</p>
 					<hr>
 					<ul>
 						<li><a itemprop="url" href="https://web.archive.org/web/20150129013448/http://www.selfridges.com/content/article/investment-classics-menswear" target="_blank">Give me five &rsaquo;</a></li>
@@ -154,7 +155,7 @@
 					<span>Details &rsaquo;</span>
 				</div>
 				<div class="description">
-					<p itemprop="description">I co-developed and designed this responsive site many years ago (2011!) using <span itemprop="keywords">HTML5, CSS3 and jQuery</span>.</p>
+					<p itemprop="description">I co-developed and designed this responsive site many years ago (2011!) using <span itemprop="keywords">HTML5, CSS3 and a bit of jQuery</span>.</p>
 					<hr>
 					<a itemprop="url" href="https://web.archive.org/web/20160115162243/http://paw-print-productions.co.uk/" target="_blank">Visit Site &rsaquo;</a>
 				</div>

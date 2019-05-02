@@ -82,7 +82,7 @@ i {
   vertical-align: middle; }
 
 hr {
-  color: gray; }
+  color: #cdcbc9; }
 
 #social-icons a i {
   color: #fabb77;
@@ -147,7 +147,6 @@ nav {
     nav a:first-of-type {
       margin-bottom: 20px; } }
 
-/* Footer */
 footer {
   margin-top: 40px;
   padding-top: 20px;
@@ -362,9 +361,10 @@ footer {
 
 #professional-tiles {
   border-bottom: 2px solid #ffffff;
-  padding: 30px 0;
+  padding-bottom: 30px;
   margin-bottom: 30px;
-  display: flex; }
+  display: flex;
+  padding-top: 30px; }
   @media (min-width: 813px) {
     #professional-tiles {
       flex-direction: row; } }
@@ -411,10 +411,13 @@ section > section {
   margin-top: 0; }
 
 .companies {
-  margin-bottom: 10px;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+  text-align: center; }
   @media (min-width: 813px) {
     .companies {
       flex-direction: row; } }
@@ -424,35 +427,42 @@ section > section {
   @media (max-width: 550px) {
     .companies {
       flex-wrap: nowrap; } }
-  .companies * {
-    text-align: center; }
   .companies .flip-card {
     width: 290px;
     height: auto; }
   .companies ul {
     list-style-type: none; }
 
-.flip-card {
+.flip-card img {
+  width: 290px;
+  height: 260px;
+  display: block;
+  border-radius: 5px; }
+
+.flip-card > div {
+  width: 100%;
+  height: 74px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #feb865; }
+
+.flip-card .heading {
   font-family: "Karla", sans-serif; }
-  .flip-card img {
-    width: 290px;
-    height: 260px;
-    display: block;
-    border-radius: 5px; }
-  .flip-card > div {
-    width: 100%;
-    height: 74px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background: #feb865; }
   .flip-card .heading span {
     display: block;
     padding: 10px 0; }
-  .flip-card .description {
-    display: none; }
+
+.flip-card .description {
+  display: none; }
+  .flip-card .description ul {
+    margin: 0; }
+  .flip-card .description a {
+    display: block;
+    margin-top: 5px; }
 
 .flip-card.show-details > div {
   border-top-left-radius: 5px;
