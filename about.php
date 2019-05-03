@@ -11,7 +11,7 @@
 <?php include('structure/legacy.php'); ?>
 </head>
 
-<body itemscope itemtype="http://schema.org/Person">
+<body id="about" itemscope itemtype="http://schema.org/Person">
 
 <header><h1 itemprop="name"><a href="/">Lindsay Foley</a></h1></header>
 

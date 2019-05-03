@@ -316,19 +316,19 @@ footer {
 
 @-moz-keyframes details-bg-change {
   from {
-    background-color: #feb865; }
+    background-color: #feac4c; }
   to {
     background-color: rgba(151, 148, 145, 0.95); } }
 
 @-webkit-keyframes details-bg-change {
   from {
-    background-color: #feb865; }
+    background-color: #feac4c; }
   to {
     background-color: rgba(151, 148, 145, 0.95); } }
 
 @keyframes details-bg-change {
   from {
-    background-color: #feb865; }
+    background-color: #feac4c; }
   to {
     background-color: rgba(151, 148, 145, 0.95); } }
 
@@ -404,7 +404,7 @@ figure {
     font-weight: bold;
     padding: 32% 10px; }
 
-.portfolio main {
+#portfolio main {
   max-width: 900px; }
 
 section > section {
@@ -448,7 +448,7 @@ section > section {
   overflow: hidden;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  background: #feb865; }
+  background: #feac4c; }
 
 .flip-card .heading {
   font-family: "Karla", sans-serif; }

@@ -4,11 +4,6 @@ const pageDetails = {
 	
 	windowWidth() {
 		return $(window).width();
-	},
-		
-	currentPage() {
-		const pageName = window.location.pathname;
-		return window.location.pathname.slice(1, pageName.length);
 	}
 }
 
@@ -40,17 +35,17 @@ const slideDownSkillsPanel = () => {
 
 $(document).ready(function() {
 
-	if(pageDetails.currentPage() === 'about') {
+	if($('body').attr('id') === 'about') {
 		slideDownSkillsPanel();
 		removeCssAnimationOnSmallScreens(pageDetails.windowWidth());
-	} else if(pageDetails.currentPage() === 'portfolio') {
+	} else if($('body').attr('id') === 'portfolio') {
 		showCompanyDesciption();
 	}
 });
 
 $(window).resize(function() {
 	
-	if(pageDetails.currentPage() === 'about') {
+	if($('body').attr('id') === 'about') {
 		removeCssAnimationOnSmallScreens(pageDetails.windowWidth());
 	}	
 });
