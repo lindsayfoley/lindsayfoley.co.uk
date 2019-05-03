@@ -11,7 +11,10 @@ function compileSassAndMinifyCss() {
 	return src('app/styles/main.scss')
 	.pipe(sass())
 	.pipe(cssnano())
-	.pipe(dest('dist/styles'))	
+	.pipe(rename({
+		suffix:'.min'
+	}))
+  	.pipe(dest('dist/styles'))	
 }
 
 function transpileMinifyAndBundleJs() {
